@@ -1,0 +1,32 @@
+{
+  "id": "org.yashgurbani.mubi.editorial.snapshots",
+  "version": "1.0.0",
+  "name": "MUBI Editorial Collections — DE Snapshot",
+  "description": "Source-faithful snapshots of current MUBI Germany editorial collections, captured 24 July 2026. Collection names and membership are preserved exactly; availability may change.",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "idPrefixes": [
+    "tmdb:"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "mubi-we-have-always-been-here-2026-07-24",
+      "name": "We Have Always Been Here: Queer Cinema Looks Back"
+    },
+    {
+      "type": "movie",
+      "id": "mubi-the-lure-of-the-image-2026-07-24",
+      "name": "The Lure of the Image: Digital Worlds"
+    },
+    {
+      "type": "movie",
+      "id": "mubi-naked-ambition-stephanie-rothman-2026-07-24",
+      "name": "Naked Ambition: Stephanie Rothman’s Exploitation Cinema"
+    }
+  ]
+}
