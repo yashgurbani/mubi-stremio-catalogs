@@ -1,14 +1,14 @@
 # MUBI Editorial Collections — Stremio Catalog Addon
 
-This is a static, source-faithful Stremio catalog addon for three MUBI Germany editorial collections captured on 24 July 2026.
+This is a static, source-faithful Stremio catalog addon for three MUBI Germany editorial collections captured on 31 August 2026.
 
 It contains:
 
-- `We Have Always Been Here: Queer Cinema Looks Back` — 12 films
-- `The Lure of the Image: Digital Worlds` — 7 films
-- `Naked Ambition: Stephanie Rothman’s Exploitation Cinema` — 3 films
+- `AUSGEWÄHLT VON WIM WENDERS` — 4 films currently available in Germany
+- `NEUE HORIZONTE: NEO-WESTERN` — 3 films
+- `BEFORE BARBIE: GRETA GERWIG AND NOAH BAUMBACH` — 2 films
 
-Every title is resolved to a specific TMDB ID. The addon does not generate, infer, expand, or deduplicate MUBI membership.
+Every title is resolved to a specific TMDB ID. The addon does not generate, infer, or expand MUBI membership. Old snapshot files remain as an unlisted archive.
 
 ## Intended deployment
 
@@ -33,7 +33,8 @@ https://yashgurbani.github.io/mubi-stremio-catalogs/manifest.json
 1. Review the corresponding logged-in MUBI Germany collection pages.
 2. Preserve the official collection name and exact displayed membership.
 3. Resolve additions to exact TMDB IDs.
-4. Update the capture date in the manifest description and catalog IDs.
-5. Retain at most three MUBI editorial rows on the Stremio homepage.
+4. Use only the films in MUBI's live collection payload. Do not infer films from the editorial description.
+5. Update the capture date in the manifest description and catalog IDs.
+6. Retain at most three MUBI editorial rows on the Stremio homepage.
 
 Do not publish empty collection shells or AI-invented “MUBI-style” memberships.

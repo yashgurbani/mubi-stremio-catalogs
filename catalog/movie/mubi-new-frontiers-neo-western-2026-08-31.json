@@ -1,0 +1,19 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:989589",
+      "type": "movie",
+      "name": "The Settlers"
+    },
+    {
+      "id": "tmdb:558582",
+      "type": "movie",
+      "name": "First Cow"
+    },
+    {
+      "id": "tmdb:446159",
+      "type": "movie",
+      "name": "Bacurau"
+    }
+  ]
+}

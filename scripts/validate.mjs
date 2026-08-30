@@ -1,5 +1,4 @@
-import { readFile, readdir } from "node:fs/promises";
-import { join } from "node:path";
+import { readFile } from "node:fs/promises";
 
 const root = new URL("../", import.meta.url);
 const manifest = JSON.parse(await readFile(new URL("manifest.json", root), "utf8"));
@@ -47,11 +46,6 @@ for (const catalog of manifest.catalogs) {
     name: catalog.name,
     items: payload.metas.length,
   });
-}
-
-const catalogFiles = await readdir(new URL("catalog/movie/", root));
-if (catalogFiles.filter((name) => name.endsWith(".json")).length !== 3) {
-  throw new Error("Unexpected catalog JSON file count");
 }
 
 console.log(
