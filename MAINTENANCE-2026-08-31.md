@@ -70,6 +70,14 @@ SeaDex is neutral for normal live-action releases. It remains first to preserve 
 | MediaFusion | 6.1.5, released 21 August 2026 | Enable it as another Real-Debrid source. |
 | Sootio | v1.9.1, released 25 April 2026 | Keep it last because its result metadata is incomplete. |
 
+### AIOMetadata update gate
+
+The official stable AIOMetadata release is v2.16.3, published 30 August 2026. The public ElfHosted manifest still reports v2.16.2.
+
+Do not reinstall the existing addon yet. Version 2.16.3 restores Letterboxd list and watchlist imports by URL. Waiting for the public instance to reach that version protects the current catalogs and recommendation setup.
+
+MovieLens remains useful. AIOMetadata supports MovieLens recommendation catalogs and rating imports from supported tracking services. The monthly audit now checks the public version, Letterboxd import health, and MovieLens recommendation health before proposing an update.
+
 Official sources:
 
 - [AIOStreams v2.33.2](https://github.com/Viren070/AIOStreams/releases/tag/v2.33.2)
@@ -77,6 +85,8 @@ Official sources:
 - [Nuvio 0.8.11-beta](https://github.com/NuvioMedia/NuvioTV/releases/tag/0.8.11-beta)
 - [MediaFusion 6.1.5](https://github.com/mhdzumair/MediaFusion/releases/tag/6.1.5)
 - [Sootio v1.9.1](https://github.com/sooti/sootio-stremio-addon/releases/tag/v1.9.1)
+- [AIOMetadata v2.16.3](https://github.com/cedya77/aiometadata/releases/tag/v2.16.3)
+- [AIOMetadata MovieLens configuration](https://github.com/cedya77/aiometadata/blob/dev/docs/ENVIRONMENT_VARIABLES.md)
 
 ## MUBI editorial refresh
 
@@ -88,8 +98,12 @@ The homepage addon now references three complete, current MUBI Germany collectio
 
 The old July files remain as an unlisted archive. The manifest no longer exposes those stale rows.
 
+## Monthly maintenance automation
+
+The active monthly audit now checks AIOMetadata release drift, Letterboxd import health, MovieLens recommendations, subtitle preferences, and one exact playback sample. It preserves the full homepage design, Indian and regional rows, Real-Debrid priority, and the Philips codec filters.
+
 ## Confidence and gaps
 
 **Overall confidence:** High for the ranking fault, codec mismatch, and MUBI membership. Medium for long-term provider reliability.
 
-The strongest evidence is the reproduced episode result, the live configuration, the TV manual, and official repository data. Sootio reliability remains uncertain because its result metadata is incomplete. The final AIOStreams result cannot be verified until the updated configuration is saved.
+The strongest evidence is the reproduced episode result, the live configuration, the TV manual, and official repository data. Sootio reliability remains uncertain because its result metadata is incomplete. The AIOMetadata upgrade is deferred until the public service reaches v2.16.3. The final AIOStreams result cannot be verified until the updated configuration is saved.
