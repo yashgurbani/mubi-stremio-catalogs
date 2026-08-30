@@ -102,6 +102,8 @@ The old July files remain as an unlisted archive. The manifest no longer exposes
 
 The active monthly audit now checks AIOMetadata release drift, Letterboxd import health, MovieLens recommendations, subtitle preferences, and one exact playback sample. It preserves the full homepage design, Indian and regional rows, Real-Debrid priority, and the Philips codec filters.
 
+The GitHub Pages workflow now uses the current major versions of the official checkout, Node setup, Pages configuration, artifact upload, and Pages deployment actions.
+
 ## Confidence and gaps
 
 **Overall confidence:** High for the ranking fault, codec mismatch, and MUBI membership. Medium for long-term provider reliability.
