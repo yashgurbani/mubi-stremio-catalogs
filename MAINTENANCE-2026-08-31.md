@@ -126,6 +126,8 @@ The active monthly audit now checks AIOMetadata release drift, Letterboxd import
 
 The GitHub Pages workflow now uses the current major versions of the official checkout, Node setup, Pages configuration, artifact upload, and Pages deployment actions.
 
+The repository now includes `scripts/audit-services.ps1`. This credential-free audit checks public service health, deployed versions, official releases, and every live MUBI catalog endpoint. Its first run found only one release drift: AIOMetadata 2.16.2 is deployed while 2.16.3 is current.
+
 ## Confidence and gaps
 
 **Overall confidence:** High for the ranking fault, codec mismatch, and MUBI membership. Medium for long-term provider reliability.

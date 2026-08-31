@@ -16,6 +16,16 @@ Publish this directory as a static HTTPS site whose root serves `manifest.json`.
 
 GitHub Pages is sufficient because every collection contains fewer than 20 titles. No server, API key, database, Trakt connection, or MDBList slot is required.
 
+## Maintenance audit
+
+Run the credential-free service audit before a monthly update:
+
+```powershell
+powershell -NoProfile -File .\scripts\audit-services.ps1
+```
+
+The audit checks the public AIOStreams, AIOMetadata, Watchly, and catalog manifests. It also compares deployed versions with official GitHub releases. Use `-FailOnDrift` when release drift must return a nonzero exit code.
+
 The included workflow validates all catalog payloads before deployment. After explicit approval to create the public repository, run from this directory:
 
 ```powershell
