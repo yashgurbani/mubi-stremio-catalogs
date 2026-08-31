@@ -239,6 +239,8 @@ Sight and Sound ballots from Indian critics, scholars, and filmmakers provide an
 - Added a reproducible quality audit for all 20 Indian Regional Catalog rows.
 - Recorded ten private, taste-based discovery lanes.
 - Added quality guardrails that preserve low-vote festival and regional films.
+- Added a separate source-faithful Indian cinema manifest with the exact Film Heritage Foundation 14-film program.
+- Resolved all 14 entries to working IMDb identifiers and checked them against Cinemeta.
 - Recorded `Balanced` as the target Watchly discovery style.
 - Retained the raw regional catalogs as late-homepage breadth rows.
 - Confirmed that the three official MUBI Germany rows still match their live memberships.

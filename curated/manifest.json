@@ -1,0 +1,22 @@
+{
+  "id": "org.yashgurbani.indian.cinema.fhf",
+  "version": "1.0.0",
+  "name": "Indian Cinema — Film Heritage Classics",
+  "description": "An exact 14-film Indian classics program documented by the Film Heritage Foundation. Membership is source-faithful and is not expanded by AI.",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "idPrefixes": [
+    "tt"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "fhf-14-iconic-indian-films",
+      "name": "14 Iconic Indian Films — FHF"
+    }
+  ]
+}

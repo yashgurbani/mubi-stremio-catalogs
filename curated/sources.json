@@ -1,0 +1,17 @@
+{
+  "catalogs": [
+    {
+      "id": "fhf-14-iconic-indian-films",
+      "sourceName": "Film Heritage Foundation",
+      "sourceTitle": "The Festival des 3 Continents included 14 Iconic Indian Films in the Classics Section at its 44th Edition",
+      "sourceUrl": "https://filmheritagefoundation.co.in/the-festival-des-3-continents-to-include-14-iconic-indian-films-in-the-classics-section-at-its-44th-edition/",
+      "membershipRule": "Exact numbered list of 14 films on the source page",
+      "capturedAt": "2026-08-31",
+      "identifierSources": [
+        "TMDB title search",
+        "Wikidata TMDB-to-IMDb mapping",
+        "IMDb title pages for Arvind Desai Ki Ajeeb Dastaan and Disha"
+      ]
+    }
+  ]
+}

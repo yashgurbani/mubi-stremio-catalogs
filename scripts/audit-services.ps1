@@ -60,6 +60,7 @@ $watchlyHtml = (Invoke-WebRequest -Uri 'https://watchly.elfhosted.com/' -Headers
 $watchlyVersionMatch = [regex]::Match($watchlyHtml, 'v\d+\.\d+\.\d+')
 $watchlyVersion = if ($watchlyVersionMatch.Success) { Remove-VersionPrefix $watchlyVersionMatch.Value } else { $null }
 $catalogManifest = Get-Json -Uri 'https://yashgurbani.github.io/mubi-stremio-catalogs/manifest.json'
+$curatedManifest = Get-Json -Uri 'https://yashgurbani.github.io/mubi-stremio-catalogs/curated/manifest.json'
 
 $letterboxdUrlImportReady = Test-VersionAtLeast -Current $metadataManifest.version -Minimum '2.16.3'
 
@@ -118,6 +119,28 @@ $catalogChecks = foreach ($catalog in $catalogManifest.catalogs) {
     }
 }
 
+$curatedCatalogChecks = foreach ($catalog in $curatedManifest.catalogs) {
+    $catalogUrl = "https://yashgurbani.github.io/mubi-stremio-catalogs/curated/catalog/$($catalog.type)/$($catalog.id).json"
+    $catalogPayload = Get-Json -Uri $catalogUrl
+    $resolvedItems = foreach ($meta in $catalogPayload.metas) {
+        $resolved = Get-Json -Uri "https://v3-cinemeta.strem.io/meta/$($meta.type)/$($meta.id).json"
+        [pscustomobject]@{
+            id = $meta.id
+            name = $meta.name
+            resolved = -not [string]::IsNullOrWhiteSpace([string]$resolved.meta.name)
+            resolvedName = $resolved.meta.name
+        }
+    }
+
+    [pscustomobject]@{
+        id = $catalog.id
+        type = $catalog.type
+        name = $catalog.name
+        items = @($catalogPayload.metas).Count
+        resolvedItems = @($resolvedItems | Where-Object resolved).Count
+    }
+}
+
 $result = [pscustomobject]@{
     generatedAt = [DateTimeOffset]::UtcNow.ToString('o')
     publicServices = [pscustomobject]@{
@@ -141,6 +164,11 @@ $result = [pscustomobject]@{
             healthy = $true
             version = $catalogManifest.version
             catalogs = @($catalogChecks)
+        }
+        indianCuratedAddon = [pscustomobject]@{
+            healthy = @($curatedCatalogChecks | Where-Object { $_.resolvedItems -ne $_.items }).Count -eq 0
+            version = $curatedManifest.version
+            catalogs = @($curatedCatalogChecks)
         }
     }
     latestReleases = @($releaseRepositories | ForEach-Object { $releases[$_] })

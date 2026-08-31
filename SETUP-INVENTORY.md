@@ -119,6 +119,8 @@ The Indian Regional Catalog is a breadth and freshness source. A live first-page
 
 The private taste profile defines ten stable discovery lanes. These lanes cover relationship stories, diaspora and identity, systems and power, science, ensemble comedy, animation, Indian cinema, global arthouse, and documentaries. Watchly remains the dynamic personal engine. Its target discovery style is **Balanced**. Separate hidden-gem and editorial rows preserve serendipity.
 
+The separate Indian cinema curated manifest contains the exact Film Heritage Foundation program `14 Iconic Indian Films — FHF`. Place this row before raw regional latest-release catalogs. Import it through AIOMetadata so that its verified IMDb identifiers receive full posters and metadata.
+
 The live Nuvio TV settings currently use **Modern View**. That layout uses one active row and conflicts with the requested endless homepage. Change it to **Classic View** during the next approved settings save.
 
 The live Watchly manifest contains 16 movie and series rows. It includes Top Picks, two current Because You Watched rows, six taste themes, creator rows, loved-title rows, and liked-title rows.

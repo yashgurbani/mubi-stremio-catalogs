@@ -69,3 +69,17 @@ https://yashgurbani.github.io/mubi-stremio-catalogs/manifest.json
 6. Retain at most three MUBI editorial rows on the Stremio homepage.
 
 Do not publish empty collection shells or AI-invented “MUBI-style” memberships.
+
+## Indian cinema source-faithful catalog
+
+The repository also publishes a separate curated addon at:
+
+```text
+https://yashgurbani.github.io/mubi-stremio-catalogs/curated/manifest.json
+```
+
+Its first row is `14 Iconic Indian Films — FHF`. Membership follows the exact numbered Film Heritage Foundation program. The separate manifest keeps MUBI editorial membership isolated from other curated sources.
+
+Import this manifest through AIOMetadata Custom Manifest Integration. AIOMetadata enriches the IMDb identifiers with posters and full metadata before the row reaches Stremio or Nuvio.
+
+Every curated catalog must have a provenance entry in `curated/sources.json`. The validator rejects missing source records, malformed IMDb IDs, empty rows, and duplicate items.
