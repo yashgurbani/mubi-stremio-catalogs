@@ -61,6 +61,22 @@ AIOMetadata connects a MovieLens account. MovieLens supplies collaborative filte
 
 This design avoids the Trakt free-account community-app limit. Couchmoney can keep the single Trakt community connection.
 
+### Simkl activation
+
+On Nuvio 0.8.11 or later:
+
+1. Open **Settings → Tracking → Accounts**.
+2. Select **Connect Simkl**.
+3. Open the shown Simkl verification page and enter the activation code.
+4. Open **Tracking → Sources**.
+5. Select Simkl for **Watch Progress**.
+6. Select Simkl for **Library** if the Simkl library must drive the Nuvio library.
+7. Select **Sync now**.
+
+Nuvio sends playback scrobbles to each connected tracking service. The selected source controls the Library and Continue Watching data that Nuvio reads.
+
+In Watchly, connect the same Simkl account and select Simkl as the history source. Keep **Top Picks for You**, **Because You Watched or Loved**, **Genre and Keyword**, **Favorite Creators**, **Based on What You Loved**, and **Based on What You Liked** enabled.
+
 ## Subtitle policy
 
 - Preferred subtitle language: English
@@ -88,4 +104,3 @@ This design avoids the Trakt free-account community-app limit. Couchmoney can ke
 - Do not replace official MUBI collection membership with inferred titles.
 - Do not save or publish private configuration URLs.
 - Test an exact movie and series episode after stream configuration changes.
-
