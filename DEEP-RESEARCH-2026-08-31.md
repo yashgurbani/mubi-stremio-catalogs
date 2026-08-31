@@ -1,4 +1,4 @@
-# Stremio and Nuvio deep-research audit — 31 August 2026
+# Nuvio deep-research audit — 31 August 2026
 
 ## Executive conclusion
 
@@ -53,11 +53,11 @@ The Philips television supports 2160p input, HDR10, HLG, HEVC, and HEVC Main 10.
 
 The active ranking does not reduce HDR10 to SDR. It ranks HDR10, HDR, and HLG before SDR after resolution and Real-Debrid cache state.
 
-Dolby Vision and HDR10+ remain excluded. This choice prevents black video in Stremio and other clients that lack Nuvio's conversion path.
+Dolby Vision and HDR10+ remain excluded from automatic results. The Philips television does not support these formats natively, and affected files caused black video.
 
 Nuvio 0.8.11-beta adds useful recovery controls. **HDR10 Base Layer** can remove Dolby Vision enhancement data from DV Profile 7. **Strip HDR10+ Metadata** can remove unsupported dynamic metadata.
 
-These controls apply inside Nuvio. They do not change Stremio playback. A shared AIOStreams configuration must remain compatible with both clients.
+These controls apply inside Nuvio. Keep them as manual recovery options rather than automatic stream-selection inputs.
 
 ## Recommendation findings
 
@@ -126,7 +126,7 @@ The live Nuvio Sync account now exposes its synced TV settings. Two current valu
 
 The loaded Watchly manifest exposes 16 personalized movie and series rows. Current seeds include *Memento* and *New Girl*, which shows that the profile has refreshed.
 
-The Chrome Stremio Web session is anonymous and shows only default catalogs. This observation does not prove the state of a separate signed-in Stremio account.
+Stremio is a legacy client and is outside the active setup audit.
 
 ## Primary sources
 

@@ -47,7 +47,7 @@ The private taste profile now defines ten discovery lanes for films, television,
 
 - The Indian Regional Catalog does not publish its complete ranking method.
 - The audit sampled the first page of each row rather than every page.
-- The current Stremio Web session is anonymous, so its real-account homepage remains unverified.
+- The exact current Nuvio Home layout needs inspection through Nuvio's local web manager.
 - The public AIOMetadata instance remains on 2.16.2. Its Letterboxd URL-import repair is not available yet.
 - The public AIOMetadata API does not expose MovieLens server readiness.
 
@@ -289,7 +289,7 @@ Sight and Sound ballots from Indian critics, scholars, and filmmakers provide an
 
 - Change Watchly from `Everything` to `Balanced` after approval.
 - Change Nuvio to Classic View and save the subtitle and timeout corrections.
-- Sign in to the real Stremio account and audit its actual rows.
+- Audit the exact Nuvio Home rows through **Settings → Addons → Manage from phone**.
 - Import Letterboxd watchlist and history after AIOMetadata reaches 2.16.3.
 - Test MovieLens only after the public instance exposes a real connection path.
 - Add source-backed Indian festival, canon, and contemporary quality rows through AIOMetadata or a separate static manifest.
@@ -357,10 +357,10 @@ The design answers this criticism by keeping a mainstream baseline, raw regional
 - **Regional add-on role:** High confidence. Live catalog responses show freshness-first behavior and missing rating metadata.
 - **Personal discovery design:** Medium-high confidence. The private taste profile is rich, but Simkl contains limited explicit ratings.
 - **Indian quality sources:** High confidence for source authority. Medium confidence for final row membership until exact title resolution.
-- **Global catalog quality:** Medium confidence. The real Stremio account remains unavailable for a complete row-by-row audit.
+- **Global catalog quality:** Medium confidence. The exact Nuvio Home layout remains unavailable for a complete row-by-row audit.
 - **MovieLens:** Low confidence. Public server readiness remains unobservable.
 
-The strongest evidence comes from the live manifests, catalog responses, Watchly documentation, official TMDB filters, IFFI sources, and BFI sources. The largest remaining gap is the anonymous Stremio Web session.
+The strongest evidence comes from the live manifests, catalog responses, Watchly documentation, official TMDB filters, IFFI sources, and BFI sources. The largest remaining gap is the exact Nuvio Home layout.
 
 ## Appendices
 

@@ -1,6 +1,6 @@
-# MUBI Editorial Collections — Stremio Catalog Addon
+# MUBI Editorial Collections — Nuvio Catalog Addon
 
-This is a static, source-faithful Stremio catalog addon for three MUBI Germany editorial collections captured on 31 August 2026.
+This is a static, source-faithful Nuvio catalog addon for three MUBI Germany editorial collections captured on 31 August 2026. It uses the Stremio-compatible addon protocol that Nuvio supports.
 
 It contains:
 
@@ -45,14 +45,6 @@ The diagnostic reports rating coverage, rating distribution, genres, countries, 
 
 The personal-overlap audit uses the ignored private taste profile when it is available. It reports counts by default and does not print private titles. Add `--details` only for local diagnosis.
 
-If `private/account-state.json` exists, compare the installed account snapshot with current public services:
-
-```powershell
-node .\scripts\audit-account-state.mjs
-```
-
-This audit reports version drift, missing required rows, and catalog-row bloat. It never changes or removes an addon.
-
 This audit samples every Indian Regional Catalog row. It measures missing rating metadata, duplicates, promotional entries, identifier quality, and recency concentration. The output distinguishes broad freshness coverage from quality-curated discovery.
 
 The AIOMetadata gate now reports two capabilities separately:
@@ -87,7 +79,7 @@ https://yashgurbani.github.io/mubi-stremio-catalogs/manifest.json
 3. Resolve additions to exact TMDB IDs.
 4. Use only the films in MUBI's live collection payload. Do not infer films from the editorial description.
 5. Update the capture date in the manifest description and catalog IDs.
-6. Retain at most three MUBI editorial rows on the Stremio homepage.
+6. Retain at most three exact MUBI editorial rows on the Nuvio homepage.
 
 Do not publish empty collection shells or AI-invented “MUBI-style” memberships.
 
@@ -106,7 +98,7 @@ The addon contains ten rows and 183 unique titles. It combines two different for
 
 The taste-informed rows exclude every exact title in the known watched-series journal and explicit watchlist. They complement Watchly instead of replacing it. Watchly remains the dynamic engine that learns from new Simkl activity.
 
-Import this manifest through AIOMetadata Custom Manifest Integration. AIOMetadata enriches the IMDb identifiers with posters and full metadata before the row reaches Stremio or Nuvio.
+Import this manifest through AIOMetadata Custom Manifest Integration. AIOMetadata enriches the IMDb identifiers with posters and full metadata before the row reaches Nuvio.
 
 Every curated catalog must have a provenance entry in `curated/sources.json`. The validator rejects missing source records, malformed IMDb IDs, empty rows, type mismatches, and duplicate items.
 

@@ -2,15 +2,15 @@
 
 ## Outcome
 
-The live Nuvio account contains the intended addon stack and current Watchly recommendations. Three account-state gaps remain.
+The live Nuvio account contains the intended addon stack and current Watchly recommendations. Nuvio is the active client. Stremio is legacy and is outside this audit.
 
 1. Nuvio uses Modern View instead of the requested scrolling homepage.
 2. Forced subtitles are on, which can suppress normal English subtitles.
-3. The current Chrome Stremio Web session is anonymous, so the real Stremio account remains unverified.
+3. The complete Simkl Plan to Watch catalogs are not yet verified on the Nuvio homepage.
 
 ## Evidence scope
 
-This review used the signed-in Nuvio Sync account, its synced TV settings, the loaded Watchly manifest, and the current Stremio Web session.
+This review used the signed-in Nuvio Sync account, its synced TV settings, and the loaded Watchly manifest.
 
 Private manifest URLs, account addresses, tokens, and configuration identifiers are not recorded in this file.
 
@@ -84,15 +84,7 @@ The requested endless homepage must come from Classic View and the ordered addon
 
 The Nuvio Sync library currently contains two saved movies. This is not the complete personal watchlist requested in the original design.
 
-The central dynamic watchlist still depends on the Letterboxd URL-import repair in AIOMetadata v2.16.3. The public instance remains on v2.16.2.
-
-## Stremio account
-
-The current Chrome Stremio Web session identifies itself as **Anonymous user**. Its homepage shows the default Cinemeta, YouTube, and Public Domain Movies catalogs.
-
-This session does not prove that the user's separate Stremio account lacks the custom stack. It proves only that the browser is not signed in to that account.
-
-A signed-in Stremio Web inspection is required before the Stremio transfer can be marked complete.
+The central dynamic watchlist now uses Simkl **Plan to Watch**. AIOMetadata can expose separate movie, series, and anime watchlist rows. Letterboxd remains a secondary source for movie ratings and history after the public v2.16.3 deployment.
 
 ## Completion matrix
 
@@ -106,9 +98,8 @@ A signed-in Stremio Web inspection is required before the Stremio transfer can b
 | Nuvio scrolling homepage | Not achieved | Modern View is active |
 | Normal English subtitles | Partially achieved | English is preferred, but forced-only mode is active |
 | Dynamic complete watchlist | Not achieved | Nuvio library has two items and Letterboxd import is blocked |
-| Real Stremio account transfer | Unverified | Current Stremio Web session is anonymous |
 | MovieLens collaborative filtering | Unverified | Public capability is not observable |
 
 ## Next safe action
 
-After action-time approval, save the four Nuvio TV settings changes. Then sync the television and inspect the new homepage and subtitle behavior.
+Use Nuvio's **Manage from phone** web manager to update addons and Home-catalog order. Then save the four Nuvio TV settings changes, sync the television, and inspect the new homepage and subtitle behavior.

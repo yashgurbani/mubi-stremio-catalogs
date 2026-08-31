@@ -1,4 +1,4 @@
-# Stremio maintenance report — 31 August 2026
+# Nuvio maintenance report — 31 August 2026
 
 ## Outcome
 
@@ -86,7 +86,7 @@ MovieLens remains useful, but its public-instance status is unknown. AIOMetadata
 
 Watchly v1.13.1 can build a taste profile from one selected history source: Stremio, Trakt, or Simkl. Its profile includes genres, keywords, directors, cast, eras, countries, and runtime preferences. Its dynamic catalogs refresh every 24 hours by default.
 
-Nuvio playback does not update a Watchly configuration that uses Stremio as its history source. Nuvio 0.8.11 contains Simkl authentication, history, progress, and scrobbling components. Use Simkl as the shared history source when most playback occurs in Nuvio:
+Nuvio 0.8.11 contains Simkl authentication, history, progress, and scrobbling components. Use Simkl as the shared history source for Nuvio playback:
 
 `Nuvio playback → Simkl → Watchly → personalized homepage rows`
 
@@ -112,7 +112,7 @@ The selection order does not satisfy the exact request to always prefer OpenSubt
 
 Nuvio 0.8.11 also has a **Dolby Vision Handling** setting. Its **HDR10 Base Layer** mode ignores Dolby Vision enhancement data and plays the HEVC HDR10 base layer. This can recover some DV Profile 7 files on an HDR10-only display.
 
-This conversion does not justify enabling Dolby Vision globally. The same AIOStreams configuration feeds Stremio, whose player does not use Nuvio's conversion path. The shared filter therefore continues to exclude Dolby Vision. Native HDR10, HLG, and HEVC Main 10 remain enabled at full resolution.
+This conversion does not justify enabling Dolby Vision globally. The Philips television does not support Dolby Vision natively, and affected files caused black video. The AIOStreams filter therefore continues to exclude Dolby Vision. Native HDR10, HLG, and HEVC Main 10 remain enabled at full resolution.
 
 Official sources:
 
@@ -161,8 +161,6 @@ The strongest evidence is the reproduced episode result, the saved live configur
 The signed-in Nuvio Sync account contains the intended nine-addon order. Its loaded Watchly manifest exposes 16 personalized movie and series rows.
 
 The synced Nuvio TV settings reveal two direct faults. Modern View conflicts with the requested scrolling homepage. Forced subtitles can leave normal dialogue without subtitles.
-
-The current Chrome Stremio Web session is anonymous. The real Stremio account transfer therefore remains unverified until a signed-in session exposes its installed addons.
 
 See `LIVE-ACCOUNT-AUDIT-2026-08-31.md` for the requirement-by-requirement evidence and four staged Nuvio corrections.
 

@@ -1,6 +1,6 @@
-# Stremio and Nuvio setup inventory
+# Nuvio setup inventory
 
-This document records the intended public configuration. It contains no credentials, tokens, or private manifest URLs.
+Nuvio is the active client. Stremio is legacy and is outside the maintenance scope. This document records the intended public addon configuration. It contains no credentials, tokens, or private manifest URLs.
 
 ## Playback policy
 
@@ -110,7 +110,7 @@ The live Nuvio TV settings currently have **Use Forced Subtitles** on. This conf
 - Use **Dolby Vision Handling → HDR10 Base Layer** if a manually selected DV Profile 7 file reaches Nuvio.
 - Keep **Strip HDR10+ Metadata** available for a manually selected HDR10+ stream.
 - Keep the shared AIOStreams filters on HDR10, HDR, HLG, HEVC Main 10, and SDR.
-- Keep Dolby Vision and HDR10+ excluded from the shared AIOStreams configuration because Stremio does not use Nuvio's conversion path.
+- Keep Dolby Vision and HDR10+ excluded from automatic AIOStreams results because the Philips 43PUS7363/12 does not support these formats natively.
 
 This policy preserves native HDR10 quality on the Philips 43PUS7363/12. It does not reduce compatible HDR10 files to SDR.
 
