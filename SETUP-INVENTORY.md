@@ -44,11 +44,13 @@ Watchly uses one history source per configuration. Use Simkl as the shared sourc
 
 ### Collaborative recommendations
 
-AIOMetadata connects a MovieLens account. MovieLens supplies collaborative filtering. AIOMetadata can import ratings from Simkl, Trakt, or MDBList into MovieLens.
+MovieLens is a planned collaborative-filtering layer. AIOMetadata can import ratings from Simkl, Trakt, or MDBList into MovieLens when the server enables its MovieLens integration.
+
+The public AIOMetadata endpoint does not expose whether its server-side MovieLens key exists. Keep Watchly with Simkl as the active recommendation system until MovieLens works through the configuration interface. A self-hosted AIOMetadata instance can enable MovieLens, but it needs `MOVIELENS_CRED_KEY` and stores an encrypted MovieLens password because MovieLens has no OAuth flow.
 
 ### Watchlists and explicit taste
 
-- Letterboxd supplies ratings, history, and a personal watchlist.
+- Letterboxd will supply ratings, history, and a personal watchlist after the public AIOMetadata instance includes the v2.16.3 URL-import repair.
 - The central private taste profile stores Google watchlists and manual taste signals.
 - MDBList supplies critic, award, and curator signals.
 - Official MUBI collections supply source-faithful editorial rows.
@@ -57,7 +59,7 @@ AIOMetadata connects a MovieLens account. MovieLens supplies collaborative filte
 
 `Nuvio playback → Simkl scrobbling → Watchly profile → personalized homepage rows`
 
-`Simkl ratings → AIOMetadata sync → MovieLens → collaborative recommendation rows`
+Planned: `Simkl ratings → AIOMetadata sync → MovieLens → collaborative recommendation rows`
 
 This design avoids the Trakt free-account community-app limit. Couchmoney can keep the single Trakt community connection.
 
@@ -81,9 +83,20 @@ In Watchly, connect the same Simkl account and select Simkl as the history sourc
 
 - Preferred subtitle language: English
 - Secondary subtitle language: Hindi
-- Prefer OpenSubtitles results.
+- Keep **Show Only Preferred Languages** off so that manual fallback languages remain visible.
 - Do not force only forced subtitles.
-- Do not prefer embedded subtitles over OpenSubtitles.
+- Keep OpenSubtitles v3 installed and enabled.
+
+Nuvio 0.8.11 automatically selects a matching embedded track before a matching addon track. It uses an addon subtitle when no matching embedded track exists. The app has no setting that always places OpenSubtitles before embedded tracks. Select an addon subtitle manually when its timing or text is better.
+
+## Nuvio playback compatibility
+
+- Use **Dolby Vision Handling → HDR10 Base Layer** if a manually selected DV Profile 7 file reaches Nuvio.
+- Keep **Strip HDR10+ Metadata** available for a manually selected HDR10+ stream.
+- Keep the shared AIOStreams filters on HDR10, HDR, HLG, HEVC Main 10, and SDR.
+- Keep Dolby Vision and HDR10+ excluded from the shared AIOStreams configuration because Stremio does not use Nuvio's conversion path.
+
+This policy preserves native HDR10 quality on the Philips 43PUS7363/12. It does not reduce compatible HDR10 files to SDR.
 
 ## Catalog policy
 
@@ -101,6 +114,7 @@ In Watchly, connect the same Simkl account and select Simkl as the history sourc
 ## Update gates
 
 - Do not reinstall AIOMetadata until the public instance reaches v2.16.3 or later.
+- Do not describe MovieLens as active until a real connection succeeds or the host documents the capability.
 - Do not replace official MUBI collection membership with inferred titles.
 - Do not save or publish private configuration URLs.
 - Test an exact movie and series episode after stream configuration changes.

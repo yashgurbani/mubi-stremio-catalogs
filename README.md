@@ -24,7 +24,16 @@ Run the credential-free service audit before a monthly update:
 powershell -NoProfile -File .\scripts\audit-services.ps1
 ```
 
-The audit checks the public AIOStreams, AIOMetadata, Watchly, and catalog manifests. It also compares deployed versions with official GitHub releases. Use `-FailOnDrift` when release drift must return a nonzero exit code.
+The audit checks the public AIOStreams, AIOMetadata, Watchly, and catalog manifests. It also compares deployed versions with official GitHub releases.
+
+The AIOMetadata gate now reports two capabilities separately:
+
+- whether the public version contains the Letterboxd URL-import repair from v2.16.3;
+- whether MovieLens readiness is observable from the public service.
+
+AIOMetadata does not publish its server-side MovieLens key through `/api/config`. The audit therefore reports MovieLens as `unknown`, not disabled. Use `-FailOnDrift` when release drift must return a nonzero exit code.
+
+The full evidence ledger and maintenance decisions are in [DEEP-RESEARCH-2026-08-31.md](DEEP-RESEARCH-2026-08-31.md).
 
 The included workflow validates all catalog payloads before deployment. After explicit approval to create the public repository, run from this directory:
 

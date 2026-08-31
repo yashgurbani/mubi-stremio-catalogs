@@ -34,6 +34,24 @@ function Remove-VersionPrefix {
     $Version -replace '^v', ''
 }
 
+function Test-VersionAtLeast {
+    param(
+        [AllowNull()][string]$Current,
+        [Parameter(Mandatory)][string]$Minimum
+    )
+
+    if (-not $Current) {
+        return $false
+    }
+
+    try {
+        return [version](Remove-VersionPrefix $Current) -ge [version]$Minimum
+    }
+    catch {
+        return $false
+    }
+}
+
 $aioManifest = Get-Json -Uri 'https://aiostreams.elfhosted.com/stremio/manifest.json'
 $metadataManifest = Get-Json -Uri 'https://aiometadata.elfhosted.com/manifest.json'
 $watchlyHealth = Get-Json -Uri 'https://watchly.elfhosted.com/health'
@@ -42,6 +60,8 @@ $watchlyHtml = (Invoke-WebRequest -Uri 'https://watchly.elfhosted.com/' -Headers
 $watchlyVersionMatch = [regex]::Match($watchlyHtml, 'v\d+\.\d+\.\d+')
 $watchlyVersion = if ($watchlyVersionMatch.Success) { Remove-VersionPrefix $watchlyVersionMatch.Value } else { $null }
 $catalogManifest = Get-Json -Uri 'https://yashgurbani.github.io/mubi-stremio-catalogs/manifest.json'
+
+$letterboxdUrlImportReady = Test-VersionAtLeast -Current $metadataManifest.version -Minimum '2.16.3'
 
 $releaseRepositories = @(
     'Viren070/AIOStreams',
@@ -108,6 +128,9 @@ $result = [pscustomobject]@{
         aiometadata = [pscustomobject]@{
             healthy = $true
             version = $metadataManifest.version
+            letterboxdUrlImportReady = $letterboxdUrlImportReady
+            movieLensCapabilityObservable = $false
+            movieLensCapabilityStatus = 'unknown'
         }
         watchly = [pscustomobject]@{
             healthy = $watchlyHealth.status -eq 'healthy'
@@ -122,6 +145,17 @@ $result = [pscustomobject]@{
     }
     latestReleases = @($releaseRepositories | ForEach-Object { $releases[$_] })
     releaseDrift = @($drift)
+    upgradeGates = [pscustomobject]@{
+        aiometadataReinstallReady = $letterboxdUrlImportReady
+        letterboxdUrlImportReady = $letterboxdUrlImportReady
+        movieLensPublicIntegrationReady = $null
+        recommendedAction = if (-not $letterboxdUrlImportReady) {
+            'Wait for the public AIOMetadata instance to deploy v2.16.3 or later.'
+        }
+        else {
+            'Letterboxd URL imports are ready. Test MovieLens in the configuration UI because the public config endpoint does not expose its server-side capability.'
+        }
+    }
 }
 
 $result | ConvertTo-Json -Depth 8

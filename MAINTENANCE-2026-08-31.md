@@ -80,7 +80,7 @@ The official stable AIOMetadata release is v2.16.3, published 30 August 2026. Th
 
 Do not reinstall the existing addon yet. Version 2.16.3 restores Letterboxd list and watchlist imports by URL. Waiting for the public instance to reach that version protects the current catalogs and recommendation setup.
 
-MovieLens remains useful. AIOMetadata supports MovieLens recommendation catalogs and rating imports from supported tracking services. The monthly audit now checks the public version, Letterboxd import health, and MovieLens recommendation health before proposing an update.
+MovieLens remains useful, but its public-instance status is unknown. AIOMetadata supports MovieLens catalogs and rating imports from supported tracking services. Its server needs `MOVIELENS_CRED_KEY` because MovieLens has no OAuth flow. The official code does not publish a MovieLens capability flag through `/api/config`. The monthly audit now reports this limit instead of treating a missing field as proof that MovieLens is disabled.
 
 ### Personalization data flow
 
@@ -94,17 +94,31 @@ The same Simkl ratings can feed MovieLens through AIOMetadata:
 
 `Simkl ratings → AIOMetadata → MovieLens → collaborative recommendation rows`
 
-This path does not consume another Trakt community-app connection. Couchmoney can keep the existing Trakt connection.
+This planned path does not consume another Trakt community-app connection. Couchmoney can keep the existing Trakt connection.
 
 Gemini improves AI-generated names for Watchly's dynamic rows. It does not replace Watchly's profile scorer or MovieLens collaborative filtering.
 
 The Simkl import is now complete. The first pass accepted 29 of 36 entries. A retry with exact TMDB identifiers imported the remaining seven series. Watchly now uses Simkl as its history source and exposes six homepage catalog types, including Top Picks, Because You Watched, dynamic genre and keyword rows, favorite creators, loved titles, and liked titles.
 
+Watchly is the active recommendation engine. It can use only one history source in each configuration. The Simkl connection gives Nuvio and Watchly a common history path. Watchly refreshes its dynamic catalogs every 24 hours by default.
+
+### Nuvio subtitle and HDR behavior
+
+Nuvio 0.8.11 reads the preferred and secondary subtitle languages from local app settings. It fetches subtitles from enabled addons and automatically enables a matching language.
+
+The selection order does not satisfy the exact request to always prefer OpenSubtitles. Nuvio first selects a matching embedded track. It selects an addon subtitle as a fallback, or when an addon matches the primary language and an embedded track matches only the secondary language. The current settings screen has no addon-first switch.
+
+Nuvio 0.8.11 also has a **Dolby Vision Handling** setting. Its **HDR10 Base Layer** mode ignores Dolby Vision enhancement data and plays the HEVC HDR10 base layer. This can recover some DV Profile 7 files on an HDR10-only display.
+
+This conversion does not justify enabling Dolby Vision globally. The same AIOStreams configuration feeds Stremio, whose player does not use Nuvio's conversion path. The shared filter therefore continues to exclude Dolby Vision. Native HDR10, HLG, and HEVC Main 10 remain enabled at full resolution.
+
 Official sources:
 
 - [Watchly source and personalization reference](https://github.com/TimilsinaBimal/Watchly)
-- [AIOMetadata MovieLens integration](https://github.com/cedya77/aiometadata/blob/dev/docs/ENVIRONMENT_VARIABLES.md#movielens-integration)
+- [AIOMetadata MovieLens integration](https://github.com/cedya77/aiometadata/blob/v2.16.3/docs/ENVIRONMENT_VARIABLES.md#movielens-integration)
 - [Nuvio 0.8.11 source tree](https://github.com/NuvioMedia/NuvioTV/tree/0.8.11-beta/app/src/main/java/com/nuvio/tv/data/simkl)
+- [Nuvio subtitle selection source](https://github.com/NuvioMedia/NuvioTV/blob/0.8.11-beta/app/src/main/java/com/nuvio/tv/ui/screens/player/PlayerRuntimeControllerTracks.kt)
+- [Nuvio Dolby Vision handling source](https://github.com/NuvioMedia/NuvioTV/blob/0.8.11-beta/app/src/main/java/com/nuvio/tv/ui/screens/player/PlayerRuntimeControllerInitialization.kt)
 
 Official sources:
 
@@ -128,7 +142,7 @@ The old July files remain as an unlisted archive. The manifest no longer exposes
 
 ## Monthly maintenance automation
 
-The active monthly audit now checks AIOMetadata release drift, Letterboxd import health, MovieLens recommendations, subtitle preferences, and one exact playback sample. It preserves the full homepage design, Indian and regional rows, Real-Debrid priority, and the Philips codec filters.
+The active monthly audit now checks AIOMetadata release drift, Letterboxd import readiness, MovieLens evidence, subtitle behavior, and one exact playback sample. It marks MovieLens readiness unknown when the public service supplies no evidence.
 
 The GitHub Pages workflow now uses the current major versions of the official checkout, Node setup, Pages configuration, artifact upload, and Pages deployment actions.
 
@@ -136,6 +150,6 @@ The repository now includes `scripts/audit-services.ps1`. This credential-free a
 
 ## Confidence and gaps
 
-**Overall confidence:** High for the ranking fault, codec mismatch, live save, and MUBI membership. Medium for long-term provider reliability.
+**Overall confidence:** High for the ranking fault, codec mismatch, live save, subtitle selection order, and MUBI membership. Medium for long-term provider reliability.
 
-The strongest evidence is the reproduced episode result, the saved live configuration, the TV manual, and official repository data. Sootio reliability remains uncertain because its result metadata is incomplete. The AIOMetadata upgrade is deferred until the public service reaches v2.16.3.
+The strongest evidence is the reproduced episode result, the saved live configuration, the TV manual, and official repository data. Sootio reliability remains uncertain because its result metadata is incomplete. The AIOMetadata update is deferred until the public service reaches v2.16.3. MovieLens remains deferred until a real connection or host documentation proves readiness.
