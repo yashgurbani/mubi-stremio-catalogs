@@ -37,10 +37,13 @@ The service audit calls `scripts/audit-curated-live.mjs`. This helper validates 
 Run the curated quality diagnostic after each membership change:
 
 ```powershell
-node .\scripts\audit-curated-quality.mjs
+node .\scripts\audit-curated-quality.mjs --local
+node .\scripts\audit-personal-overlap.mjs --fail-on-overlap
 ```
 
 The diagnostic reports rating coverage, rating distribution, genres, countries, and decades. It never removes a title automatically.
+
+The personal-overlap audit uses the ignored private taste profile when it is available. It reports counts by default and does not print private titles. Add `--details` only for local diagnosis.
 
 This audit samples every Indian Regional Catalog row. It measures missing rating metadata, duplicates, promotional entries, identifier quality, and recency concentration. The output distinguishes broad freshness coverage from quality-curated discovery.
 
@@ -107,6 +110,8 @@ node .\scripts\validate.mjs
 ```
 
 The resolver accepts only exact title-and-year matches, documented alternate titles, or explicit IMDb overrides that resolve through Cinemeta.
+
+See `RECOMMENDATION-ARCHITECTURE.md` for the Simkl, Watchly, AIOMetadata, MovieLens, and curated-layer design.
 
 ## Dynamic personal watchlist
 

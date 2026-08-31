@@ -90,7 +90,9 @@ Nuvio playback does not update a Watchly configuration that uses Stremio as its 
 
 `Nuvio playback → Simkl → Watchly → personalized homepage rows`
 
-The same Simkl ratings can feed MovieLens through AIOMetadata:
+Keep Nuvio as the only Simkl progress writer. Watchly reads the account but does not need to scrobble. AIOMetadata can expose Simkl watchlist catalogs, but its **Simkl Checkin** option must remain off. Simkl warns that multiple tracking integrations can create scrobbling conflicts.
+
+The same Simkl ratings can feed MovieLens through AIOMetadata when the host enables secure MovieLens credential storage:
 
 `Simkl ratings → AIOMetadata → MovieLens → collaborative recommendation rows`
 

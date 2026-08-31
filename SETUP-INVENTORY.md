@@ -65,6 +65,18 @@ Planned: `Simkl ratings → AIOMetadata sync → MovieLens → collaborative rec
 
 This design avoids the Trakt free-account community-app limit. Couchmoney can keep the single Trakt community connection.
 
+### Single-writer rule
+
+Nuvio is the only service that writes playback progress to Simkl. Watchly reads Simkl history. AIOMetadata reads Simkl watchlists but must keep **Simkl Checkin** off. Simkl warns that multiple tracking integrations can cause scrobbling conflicts.
+
+Use these roles:
+
+- **Nuvio:** playback and Simkl scrobbling
+- **Simkl:** shared history, ratings, and Plan to Watch
+- **Watchly:** adaptive recommendation reader
+- **AIOMetadata:** metadata and watchlist-catalog reader
+- **MovieLens:** optional future collaborative-filtering reader
+
 ### Simkl activation
 
 On Nuvio 0.8.11 or later:
