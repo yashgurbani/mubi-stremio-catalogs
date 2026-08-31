@@ -119,27 +119,8 @@ $catalogChecks = foreach ($catalog in $catalogManifest.catalogs) {
     }
 }
 
-$curatedCatalogChecks = foreach ($catalog in $curatedManifest.catalogs) {
-    $catalogUrl = "https://yashgurbani.github.io/mubi-stremio-catalogs/curated/catalog/$($catalog.type)/$($catalog.id).json"
-    $catalogPayload = Get-Json -Uri $catalogUrl
-    $resolvedItems = foreach ($meta in $catalogPayload.metas) {
-        $resolved = Get-Json -Uri "https://v3-cinemeta.strem.io/meta/$($meta.type)/$($meta.id).json"
-        [pscustomobject]@{
-            id = $meta.id
-            name = $meta.name
-            resolved = -not [string]::IsNullOrWhiteSpace([string]$resolved.meta.name)
-            resolvedName = $resolved.meta.name
-        }
-    }
-
-    [pscustomobject]@{
-        id = $catalog.id
-        type = $catalog.type
-        name = $catalog.name
-        items = @($catalogPayload.metas).Count
-        resolvedItems = @($resolvedItems | Where-Object resolved).Count
-    }
-}
+$curatedLiveAudit = & node (Join-Path $PSScriptRoot 'audit-curated-live.mjs') | ConvertFrom-Json
+$curatedCatalogChecks = @($curatedLiveAudit.catalogs)
 
 $result = [pscustomobject]@{
     generatedAt = [DateTimeOffset]::UtcNow.ToString('o')
@@ -166,7 +147,7 @@ $result = [pscustomobject]@{
             catalogs = @($catalogChecks)
         }
         curatedDiscoveryAddon = [pscustomobject]@{
-            healthy = @($curatedCatalogChecks | Where-Object { $_.resolvedItems -ne $_.items }).Count -eq 0
+            healthy = $curatedLiveAudit.healthy
             version = $curatedManifest.version
             catalogs = @($curatedCatalogChecks)
         }

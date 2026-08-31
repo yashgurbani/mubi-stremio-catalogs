@@ -32,6 +32,8 @@ Run the regional catalog quality audit separately:
 powershell -NoProfile -File .\scripts\audit-catalog-quality.ps1
 ```
 
+The service audit calls `scripts/audit-curated-live.mjs`. This helper validates every deployed curated title against Cinemeta in parallel.
+
 This audit samples every Indian Regional Catalog row. It measures missing rating metadata, duplicates, promotional entries, identifier quality, and recency concentration. The output distinguishes broad freshness coverage from quality-curated discovery.
 
 The AIOMetadata gate now reports two capabilities separately:
