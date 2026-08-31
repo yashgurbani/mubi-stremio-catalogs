@@ -34,6 +34,14 @@ powershell -NoProfile -File .\scripts\audit-catalog-quality.ps1
 
 The service audit calls `scripts/audit-curated-live.mjs`. This helper validates every deployed curated title against Cinemeta in parallel.
 
+Run the curated quality diagnostic after each membership change:
+
+```powershell
+node .\scripts\audit-curated-quality.mjs
+```
+
+The diagnostic reports rating coverage, rating distribution, genres, countries, and decades. It never removes a title automatically.
+
 This audit samples every Indian Regional Catalog row. It measures missing rating metadata, duplicates, promotional entries, identifier quality, and recency concentration. The output distinguishes broad freshness coverage from quality-curated discovery.
 
 The AIOMetadata gate now reports two capabilities separately:
@@ -80,7 +88,7 @@ The repository also publishes a separate curated addon at:
 https://yashgurbani.github.io/mubi-stremio-catalogs/curated/manifest.json
 ```
 
-The addon contains nine rows and 126 unique titles. It combines two different forms of curation:
+The addon contains nine rows and 159 unique titles. It combines two different forms of curation:
 
 - eight taste-informed discovery rows for films, television, documentaries, Indian cinema, global arthouse, comedy, and animation;
 - one exact source-faithful row, `14 Iconic Indian Films — FHF`, whose membership follows the numbered Film Heritage Foundation program.

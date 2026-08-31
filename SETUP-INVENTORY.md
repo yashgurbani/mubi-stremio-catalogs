@@ -119,7 +119,7 @@ The Indian Regional Catalog is a breadth and freshness source. A live first-page
 
 The private taste profile defines ten stable discovery lanes. These lanes cover relationship stories, diaspora and identity, systems and power, science, ensemble comedy, animation, Indian cinema, global arthouse, and documentaries. Watchly remains the dynamic personal engine. Its target discovery style is **Balanced**. Separate hidden-gem and editorial rows preserve serendipity.
 
-The separate curated manifest now contains nine rows and 126 unique titles. Eight rows turn the private taste profile into real film, television, documentary, Indian-cinema, arthouse, comedy, and animation shelves. The ninth row preserves the exact Film Heritage Foundation program `14 Iconic Indian Films — FHF`.
+The separate curated manifest now contains nine rows and 159 unique titles. Eight rows turn the private taste profile into film, television, documentary, Indian-cinema, arthouse, comedy, and animation shelves. The ninth row preserves the exact Film Heritage Foundation program `14 Iconic Indian Films — FHF`.
 
 The curated rows contain no exact match from the known watched-series journal or explicit watchlist. Import the manifest through AIOMetadata so that its IMDb identifiers receive full posters and metadata. Keep the exact FHF row before raw regional latest-release catalogs.
 

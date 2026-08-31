@@ -83,6 +83,78 @@
       "type": "series",
       "name": "Andor",
       "releaseInfo": "2022-2025"
+    },
+    {
+      "id": "tt9398466",
+      "type": "series",
+      "name": "Delhi Crime",
+      "releaseInfo": "2019-"
+    },
+    {
+      "id": "tt9680440",
+      "type": "series",
+      "name": "Paatal Lok",
+      "releaseInfo": "2020-"
+    },
+    {
+      "id": "tt27853283",
+      "type": "series",
+      "name": "Kohrra",
+      "releaseInfo": "2023-"
+    },
+    {
+      "id": "tt20873118",
+      "type": "series",
+      "name": "Suzhal - The Vortex",
+      "releaseInfo": "2022-"
+    },
+    {
+      "id": "tt7278862",
+      "type": "series",
+      "name": "My Brilliant Friend",
+      "releaseInfo": "2018-2024"
+    },
+    {
+      "id": "tt4378376",
+      "type": "series",
+      "name": "Babylon Berlin",
+      "releaseInfo": "2017–"
+    },
+    {
+      "id": "tt1526318",
+      "type": "series",
+      "name": "Borgen",
+      "releaseInfo": "2010-2022"
+    },
+    {
+      "id": "tt1733785",
+      "type": "series",
+      "name": "The Bridge",
+      "releaseInfo": "2011-2018"
+    },
+    {
+      "id": "tt7923710",
+      "type": "series",
+      "name": "My Mister",
+      "releaseInfo": "2018"
+    },
+    {
+      "id": "tt8001106",
+      "type": "series",
+      "name": "Giri/Haji",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tt27628576",
+      "type": "series",
+      "name": "The Long Season",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt9112152",
+      "type": "series",
+      "name": "The Investigation",
+      "releaseInfo": "2020"
     }
   ]
 }

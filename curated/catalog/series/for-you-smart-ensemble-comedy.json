@@ -83,6 +83,42 @@
       "type": "series",
       "name": "Catastrophe",
       "releaseInfo": "2015-2019"
+    },
+    {
+      "id": "tt12004706",
+      "type": "series",
+      "name": "Panchayat",
+      "releaseInfo": "2020-"
+    },
+    {
+      "id": "tt10530900",
+      "type": "series",
+      "name": "Gullak",
+      "releaseInfo": "2019-"
+    },
+    {
+      "id": "tt4156586",
+      "type": "series",
+      "name": "Permanent Roommates",
+      "releaseInfo": "2014-2023"
+    },
+    {
+      "id": "tt13353168",
+      "type": "series",
+      "name": "Fisk",
+      "releaseInfo": "2021-"
+    },
+    {
+      "id": "tt6583806",
+      "type": "series",
+      "name": "This Country",
+      "releaseInfo": "2017-2020"
+    },
+    {
+      "id": "tt5912064",
+      "type": "series",
+      "name": "Kim's Convenience",
+      "releaseInfo": "2016-2021"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "org.yashgurbani.curated.discovery",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "name": "Curated Discovery — Film, TV & Docs",
   "description": "Taste-informed discovery rows for films, series, documentaries, Indian cinema, global arthouse, comedy, and animation. Official-source rows remain clearly separated from editorial synthesis.",
   "resources": [
@@ -32,12 +32,12 @@
     {
       "type": "series",
       "id": "for-you-prestige-tv-beyond-obvious",
-      "name": "For You — Prestige TV Beyond the Obvious"
+      "name": "Prestige TV — English, Indian & Global"
     },
     {
       "type": "series",
       "id": "for-you-smart-ensemble-comedy",
-      "name": "Because You Liked — Smart Ensemble Comedy"
+      "name": "Smart Ensemble Comedy — English & Hindi"
     },
     {
       "type": "series",
