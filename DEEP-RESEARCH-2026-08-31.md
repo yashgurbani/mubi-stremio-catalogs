@@ -41,7 +41,7 @@ The main queries and checks were:
 | Native HDR10 and HLG remain available | Confirmed | Active visual-tag filters and Philips manual | Keep |
 | Dolby Vision is not a native TV format | Confirmed | Philips manual lists HDR10 and HLG, but not Dolby Vision | Exclude in shared configuration |
 | Nuvio can recover some DV7 files as HDR10 | Confirmed | Tagged Nuvio 0.8.11-beta source | Use only as a manual Nuvio fallback |
-| Watchly uses Simkl and refreshes daily | Confirmed | Saved Watchly configuration and official source documentation | Keep as active recommendation engine |
+| Watchly exposes fresh personalized rows and refreshes daily | Confirmed | Loaded private manifest and official source documentation | Keep as active recommendation engine |
 | Letterboxd URL import is ready upstream | Confirmed | AIOMetadata v2.16.3 release notes | Wait for public deployment |
 | MovieLens is active on the public instance | Unknown | The official public configuration schema has no capability flag | Require a real connection test or host documentation |
 | MUBI rows use exact source membership | Confirmed | Official collection pages and validated catalog payloads | Keep |
@@ -99,7 +99,7 @@ The official Now Showing page remains dynamic and separate. The static thematic 
 
 The strongest case for self-hosting AIOMetadata is immediate MovieLens access. It can add true collaborative filtering without another Trakt community-app connection.
 
-The case against it is stronger today. Watchly already has a complete Simkl history path, the public MovieLens capability is absent, and self-hosting adds credential and uptime duties.
+The case against it is stronger today. Watchly already has a complete Simkl history path, MovieLens readiness is unknown, and self-hosting adds credential and uptime duties.
 
 The lowest-risk decision is to wait. Revisit self-hosting only if Watchly recommendations remain weak after two full daily refreshes and more Nuvio scrobbles.
 
@@ -119,7 +119,14 @@ Confidence is medium for long-term provider reliability. Provider response times
 
 MovieLens readiness remains unknown because the service publishes no capability flag. A real account connection or explicit host documentation can resolve this gap.
 
-The browser could not expose Nuvio's TV-local settings. Tagged source code establishes the available controls and behavior, but not the current values on the television.
+The live Nuvio Sync account now exposes its synced TV settings. Two current values conflict with the intended design:
+
+- **Home Layout** uses Modern View, which shows one active row instead of the requested scrolling catalog home.
+- **Use Forced Subtitles** is on, which can select no subtitle when a forced track is unavailable.
+
+The loaded Watchly manifest exposes 16 personalized movie and series rows. Current seeds include *Memento* and *New Girl*, which shows that the profile has refreshed.
+
+The Chrome Stremio Web session is anonymous and shows only default catalogs. This observation does not prove the state of a separate signed-in Stremio account.
 
 ## Primary sources
 

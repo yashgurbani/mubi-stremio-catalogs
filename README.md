@@ -35,6 +35,8 @@ AIOMetadata does not publish its server-side MovieLens key through `/api/config`
 
 The full evidence ledger and maintenance decisions are in [DEEP-RESEARCH-2026-08-31.md](DEEP-RESEARCH-2026-08-31.md).
 
+The real-account comparison and remaining completion gates are in [LIVE-ACCOUNT-AUDIT-2026-08-31.md](LIVE-ACCOUNT-AUDIT-2026-08-31.md).
+
 The included workflow validates all catalog payloads before deployment. After explicit approval to create the public repository, run from this directory:
 
 ```powershell

@@ -27,6 +27,8 @@ The codec exclusions match the Philips 43PUS7363/12. The television supports HDR
 8. Stremify HTTP — Direct Fallback
 9. Sootio HTTP
 
+The live Nuvio Sync account matches this nine-addon order. Watchly and AIOMetadata lead the list. Sootio remains last.
+
 ## Recommendation architecture
 
 ### Immediate recommendations
@@ -89,6 +91,8 @@ In Watchly, connect the same Simkl account and select Simkl as the history sourc
 
 Nuvio 0.8.11 automatically selects a matching embedded track before a matching addon track. It uses an addon subtitle when no matching embedded track exists. The app has no setting that always places OpenSubtitles before embedded tracks. Select an addon subtitle manually when its timing or text is better.
 
+The live Nuvio TV settings currently have **Use Forced Subtitles** on. This conflicts with the policy above and can leave normal dialogue without subtitles. Turn it off during the next approved settings save. Keep **Show Only Preferred Languages** off.
+
 ## Nuvio playback compatibility
 
 - Use **Dolby Vision Handling → HDR10 Base Layer** if a manually selected DV Profile 7 file reaches Nuvio.
@@ -110,6 +114,12 @@ This policy preserves native HDR10 quality on the Philips 43PUS7363/12. It does 
 - Keep MUBI Now Showing, BFI, and Criterion spotlight rows.
 - Keep official MUBI thematic collections near the end of the homepage.
 - Remove exact duplicate rows, but do not remove distinct discovery purposes.
+
+The live Nuvio TV settings currently use **Modern View**. That layout uses one active row and conflicts with the requested endless homepage. Change it to **Classic View** during the next approved settings save.
+
+The live Watchly manifest contains 16 movie and series rows. It includes Top Picks, two current Because You Watched rows, six taste themes, creator rows, loved-title rows, and liked-title rows.
+
+The Nuvio Sync library contains two saved movies. It is not the requested central personal watchlist. Letterboxd URL import remains the planned watchlist source after the public AIOMetadata v2.16.3 deployment.
 
 ## Update gates
 

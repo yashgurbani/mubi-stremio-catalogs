@@ -153,3 +153,13 @@ The repository now includes `scripts/audit-services.ps1`. This credential-free a
 **Overall confidence:** High for the ranking fault, codec mismatch, live save, subtitle selection order, and MUBI membership. Medium for long-term provider reliability.
 
 The strongest evidence is the reproduced episode result, the saved live configuration, the TV manual, and official repository data. Sootio reliability remains uncertain because its result metadata is incomplete. The AIOMetadata update is deferred until the public service reaches v2.16.3. MovieLens remains deferred until a real connection or host documentation proves readiness.
+
+## Live account follow-up
+
+The signed-in Nuvio Sync account contains the intended nine-addon order. Its loaded Watchly manifest exposes 16 personalized movie and series rows.
+
+The synced Nuvio TV settings reveal two direct faults. Modern View conflicts with the requested scrolling homepage. Forced subtitles can leave normal dialogue without subtitles.
+
+The current Chrome Stremio Web session is anonymous. The real Stremio account transfer therefore remains unverified until a signed-in session exposes its installed addons.
+
+See `LIVE-ACCOUNT-AUDIT-2026-08-31.md` for the requirement-by-requirement evidence and four staged Nuvio corrections.
