@@ -186,10 +186,10 @@ The deployed curated catalog exposes rating metadata for every title. The diagno
 | Row | Items | Average IMDb rating | Median IMDb rating | Rated at least 7.5 |
 |---|---:|---:|---:|---:|
 | For You — Intimate, Thoughtful Films | 12 | 7.65 | 7.6 | 9 |
-| For You — Indian Indie & Regional, before the 2020s expansion | 15 | 7.87 | 8.1 | 12 |
-| Documentary Discovery, before the science and Indian expansion | 15 | 7.85 | 8.0 | 13 |
-| Prestige TV, before the Indian and global expansion | 14 | 8.44 | 8.4 | 14 |
-| Smart Ensemble Comedy, before the Hindi expansion | 14 | 8.37 | 8.45 | 14 |
+| For You — Indian Indie & Regional | 24 | 7.62 | 7.8 | 15 |
+| Documentary Discovery — Science, Society & Art | 21 | 7.74 | 7.7 | 15 |
+| Prestige TV — English, Indian & Global | 26 | 8.38 | 8.4 | 26 |
+| Smart Ensemble Comedy — English & Hindi | 20 | 8.43 | 8.5 | 20 |
 | Animation — Dark, Strange & Funny | 14 | 8.32 | 8.45 | 14 |
 | Comfort Animation & Whimsy | 16 | 8.04 | 8.3 | 14 |
 | For You — Global Arthouse Discovery | 12 | 7.44 | 7.3 | 4 |
