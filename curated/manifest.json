@@ -1,6 +1,6 @@
 {
   "id": "org.yashgurbani.curated.discovery",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "name": "Curated Discovery — Film, TV & Docs",
   "description": "Taste-informed discovery rows for films, series, documentaries, Indian cinema, global arthouse, comedy, and animation. Official-source rows remain clearly separated from editorial synthesis.",
   "resources": [
@@ -28,6 +28,11 @@
       "type": "movie",
       "id": "for-you-documentary-discovery",
       "name": "Documentary Discovery — Science, Society & Art"
+    },
+    {
+      "type": "series",
+      "id": "for-you-documentary-series",
+      "name": "Documentary Series — Science, History & India"
     },
     {
       "type": "series",

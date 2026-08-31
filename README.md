@@ -88,9 +88,9 @@ The repository also publishes a separate curated addon at:
 https://yashgurbani.github.io/mubi-stremio-catalogs/curated/manifest.json
 ```
 
-The addon contains nine rows and 159 unique titles. It combines two different forms of curation:
+The addon contains ten rows and 183 unique titles. It combines two different forms of curation:
 
-- eight taste-informed discovery rows for films, television, documentaries, Indian cinema, global arthouse, comedy, and animation;
+- nine taste-informed discovery rows for films, television, documentary films and series, Indian cinema, global arthouse, comedy, and animation;
 - one exact source-faithful row, `14 Iconic Indian Films — FHF`, whose membership follows the numbered Film Heritage Foundation program.
 
 The taste-informed rows exclude every exact title in the known watched-series journal and explicit watchlist. They complement Watchly instead of replacing it. Watchly remains the dynamic engine that learns from new Simkl activity.
@@ -107,3 +107,15 @@ node .\scripts\validate.mjs
 ```
 
 The resolver accepts only exact title-and-year matches, documented alternate titles, or explicit IMDb overrides that resolve through Cinemeta.
+
+## Dynamic personal watchlist
+
+Use Simkl **Plan to Watch** as the central dynamic watchlist. AIOMetadata can expose Simkl movie, series, and anime watchlists as Home catalogs without using a Trakt connection.
+
+Generate a private CSV from the explicit watchlist in `private/taste-profile.json`:
+
+```powershell
+node .\scripts\build-simkl-watchlist.mjs
+```
+
+The output is `private/simkl-plan-to-watch-import.csv`. The `private/` directory is excluded from Git. Upload the CSV through Simkl's official CSV importer and select **Use .csv data**. Then connect Simkl in AIOMetadata and enable its Watchlist catalogs.

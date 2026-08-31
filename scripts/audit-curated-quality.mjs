@@ -1,5 +1,15 @@
-const baseUrl =
-  "https://yashgurbani.github.io/mubi-stremio-catalogs/curated";
+import { readFile } from "node:fs/promises";
+
+const useLocalCatalogs = process.argv.includes("--local");
+const baseUrl = "https://yashgurbani.github.io/mubi-stremio-catalogs/curated";
+
+async function getCatalogJson(relativePath) {
+  if (useLocalCatalogs) {
+    const url = new URL(`../curated/${relativePath}`, import.meta.url);
+    return JSON.parse(await readFile(url, "utf8"));
+  }
+  return getJson(`${baseUrl}/${relativePath}`);
+}
 
 async function getJson(url) {
   const response = await fetch(url, { cache: "no-store" });
@@ -26,11 +36,11 @@ function histogram(values) {
   );
 }
 
-const manifest = await getJson(`${baseUrl}/manifest.json`);
+const manifest = await getCatalogJson("manifest.json");
 const rows = await Promise.all(
   manifest.catalogs.map(async (catalog) => {
-    const payload = await getJson(
-      `${baseUrl}/catalog/${catalog.type}/${catalog.id}.json`,
+    const payload = await getCatalogJson(
+      `catalog/${catalog.type}/${catalog.id}.json`,
     );
     const items = await Promise.all(
       payload.metas.map(async (entry) => {

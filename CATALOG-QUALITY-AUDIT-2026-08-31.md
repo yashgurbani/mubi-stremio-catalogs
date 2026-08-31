@@ -163,19 +163,20 @@ The private taste profile now defines these ten lanes:
 
 These lanes do not publish the private watch history. They serve as stable discovery intents that dynamic systems can populate from current taste data.
 
-The deployed curated addon implements eight of these intents as concrete shelves. It contains 145 taste-informed titles plus 14 source-faithful Film Heritage Foundation titles. No exact title overlaps the known watched-series journal or explicit watchlist.
+The deployed curated addon implements nine of these intents as concrete shelves. It contains 169 taste-informed titles plus 14 source-faithful Film Heritage Foundation titles. No exact title overlaps the known watched-series journal or explicit watchlist.
 
 The implemented shelves are:
 
 1. For You — Intimate, Thoughtful Films
 2. For You — Indian Indie & Regional
 3. Documentary Discovery — Science, Society & Art
-4. Prestige TV — English, Indian & Global
-5. Smart Ensemble Comedy — English & Hindi
-6. Animation — Dark, Strange & Funny
-7. Comfort Animation & Whimsy
-8. For You — Global Arthouse Discovery
-9. 14 Iconic Indian Films — FHF
+4. Documentary Series — Science, History & India
+5. Prestige TV — English, Indian & Global
+6. Smart Ensemble Comedy — English & Hindi
+7. Animation — Dark, Strange & Funny
+8. Comfort Animation & Whimsy
+9. For You — Global Arthouse Discovery
+10. 14 Iconic Indian Films — FHF
 
 This catalog is the stable editorial layer. Watchly remains the adaptive layer that responds to new Simkl activity.
 
@@ -188,6 +189,7 @@ The deployed curated catalog exposes rating metadata for every title. The diagno
 | For You — Intimate, Thoughtful Films | 12 | 7.65 | 7.6 | 9 |
 | For You — Indian Indie & Regional | 24 | 7.62 | 7.8 | 15 |
 | Documentary Discovery — Science, Society & Art | 21 | 7.74 | 7.7 | 15 |
+| Documentary Series — Science, History & India | 24 | 8.40 | 8.7 | 21 |
 | Prestige TV — English, Indian & Global | 26 | 8.38 | 8.4 | 26 |
 | Smart Ensemble Comedy — English & Hindi | 20 | 8.43 | 8.5 | 20 |
 | Animation — Dark, Strange & Funny | 14 | 8.32 | 8.45 | 14 |
@@ -195,7 +197,9 @@ The deployed curated catalog exposes rating metadata for every title. The diagno
 | For You — Global Arthouse Discovery | 12 | 7.44 | 7.3 | 4 |
 | 14 Iconic Indian Films — FHF | 14 | 7.21 | 7.15 | 2 |
 
-Only Kiteretsu and the original Crayon Shin-chan series fell below 6.5. They remain because the user named them as childhood comfort signals. Their purpose is personal familiarity, not critic-score optimization.
+Kiteretsu and the original Crayon Shin-chan series fell below 6.5. They remain because the user named them as childhood comfort signals. Their purpose is personal familiarity, not critic-score optimization.
+
+The 1619 Project also fell below 6.5 despite its documentary and historical relevance. Its audience rating is strongly polarized, so the audit records it as a manual-review item instead of treating the score as an automatic exclusion.
 
 The diagnostic also exposed a real weakness. The initial prestige-television row contained 12 United States productions among 14 titles. Version 2.1.0 expands it with Indian, German, Danish, Swedish, Korean, Chinese, Italian, British, and Japanese-linked series. The Indian-indie row also gains current festival films from Cannes, Sundance, IFFR, and the Berlinale.
 

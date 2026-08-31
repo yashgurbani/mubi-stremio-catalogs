@@ -119,7 +119,7 @@ The Indian Regional Catalog is a breadth and freshness source. A live first-page
 
 The private taste profile defines ten stable discovery lanes. These lanes cover relationship stories, diaspora and identity, systems and power, science, ensemble comedy, animation, Indian cinema, global arthouse, and documentaries. Watchly remains the dynamic personal engine. Its target discovery style is **Balanced**. Separate hidden-gem and editorial rows preserve serendipity.
 
-The separate curated manifest now contains nine rows and 159 unique titles. Eight rows turn the private taste profile into film, television, documentary, Indian-cinema, arthouse, comedy, and animation shelves. The ninth row preserves the exact Film Heritage Foundation program `14 Iconic Indian Films — FHF`.
+The separate curated manifest now contains ten rows and 183 unique titles. Nine rows turn the private taste profile into film, television, documentary-film, documentary-series, Indian-cinema, arthouse, comedy, and animation shelves. The tenth row preserves the exact Film Heritage Foundation program `14 Iconic Indian Films — FHF`.
 
 The curated rows contain no exact match from the known watched-series journal or explicit watchlist. Import the manifest through AIOMetadata so that its IMDb identifiers receive full posters and metadata. Keep the exact FHF row before raw regional latest-release catalogs.
 
@@ -127,7 +127,9 @@ The live Nuvio TV settings currently use **Modern View**. That layout uses one a
 
 The live Watchly manifest contains 16 movie and series rows. It includes Top Picks, two current Because You Watched rows, six taste themes, creator rows, loved-title rows, and liked-title rows.
 
-The Nuvio Sync library contains two saved movies. It is not the requested central personal watchlist. Letterboxd URL import remains the planned watchlist source after the public AIOMetadata v2.16.3 deployment.
+The Nuvio Sync library contains two saved movies. It is not the requested central personal watchlist. Letterboxd remains a secondary movie-history and ratings source after the public AIOMetadata v2.16.3 deployment.
+
+Simkl **Plan to Watch** is now the preferred central watchlist. The public AIOMetadata instance exposes a built-in Simkl OAuth client. Simkl documents AIOMetadata as a free route for Watchlist catalogs and check-in. The prepared private CSV contains 14 exact movie identifiers from the explicit watchlist. The probable companion-anime match remains excluded until confirmed.
 
 ## Update gates
 

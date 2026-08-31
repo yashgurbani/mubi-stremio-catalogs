@@ -172,6 +172,8 @@ The first audit found zero populated rating fields in every first-page sample. I
 
 The private taste profile now contains ten curated discovery lanes for films, series, documentaries, Indian cinema, global arthouse, and animation. Watchly remains the active dynamic engine. Its target discovery style is **Balanced**, pending an approved settings save.
 
-The public curated addon now implements eight taste-informed shelves plus the exact Film Heritage Foundation shelf. It contains 159 unique titles. A local comparison found no exact overlap with the known watched-series journal or explicit watchlist.
+The public curated addon now implements nine taste-informed shelves plus the exact Film Heritage Foundation shelf. It contains 183 unique titles. A local comparison found no exact overlap with the known watched-series journal or explicit watchlist.
+
+Simkl **Plan to Watch** is the selected dynamic watchlist. A private 14-film CSV is ready for the official Simkl importer. AIOMetadata can expose the resulting movie, series, and anime watchlists on Home without another Trakt connection.
 
 See `CATALOG-QUALITY-AUDIT-2026-08-31.md` for the evidence ledger and target homepage order.

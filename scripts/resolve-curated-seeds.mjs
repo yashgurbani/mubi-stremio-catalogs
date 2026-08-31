@@ -95,6 +95,36 @@ const catalogs = [
     ],
   },
   {
+    id: "for-you-documentary-series",
+    type: "series",
+    titles: [
+      ["Cosmos", 1980],
+      ["Cosmos: A Spacetime Odyssey", 2014],
+      ["Planet Earth", 2006],
+      ["Planet Earth II", 2016],
+      ["Our Planet", 2019],
+      ["Frozen Planet II", 2022],
+      ["The Ascent of Man", 1973],
+      ["Connections", 1978],
+      ["The Planets", 2019],
+      ["The Story of Maths", 2008],
+      ["The Brain with David Eagleman", 2015],
+      ["The Mind, Explained", 2019],
+      ["The Vietnam War", 2017],
+      ["The Jinx: The Life and Deaths of Robert Durst", 2015],
+      ["The Last Dance", 2020],
+      ["The Beatles: Get Back", 2021],
+      ["Exterminate All the Brutes", 2021],
+      ["The 1619 Project", 2023],
+      ["Wild Wild Country", 2018],
+      ["Alma Matters: Inside the IIT Dream", 2021],
+      ["House of Secrets: The Burari Deaths", 2021],
+      ["The Hunt for Veerappan", 2023],
+      ["Cinema Marte Dum Tak", 2023],
+      ["Angry Young Men", 2024],
+    ],
+  },
+  {
     id: "for-you-prestige-tv-beyond-obvious",
     type: "series",
     titles: [
@@ -269,6 +299,7 @@ if (process.argv.includes("--write")) {
     "series:Kiteretsu:1988",
     "series:SWAT Kats:1993",
     "series:Nichijou:2011",
+    "series:The Brain with David Eagleman:2015",
   ]);
   const catalogRoot = new URL("../curated/catalog/", import.meta.url);
 

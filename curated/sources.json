@@ -52,6 +52,25 @@
       ]
     },
     {
+      "id": "for-you-documentary-series",
+      "sourceName": "Personal taste synthesis with documentary-series awards evidence",
+      "sourceTitle": "Science, history, society, cinema, and Indian documentary series",
+      "membershipRule": "Personal science and film-craft interest plus Peabody, Emmy, IDA, public-media, or strong subject-fit evidence. Includes Indian nonfiction for regional balance.",
+      "capturedAt": "2026-08-31",
+      "evidenceUrls": [
+        "https://peabodyawards.com/award-profile/cosmos/",
+        "https://peabodyawards.com/award-profile/cosmos-a-spacetime-odyssey/",
+        "https://peabodyawards.com/award-profile/planet-earth/",
+        "https://www.televisionacademy.com/awards/nominees-winners/2025/outstanding-documentary-or-nonfiction-series",
+        "https://www.documentary.org/awards2024/nominees",
+        "https://www.documentary.org/awards2023/nominees"
+      ],
+      "identifierSources": [
+        "Cinemeta title search",
+        "Cinemeta IMDb metadata"
+      ]
+    },
+    {
       "id": "for-you-prestige-tv-beyond-obvious",
       "sourceName": "Personal taste synthesis with television-awards evidence",
       "sourceTitle": "Prestige television beyond the broad popularity rows",
