@@ -26,6 +26,14 @@ powershell -NoProfile -File .\scripts\audit-services.ps1
 
 The audit checks the public AIOStreams, AIOMetadata, Watchly, and catalog manifests. It also compares deployed versions with official GitHub releases.
 
+Run the regional catalog quality audit separately:
+
+```powershell
+powershell -NoProfile -File .\scripts\audit-catalog-quality.ps1
+```
+
+This audit samples every Indian Regional Catalog row. It measures missing rating metadata, duplicates, promotional entries, identifier quality, and recency concentration. The output distinguishes broad freshness coverage from quality-curated discovery.
+
 The AIOMetadata gate now reports two capabilities separately:
 
 - whether the public version contains the Letterboxd URL-import repair from v2.16.3;
@@ -34,6 +42,8 @@ The AIOMetadata gate now reports two capabilities separately:
 AIOMetadata does not publish its server-side MovieLens key through `/api/config`. The audit therefore reports MovieLens as `unknown`, not disabled. Use `-FailOnDrift` when release drift must return a nonzero exit code.
 
 The full evidence ledger and maintenance decisions are in [DEEP-RESEARCH-2026-08-31.md](DEEP-RESEARCH-2026-08-31.md).
+
+The row-quality scorecard and regional discovery policy are in [CATALOG-QUALITY-AUDIT-2026-08-31.md](CATALOG-QUALITY-AUDIT-2026-08-31.md).
 
 The real-account comparison and remaining completion gates are in [LIVE-ACCOUNT-AUDIT-2026-08-31.md](LIVE-ACCOUNT-AUDIT-2026-08-31.md).
 

@@ -115,6 +115,10 @@ This policy preserves native HDR10 quality on the Philips 43PUS7363/12. It does 
 - Keep official MUBI thematic collections near the end of the homepage.
 - Remove exact duplicate rows, but do not remove distinct discovery purposes.
 
+The Indian Regional Catalog is a breadth and freshness source. A live first-page audit found no populated rating field across its 20 catalogs, one promotional item, and repeated titles across language and OTT rows. Keep selected raw regional rows late on Home. Use Watchly, festival, award, critic, archival, and language-aware quality rows earlier.
+
+The private taste profile defines ten stable discovery lanes. These lanes cover relationship stories, diaspora and identity, systems and power, science, ensemble comedy, animation, Indian cinema, global arthouse, and documentaries. Watchly remains the dynamic personal engine. Its target discovery style is **Balanced**. Separate hidden-gem and editorial rows preserve serendipity.
+
 The live Nuvio TV settings currently use **Modern View**. That layout uses one active row and conflicts with the requested endless homepage. Change it to **Classic View** during the next approved settings save.
 
 The live Watchly manifest contains 16 movie and series rows. It includes Top Picks, two current Because You Watched rows, six taste themes, creator rows, loved-title rows, and liked-title rows.

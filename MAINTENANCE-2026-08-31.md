@@ -163,3 +163,13 @@ The synced Nuvio TV settings reveal two direct faults. Modern View conflicts wit
 The current Chrome Stremio Web session is anonymous. The real Stremio account transfer therefore remains unverified until a signed-in session exposes its installed addons.
 
 See `LIVE-ACCOUNT-AUDIT-2026-08-31.md` for the requirement-by-requirement evidence and four staged Nuvio corrections.
+
+## Catalog quality follow-up
+
+The Indian Regional Catalog remains useful for broad language and release coverage, but its raw ordering is not a quality ranking. A new credential-free audit samples all 20 catalogs and reports missing rating metadata, duplicates, promotional entries, identifier quality, and recency concentration.
+
+The first audit found zero populated rating fields in every first-page sample. It also found one promotional item and four repeated titles across sampled rows. Keep selected regional rows late on Home. Place personal, critic, festival, award, archival, and source-faithful rows earlier.
+
+The private taste profile now contains ten curated discovery lanes for films, series, documentaries, Indian cinema, global arthouse, and animation. Watchly remains the active dynamic engine. Its target discovery style is **Balanced**, pending an approved settings save.
+
+See `CATALOG-QUALITY-AUDIT-2026-08-31.md` for the evidence ledger and target homepage order.
