@@ -78,6 +78,28 @@ Do not reinstall the existing addon yet. Version 2.16.3 restores Letterboxd list
 
 MovieLens remains useful. AIOMetadata supports MovieLens recommendation catalogs and rating imports from supported tracking services. The monthly audit now checks the public version, Letterboxd import health, and MovieLens recommendation health before proposing an update.
 
+### Personalization data flow
+
+Watchly v1.13.1 can build a taste profile from one selected history source: Stremio, Trakt, or Simkl. Its profile includes genres, keywords, directors, cast, eras, countries, and runtime preferences. Its dynamic catalogs refresh every 24 hours by default.
+
+Nuvio playback does not update a Watchly configuration that uses Stremio as its history source. Nuvio 0.8.11 contains Simkl authentication, history, progress, and scrobbling components. Use Simkl as the shared history source when most playback occurs in Nuvio:
+
+`Nuvio playback → Simkl → Watchly → personalized homepage rows`
+
+The same Simkl ratings can feed MovieLens through AIOMetadata:
+
+`Simkl ratings → AIOMetadata → MovieLens → collaborative recommendation rows`
+
+This path does not consume another Trakt community-app connection. Couchmoney can keep the existing Trakt connection.
+
+Gemini improves AI-generated names for Watchly's dynamic rows. It does not replace Watchly's profile scorer or MovieLens collaborative filtering.
+
+Official sources:
+
+- [Watchly source and personalization reference](https://github.com/TimilsinaBimal/Watchly)
+- [AIOMetadata MovieLens integration](https://github.com/cedya77/aiometadata/blob/dev/docs/ENVIRONMENT_VARIABLES.md#movielens-integration)
+- [Nuvio 0.8.11 source tree](https://github.com/NuvioMedia/NuvioTV/tree/0.8.11-beta/app/src/main/java/com/nuvio/tv/data/simkl)
+
 Official sources:
 
 - [AIOStreams v2.33.2](https://github.com/Viren070/AIOStreams/releases/tag/v2.33.2)
