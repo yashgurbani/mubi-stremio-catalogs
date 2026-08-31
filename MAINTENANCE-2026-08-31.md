@@ -8,7 +8,7 @@ The maintenance pass found one clear stream-order fault and two TV-compatibility
 - Dolby Vision and HDR10+ were preferred even though the Philips 43PUS7363/12 does not list those formats.
 - AV1 was the first preferred video codec even though this TV does not list AV1 decoding.
 
-The prepared AIOStreams configuration now uses this order:
+The saved AIOStreams configuration now uses this order:
 
 1. Cached Real-Debrid streams
 2. 2160p before 1080p
@@ -16,9 +16,9 @@ The prepared AIOStreams configuration now uses this order:
 4. Release quality and Stream Expression score
 5. Language, subtitles, codec, age, bitrate, and seeders as tie-breakers
 
-The prepared filters exclude Dolby Vision, HDR10+, combined HDR and Dolby Vision, and AV1. MediaFusion is enabled. Sootio remains the final direct-HTTP fallback outside AIOStreams.
+The active filters exclude Dolby Vision, HDR10+, combined HDR and Dolby Vision, and AV1. They keep HDR10, HDR, HLG, HEVC Main 10, and SDR. MediaFusion is enabled. Sootio remains the final direct-HTTP fallback outside AIOStreams.
 
-The AIOStreams changes still require the existing configuration UUID and password. They are not yet saved to the remote configuration.
+AIOStreams now starts every enabled provider together. It returns after 40 results or 12 seconds. This removes indefinite loading without using the old four-second cutoff.
 
 ## Methodology
 
@@ -42,8 +42,8 @@ The AIOStreams changes still require the existing configuration UUID and passwor
 
 ### Limitations
 
-- The AIOStreams public instance needs the private configuration password before it can save these changes.
 - Sootio often omits codec and HDR metadata. Its labels cannot prove playback compatibility.
+- The Philips manual lists a 30 Mbit/s total-file bitrate and 20 Mbit/s video-bitrate limit for its multimedia player. Very large remuxes can still lag.
 - MUBI availability is regional and can change between monthly snapshots.
 
 ## Evidence
@@ -59,6 +59,10 @@ The updated order is:
 `SeaDex → Resolution → Visual Tag → Quality → Stream Expressions → …`
 
 SeaDex is neutral for normal live-action releases. It remains first to preserve curated anime release selection.
+
+After the save, a fresh request for `Stranger Things S01E07` returned only cached Real-Debrid results. A 2160p HEVC SDR result ranked first, followed by 1080p and 720p results. The live endpoint returned in less than one second because all available providers finished before the 12-second limit.
+
+The official Philips manual confirms 2160p input, HDR10, Hybrid Log Gamma HDR, HEVC, and HEVC Main 10. It does not list Dolby Vision, HDR10+, or AV1.
 
 ### Current provider versions
 
@@ -93,6 +97,8 @@ The same Simkl ratings can feed MovieLens through AIOMetadata:
 This path does not consume another Trakt community-app connection. Couchmoney can keep the existing Trakt connection.
 
 Gemini improves AI-generated names for Watchly's dynamic rows. It does not replace Watchly's profile scorer or MovieLens collaborative filtering.
+
+The Simkl import is now complete. The first pass accepted 29 of 36 entries. A retry with exact TMDB identifiers imported the remaining seven series. Watchly now uses Simkl as its history source and exposes six homepage catalog types, including Top Picks, Because You Watched, dynamic genre and keyword rows, favorite creators, loved titles, and liked titles.
 
 Official sources:
 
@@ -130,6 +136,6 @@ The repository now includes `scripts/audit-services.ps1`. This credential-free a
 
 ## Confidence and gaps
 
-**Overall confidence:** High for the ranking fault, codec mismatch, and MUBI membership. Medium for long-term provider reliability.
+**Overall confidence:** High for the ranking fault, codec mismatch, live save, and MUBI membership. Medium for long-term provider reliability.
 
-The strongest evidence is the reproduced episode result, the live configuration, the TV manual, and official repository data. Sootio reliability remains uncertain because its result metadata is incomplete. The AIOMetadata upgrade is deferred until the public service reaches v2.16.3. The final AIOStreams result cannot be verified until the updated configuration is saved.
+The strongest evidence is the reproduced episode result, the saved live configuration, the TV manual, and official repository data. Sootio reliability remains uncertain because its result metadata is incomplete. The AIOMetadata upgrade is deferred until the public service reaches v2.16.3.
