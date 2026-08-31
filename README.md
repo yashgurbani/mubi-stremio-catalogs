@@ -45,6 +45,14 @@ The diagnostic reports rating coverage, rating distribution, genres, countries, 
 
 The personal-overlap audit uses the ignored private taste profile when it is available. It reports counts by default and does not print private titles. Add `--details` only for local diagnosis.
 
+If `private/account-state.json` exists, compare the installed account snapshot with current public services:
+
+```powershell
+node .\scripts\audit-account-state.mjs
+```
+
+This audit reports version drift, missing required rows, and catalog-row bloat. It never changes or removes an addon.
+
 This audit samples every Indian Regional Catalog row. It measures missing rating metadata, duplicates, promotional entries, identifier quality, and recency concentration. The output distinguishes broad freshness coverage from quality-curated discovery.
 
 The AIOMetadata gate now reports two capabilities separately:
