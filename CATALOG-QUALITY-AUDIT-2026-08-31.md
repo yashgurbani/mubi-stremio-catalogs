@@ -163,6 +163,22 @@ The private taste profile now defines these ten lanes:
 
 These lanes do not publish the private watch history. They serve as stable discovery intents that dynamic systems can populate from current taste data.
 
+The deployed curated addon implements eight of these intents as concrete shelves. It contains 112 taste-informed titles plus 14 source-faithful Film Heritage Foundation titles. No exact title overlaps the known watched-series journal or explicit watchlist.
+
+The implemented shelves are:
+
+1. For You — Intimate, Thoughtful Films
+2. For You — Indian Indie & Regional
+3. Documentary Discovery — Science, Society & Art
+4. For You — Prestige TV Beyond the Obvious
+5. Because You Liked — Smart Ensemble Comedy
+6. Animation — Dark, Strange & Funny
+7. Comfort Animation & Whimsy
+8. For You — Global Arthouse Discovery
+9. 14 Iconic Indian Films — FHF
+
+This catalog is the stable editorial layer. Watchly remains the adaptive layer that responds to new Simkl activity.
+
 **Confidence:** High for alignment with the recorded taste profile. Medium for recommendation precision until more explicit ratings reach Simkl.
 
 ## Catalog scorecard

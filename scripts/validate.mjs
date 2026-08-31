@@ -78,11 +78,14 @@ const curatedIds = new Set();
 const curatedSummary = [];
 
 for (const catalog of curatedManifest.catalogs) {
-  if (catalog.type !== "movie" || !catalog.id || !catalog.name) {
+  if (!curatedManifest.types?.includes(catalog.type) || !catalog.id || !catalog.name) {
     throw new Error(`Invalid curated manifest catalog: ${JSON.stringify(catalog)}`);
   }
 
-  const payloadPath = new URL(`catalog/movie/${catalog.id}.json`, curatedRoot);
+  const payloadPath = new URL(
+    `catalog/${catalog.type}/${catalog.id}.json`,
+    curatedRoot,
+  );
   const payload = JSON.parse(await readFile(payloadPath, "utf8"));
 
   if (!Array.isArray(payload.metas) || payload.metas.length === 0) {
@@ -91,7 +94,7 @@ for (const catalog of curatedManifest.catalogs) {
 
   for (const meta of payload.metas) {
     if (
-      meta.type !== "movie" ||
+      meta.type !== catalog.type ||
       !/^tt\d+$/.test(meta.id) ||
       typeof meta.name !== "string" ||
       meta.name.length === 0

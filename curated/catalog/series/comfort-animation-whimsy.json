@@ -1,0 +1,100 @@
+{
+  "metas": [
+    {
+      "id": "tt0069576",
+      "type": "series",
+      "name": "Doraemon",
+      "releaseInfo": "1979-2005"
+    },
+    {
+      "id": "tt0305051",
+      "type": "series",
+      "name": "Kiteretsu Daihyakka",
+      "releaseInfo": "1988-1996"
+    },
+    {
+      "id": "tt30051683",
+      "type": "series",
+      "name": "Kureyon Shin-chan",
+      "releaseInfo": "1992–"
+    },
+    {
+      "id": "tt12158994",
+      "type": "series",
+      "name": "Tom and Jerry",
+      "releaseInfo": "1940–"
+    },
+    {
+      "id": "tt0126173",
+      "type": "series",
+      "name": "Swat Kats: The Radical Squadron",
+      "releaseInfo": "1993-1995"
+    },
+    {
+      "id": "tt0852863",
+      "type": "series",
+      "name": "Phineas and Ferb",
+      "releaseInfo": "2007-"
+    },
+    {
+      "id": "tt0096697",
+      "type": "series",
+      "name": "The Simpsons",
+      "releaseInfo": "1989-"
+    },
+    {
+      "id": "tt7678620",
+      "type": "series",
+      "name": "Bluey",
+      "releaseInfo": "2018-"
+    },
+    {
+      "id": "tt6385540",
+      "type": "series",
+      "name": "Hilda",
+      "releaseInfo": "2018-2023"
+    },
+    {
+      "id": "tt4163486",
+      "type": "series",
+      "name": "Bee and PuppyCat",
+      "releaseInfo": "2013-2018"
+    },
+    {
+      "id": "tt4839610",
+      "type": "series",
+      "name": "We Bare Bears",
+      "releaseInfo": "2014-2019"
+    },
+    {
+      "id": "tt1305826",
+      "type": "series",
+      "name": "Adventure Time",
+      "releaseInfo": "2010-2018"
+    },
+    {
+      "id": "tt0983983",
+      "type": "series",
+      "name": "Shaun the Sheep",
+      "releaseInfo": "2007-2025"
+    },
+    {
+      "id": "tt3718778",
+      "type": "series",
+      "name": "Over the Garden Wall",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tt6354518",
+      "type": "series",
+      "name": "The Disastrous Life of Saiki K.",
+      "releaseInfo": "2016-2018"
+    },
+    {
+      "id": "tt2098308",
+      "type": "series",
+      "name": "Nichijou: My Ordinary Life",
+      "releaseInfo": "2011"
+    }
+  ]
+}

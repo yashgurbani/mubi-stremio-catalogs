@@ -1,6 +1,130 @@
 {
   "catalogs": [
     {
+      "id": "for-you-intimate-thoughtful-cinema",
+      "sourceName": "Personal taste synthesis",
+      "sourceTitle": "Quiet intimacy, modern relationships, and character-driven cinema",
+      "membershipRule": "Editorial synthesis from the private taste profile. Excludes known watched-series and explicit-watchlist entries.",
+      "capturedAt": "2026-08-31",
+      "evidenceUrls": [
+        "https://www.bfi.org.uk/sight-and-sound/greatest-films-all-time"
+      ],
+      "identifierSources": [
+        "Cinemeta title search",
+        "Cinemeta IMDb metadata"
+      ]
+    },
+    {
+      "id": "for-you-indian-indie-regional",
+      "sourceName": "Personal taste synthesis with BFI Indian-cinema evidence",
+      "sourceTitle": "High-confidence Indian independent and regional discovery",
+      "membershipRule": "Taste fit plus recognized craft, festival, or critical support. This row does not use raw popularity as quality.",
+      "capturedAt": "2026-08-31",
+      "evidenceUrls": [
+        "https://www.bfi.org.uk/lists/10-great-modern-indian-independent-films",
+        "https://www.bfi.org.uk/lists/10-essential-modern-indian-film-directors",
+        "https://www.bfi.org.uk/articles/subject/indian-cinema"
+      ],
+      "identifierSources": [
+        "Cinemeta title search",
+        "Cinemeta IMDb metadata"
+      ]
+    },
+    {
+      "id": "for-you-documentary-discovery",
+      "sourceName": "Personal taste synthesis with documentary canon and awards evidence",
+      "sourceTitle": "Science, society, art, and formally ambitious documentary discovery",
+      "membershipRule": "Science-interest fit plus strong documentary-craft signals from canon polls, awards, or specialist institutions.",
+      "capturedAt": "2026-08-31",
+      "evidenceUrls": [
+        "https://www.bfi.org.uk/sight-and-sound/critics-50-greatest-documentaries-all-time",
+        "https://www.documentary.org/awards2024/nominees",
+        "https://awardsdatabase.oscars.org/"
+      ],
+      "identifierSources": [
+        "Cinemeta title search",
+        "Cinemeta IMDb metadata"
+      ]
+    },
+    {
+      "id": "for-you-prestige-tv-beyond-obvious",
+      "sourceName": "Personal taste synthesis with television-awards evidence",
+      "sourceTitle": "Prestige television beyond the broad popularity rows",
+      "membershipRule": "Taste similarity to the private series history plus writing, craft, awards, and critical signals.",
+      "capturedAt": "2026-08-31",
+      "evidenceUrls": [
+        "https://www.televisionacademy.com/awards/nominees-winners",
+        "https://peabodyawards.com/awards/search/"
+      ],
+      "identifierSources": [
+        "Cinemeta title search",
+        "Cinemeta IMDb metadata"
+      ]
+    },
+    {
+      "id": "for-you-smart-ensemble-comedy",
+      "sourceName": "Personal taste synthesis",
+      "sourceTitle": "Smart ensemble and character comedy",
+      "membershipRule": "Taste similarity to the user's ensemble sitcom history, with variety across workplace, family, political, and dramedy forms.",
+      "capturedAt": "2026-08-31",
+      "evidenceUrls": [
+        "https://www.televisionacademy.com/awards/nominees-winners",
+        "https://peabodyawards.com/awards/search/"
+      ],
+      "identifierSources": [
+        "Cinemeta title search",
+        "Cinemeta IMDb metadata"
+      ]
+    },
+    {
+      "id": "for-you-dark-strange-animation",
+      "sourceName": "Personal taste synthesis with animation-awards evidence",
+      "sourceTitle": "Dark, strange, satirical, and adult animation",
+      "membershipRule": "Taste similarity to BoJack Horseman, Rick and Morty, and South Park, with deliberate style and country diversity.",
+      "capturedAt": "2026-08-31",
+      "evidenceUrls": [
+        "https://www.televisionacademy.com/awards/nominees-winners/2025/outstanding-animated-program",
+        "https://www.televisionacademy.com/awards/nominees-winners/2024/outstanding-animated-program",
+        "https://peabodyawards.com/award-profile/south-park/"
+      ],
+      "identifierSources": [
+        "Cinemeta title search",
+        "Cinemeta IMDb metadata"
+      ]
+    },
+    {
+      "id": "comfort-animation-whimsy",
+      "sourceName": "Personal mood shelf with animation-awards evidence",
+      "sourceTitle": "Comfort animation, childhood favorites, gentle comedy, and whimsy",
+      "membershipRule": "Preserves the user's named childhood favorites and adds compatible modern animation and anime.",
+      "capturedAt": "2026-08-31",
+      "evidenceUrls": [
+        "https://peabodyawards.com/award-profile/adventure-time/",
+        "https://www.televisionacademy.com/awards/nominees-winners/2025/outstanding-animated-program"
+      ],
+      "identifierSources": [
+        "Cinemeta title search",
+        "IMDb title pages for ambiguous legacy series",
+        "Cinemeta IMDb metadata"
+      ]
+    },
+    {
+      "id": "for-you-global-arthouse-formal-discovery",
+      "sourceName": "Personal taste synthesis with Sight and Sound evidence",
+      "sourceTitle": "Global arthouse and formally important cinema",
+      "membershipRule": "Taste fit plus historical, visual, formal, or filmmaker significance. This row favors discovery over popularity.",
+      "capturedAt": "2026-08-31",
+      "evidenceUrls": [
+        "https://www.bfi.org.uk/sight-and-sound/greatest-films-all-time",
+        "https://www.bfi.org.uk/sight-and-sound/news/sight-sound-april-2023-issue"
+      ],
+      "identifierSources": [
+        "Cinemeta title search",
+        "IMDb title page for The House Is Black",
+        "Cinemeta IMDb metadata"
+      ]
+    },
+    {
       "id": "fhf-14-iconic-indian-films",
       "sourceName": "Film Heritage Foundation",
       "sourceTitle": "The Festival des 3 Continents included 14 Iconic Indian Films in the Classics Section at its 44th Edition",

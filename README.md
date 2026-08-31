@@ -70,7 +70,7 @@ https://yashgurbani.github.io/mubi-stremio-catalogs/manifest.json
 
 Do not publish empty collection shells or AI-invented “MUBI-style” memberships.
 
-## Indian cinema source-faithful catalog
+## Curated discovery catalog
 
 The repository also publishes a separate curated addon at:
 
@@ -78,8 +78,22 @@ The repository also publishes a separate curated addon at:
 https://yashgurbani.github.io/mubi-stremio-catalogs/curated/manifest.json
 ```
 
-Its first row is `14 Iconic Indian Films — FHF`. Membership follows the exact numbered Film Heritage Foundation program. The separate manifest keeps MUBI editorial membership isolated from other curated sources.
+The addon contains nine rows and 126 unique titles. It combines two different forms of curation:
+
+- eight taste-informed discovery rows for films, television, documentaries, Indian cinema, global arthouse, comedy, and animation;
+- one exact source-faithful row, `14 Iconic Indian Films — FHF`, whose membership follows the numbered Film Heritage Foundation program.
+
+The taste-informed rows exclude every exact title in the known watched-series journal and explicit watchlist. They complement Watchly instead of replacing it. Watchly remains the dynamic engine that learns from new Simkl activity.
 
 Import this manifest through AIOMetadata Custom Manifest Integration. AIOMetadata enriches the IMDb identifiers with posters and full metadata before the row reaches Stremio or Nuvio.
 
-Every curated catalog must have a provenance entry in `curated/sources.json`. The validator rejects missing source records, malformed IMDb IDs, empty rows, and duplicate items.
+Every curated catalog must have a provenance entry in `curated/sources.json`. The validator rejects missing source records, malformed IMDb IDs, empty rows, type mismatches, and duplicate items.
+
+Regenerate the taste-informed catalog payloads after an editorial change:
+
+```powershell
+node .\scripts\resolve-curated-seeds.mjs --write
+node .\scripts\validate.mjs
+```
+
+The resolver accepts only exact title-and-year matches, documented alternate titles, or explicit IMDb overrides that resolve through Cinemeta.

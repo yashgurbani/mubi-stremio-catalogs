@@ -165,7 +165,7 @@ $result = [pscustomobject]@{
             version = $catalogManifest.version
             catalogs = @($catalogChecks)
         }
-        indianCuratedAddon = [pscustomobject]@{
+        curatedDiscoveryAddon = [pscustomobject]@{
             healthy = @($curatedCatalogChecks | Where-Object { $_.resolvedItems -ne $_.items }).Count -eq 0
             version = $curatedManifest.version
             catalogs = @($curatedCatalogChecks)

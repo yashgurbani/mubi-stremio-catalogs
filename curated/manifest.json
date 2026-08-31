@@ -1,18 +1,59 @@
 {
-  "id": "org.yashgurbani.indian.cinema.fhf",
-  "version": "1.0.0",
-  "name": "Indian Cinema — Film Heritage Classics",
-  "description": "An exact 14-film Indian classics program documented by the Film Heritage Foundation. Membership is source-faithful and is not expanded by AI.",
+  "id": "org.yashgurbani.curated.discovery",
+  "version": "2.0.0",
+  "name": "Curated Discovery — Film, TV & Docs",
+  "description": "Taste-informed discovery rows for films, series, documentaries, Indian cinema, global arthouse, comedy, and animation. Official-source rows remain clearly separated from editorial synthesis.",
   "resources": [
     "catalog"
   ],
   "types": [
-    "movie"
+    "movie",
+    "series"
   ],
   "idPrefixes": [
     "tt"
   ],
   "catalogs": [
+    {
+      "type": "movie",
+      "id": "for-you-intimate-thoughtful-cinema",
+      "name": "For You — Intimate, Thoughtful Films"
+    },
+    {
+      "type": "movie",
+      "id": "for-you-indian-indie-regional",
+      "name": "For You — Indian Indie & Regional"
+    },
+    {
+      "type": "movie",
+      "id": "for-you-documentary-discovery",
+      "name": "Documentary Discovery — Science, Society & Art"
+    },
+    {
+      "type": "series",
+      "id": "for-you-prestige-tv-beyond-obvious",
+      "name": "For You — Prestige TV Beyond the Obvious"
+    },
+    {
+      "type": "series",
+      "id": "for-you-smart-ensemble-comedy",
+      "name": "Because You Liked — Smart Ensemble Comedy"
+    },
+    {
+      "type": "series",
+      "id": "for-you-dark-strange-animation",
+      "name": "Animation — Dark, Strange & Funny"
+    },
+    {
+      "type": "series",
+      "id": "comfort-animation-whimsy",
+      "name": "Comfort Animation & Whimsy"
+    },
+    {
+      "type": "movie",
+      "id": "for-you-global-arthouse-formal-discovery",
+      "name": "For You — Global Arthouse Discovery"
+    },
     {
       "type": "movie",
       "id": "fhf-14-iconic-indian-films",
