@@ -4,6 +4,8 @@
 
 The setup uses three recommendation layers instead of one opaque algorithm. Simkl stores shared history, ratings, and the personal watchlist. Watchly reads this history and produces adaptive rows. Curated Discovery supplies stable editorial rows for Indian cinema, documentaries, global arthouse, television, comedy, and animation.
 
+The focused AIOMetadata addon now exposes separate Simkl Plan to Watch rows for movies, shows, and anime. Simkl Checkin remains off. The public Gemini AI Search endpoint returns an empty result although the key passes validation. Watchly recommendations do not depend on that endpoint.
+
 Nuvio must remain the only service that writes playback progress to Simkl. AIOMetadata can read Simkl watchlists, but **Simkl Checkin must stay off**. This rule prevents duplicate or conflicting scrobbles.
 
 MovieLens remains the best available collaborative-filtering extension. AIOMetadata can import Simkl ratings into MovieLens and expose MovieLens Top Picks. The public AIOMetadata host does not reveal whether its required credential-encryption key exists. Do not make MovieLens part of the live path until a real connection succeeds.
@@ -91,7 +93,7 @@ Keep these Watchly rows near the top:
 
 ### Explicit-intent layer
 
-Simkl **Plan to Watch** is the central watchlist. It can hold movies, series, and anime. AIOMetadata can show these lists as Home rows without consuming a Trakt community-app connection.
+Simkl **Plan to Watch** is the central watchlist. It can hold movies, series, and anime. AIOMetadata shows these lists as Home rows without consuming a Trakt community-app connection.
 
 The initial private CSV contains 14 exact IMDb identifiers from the explicit movie watchlist. The uncertain companion-anime pair remains excluded until its identity is confirmed.
 

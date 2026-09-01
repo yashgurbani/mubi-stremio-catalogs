@@ -17,19 +17,22 @@ The codec exclusions match the Philips 43PUS7363/12. The television supports HDR
 
 ## Addon order
 
-1. Watchly
-2. AIOMetadata
+1. AIOMetadata — Simkl Watchlist & AI Search
+2. Watchly
 3. Curated Discovery — Film, TV & Docs
 4. MUBI Editorial Collections — DE Snapshot
-5. Festival Favourites
-6. OpenSubtitles v3
-7. AIOStreams
-8. Cinemeta
-9. Indian Regional Catalog
-10. Stremify HTTP — Direct Fallback
-11. Sootio HTTP
+5. TMDB Discover+ — Festival Favourites
+6. AIOMetadata (protected legacy catalogs)
+7. OpenSubtitles v3
+8. AIOStreams
+9. Cinemeta
+10. Indian Regional Catalog
+11. Stremify HTTP — Direct Fallback
+12. Sootio HTTP
 
-The live Nuvio Sync account matches this eleven-addon order. Watchly and AIOMetadata lead the list. Sootio remains last.
+The live Nuvio Sync account matches this twelve-addon order. The three Simkl watchlist rows lead the list. Watchly follows with personalized rows. Sootio remains last.
+
+The protected AIOMetadata manifest still supplies live Netflix, canon, MUBI/BFI/Criterion, hidden-gem, and legacy watchlist rows. It also contains redundant search and discovery rows. Keep it below the focused addons until these distinct rows have replacements. Do not remove it only to reduce the addon count.
 
 The public AIOStreams host does not collect Torrentio, AnimeKitsu, torrent-catalog, P2P, or HTTP streams. A direct Real-Debrid provider remains the planned gap-filler after AIOStreams.
 
@@ -147,11 +150,15 @@ The Nuvio Sync library contains two saved movies. It is not the requested centra
 
 Simkl **Plan to Watch** is the preferred central watchlist. The public AIOMetadata instance exposes a built-in Simkl OAuth client. Simkl documents AIOMetadata as a free route for watchlist catalogs and check-in.
 
-The live AIOMetadata manifest currently contains a 41-item MDBList `Your Watchlist` row. It contains no Simkl watchlist rows. Add `Simkl Plan to Watch Movies`, `Simkl Plan to Watch Shows`, and `Simkl Plan to Watch Anime` after the protected configuration is loaded. Keep Simkl Checkin off.
+The focused AIOMetadata manifest exposes `Simkl Plan to Watch Movies`, `Simkl Plan to Watch Shows`, and `Simkl Plan to Watch Anime`. Simkl Checkin is off. The movie and anime rows are populated. The show row is empty until the user adds a show to Simkl Plan to Watch.
+
+The protected AIOMetadata manifest retains a 41-item MDBList `Your Watchlist` row. Treat it as a secondary imported list. Simkl Plan to Watch is the central dynamic watchlist.
+
+Normal movie, series, anime, collection, and people search endpoints return live results. Gemini authentication succeeds, but the public AIOMetadata AI Search endpoint currently returns an empty result. Watchly still uses Gemini for its adaptive catalog names and Simkl-based recommendations. Do not describe AIOMetadata AI Search as operational until a live query returns titles.
 
 ## Update gates
 
-- Do not reinstall AIOMetadata until the public instance reaches v2.16.3 or later.
+- Keep the focused AIOMetadata configuration while the public instance remains on v2.16.2.
 - Do not describe MovieLens as active until a real connection succeeds or the host documents the capability.
 - Do not replace official MUBI collection membership with inferred titles.
 - Do not save or publish private configuration URLs.

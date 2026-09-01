@@ -1,6 +1,6 @@
 # MUBI Editorial Collections — Nuvio Catalog Addon
 
-This is a static, source-faithful Nuvio catalog addon for three MUBI Germany editorial collections captured on 31 August 2026. It uses the Stremio-compatible addon protocol that Nuvio supports.
+This is a static, source-faithful Nuvio catalog addon for two MUBI Germany editorial collections captured on 31 August 2026. It uses the Stremio-compatible addon protocol that Nuvio supports.
 
 It contains:
 
@@ -13,7 +13,7 @@ Every title is resolved to a specific TMDB ID. The addon does not generate, infe
 
 ## Intended deployment
 
-Publish this directory as a static HTTPS site whose root serves `manifest.json`. AIOMetadata can then import the manifest through **Custom Manifest Integration** and place the three catalogs at the end of Home.
+Publish this directory as a static HTTPS site whose root serves `manifest.json`. Nuvio can install the manifest directly and place the two catalogs near the end of Home.
 
 GitHub Pages is sufficient because every collection contains fewer than 20 titles. No server, API key, database, Trakt connection, or MDBList slot is required.
 
@@ -60,6 +60,8 @@ The full evidence ledger and maintenance decisions are in [DEEP-RESEARCH-2026-08
 The row-quality scorecard and regional discovery policy are in [CATALOG-QUALITY-AUDIT-2026-08-31.md](CATALOG-QUALITY-AUDIT-2026-08-31.md).
 
 The real-account comparison and remaining completion gates are in [LIVE-ACCOUNT-AUDIT-2026-08-31.md](LIVE-ACCOUNT-AUDIT-2026-08-31.md).
+
+The current live-state and requirement matrix are in [COMPLETION-AUDIT-2026-09-01.md](COMPLETION-AUDIT-2026-09-01.md).
 
 The included workflow validates all catalog payloads before deployment. After explicit approval to create the public repository, run from this directory:
 
