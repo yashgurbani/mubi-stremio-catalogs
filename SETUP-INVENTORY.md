@@ -141,9 +141,9 @@ The Indian Regional Catalog is a breadth and freshness source. A live first-page
 
 The private taste profile defines ten stable discovery lanes. These lanes cover relationship stories, diaspora and identity, systems and power, science, ensemble comedy, animation, Indian cinema, global arthouse, and documentaries. Watchly remains the dynamic personal engine. Its target discovery style is **Balanced**. Separate hidden-gem and editorial rows preserve serendipity.
 
-The separate curated manifest now contains ten rows and 183 unique titles. Nine rows turn the private taste profile into film, television, documentary-film, documentary-series, Indian-cinema, arthouse, comedy, and animation shelves. The tenth row preserves the exact Film Heritage Foundation program `14 Iconic Indian Films — FHF`.
+The separate curated manifest now contains eleven rows and 210 unique titles. It adds the high-priority `Images That Teach You to See` visual-film-education row. The other rows turn the private taste profile into film, television, documentary-film, documentary-series, Indian-cinema, arthouse, comedy, and animation shelves. The Film Heritage Foundation row remains exact.
 
-The curated rows contain no exact match from the known watched-series journal or explicit watchlist. Import the manifest through AIOMetadata so that its IMDb identifiers receive full posters and metadata. Keep the exact FHF row before raw regional latest-release catalogs.
+The curated rows contain poster, background, rating, genre, country, and director metadata for direct Nuvio rendering. They contain no exact match from the known watched-series journal or explicit watchlist. Keep the visual-education row and exact FHF row before raw regional latest-release catalogs.
 
 The live Nuvio TV settings use **Classic View** and follow the installed addon order.
 

@@ -4,145 +4,458 @@
       "id": "tt3717068",
       "type": "movie",
       "name": "Court",
-      "releaseInfo": "2014"
+      "releaseInfo": "2014",
+      "poster": "https://images.metahub.space/poster/small/tt3717068/img",
+      "background": "https://images.metahub.space/background/medium/tt3717068/img",
+      "logo": "https://images.metahub.space/logo/medium/tt3717068/img",
+      "description": "When an aging activist is arrested, the lives of the accused, the lawyers, and the judge intertwine to reveal bigotry that underscores the judicial system.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "7.6",
+      "country": "India",
+      "director": [
+        "Chaitanya Tamhane"
+      ]
     },
     {
       "id": "tt3614516",
       "type": "movie",
       "name": "Ankhon Dekhi",
-      "releaseInfo": "2013"
+      "releaseInfo": "2013",
+      "poster": "https://images.metahub.space/poster/small/tt3614516/img",
+      "background": "https://images.metahub.space/background/medium/tt3614516/img",
+      "logo": "https://images.metahub.space/logo/medium/tt3614516/img",
+      "description": "After a distressing incident, a Delhi man vows to believe only what he can see, but his new ideals soon take his life in extreme directions.",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "imdbRating": "7.9",
+      "country": "India",
+      "director": [
+        "Rajat Kapoor"
+      ]
     },
     {
       "id": "tt4636068",
       "type": "movie",
       "name": "The Fourth Direction",
-      "releaseInfo": "2015"
+      "releaseInfo": "2015",
+      "poster": "https://live.metahub.space/poster/small/tt4636068/img",
+      "background": "https://live.metahub.space/background/medium/tt4636068/img",
+      "logo": "https://live.metahub.space/logo/medium/tt4636068/img",
+      "description": "Fear and paranoia pervade life in rural Punjab of the ’80s, before and after Operation Blue Star, as separatists clash with security forces.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "6.6",
+      "country": "India, France",
+      "director": [
+        "Gurvinder Singh"
+      ]
     },
     {
       "id": "tt8239946",
       "type": "movie",
       "name": "Tumbbad",
-      "releaseInfo": "2018"
+      "releaseInfo": "2018",
+      "poster": "https://images.metahub.space/poster/small/tt8239946/img",
+      "background": "https://images.metahub.space/background/medium/tt8239946/img",
+      "logo": "https://images.metahub.space/logo/medium/tt8239946/img",
+      "description": "A mythological story about a goddess who created the entire universe. The plot revolves around the consequences when humans build a temple for her first-born.",
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "imdbRating": "8.2",
+      "country": "India, Sweden",
+      "director": [
+        "Rahi Anil Barve",
+        "Anand Gandhi",
+        "Adesh Prasad"
+      ]
     },
     {
       "id": "tt5312232",
       "type": "movie",
       "name": "Sairat",
-      "releaseInfo": "2016"
+      "releaseInfo": "2016",
+      "poster": "https://images.metahub.space/poster/small/tt5312232/img",
+      "background": "https://images.metahub.space/background/medium/tt5312232/img",
+      "logo": "https://images.metahub.space/logo/medium/tt5312232/img",
+      "description": "In interior Maharashtra, a fisherman's son and a local politician's daughter fall in love against the restrictions of caste hierarchy.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "imdbRating": "8.3",
+      "country": "India",
+      "director": [
+        "Nagraj Manjule"
+      ]
     },
     {
       "id": "tt2827320",
       "type": "movie",
       "name": "Fandry",
-      "releaseInfo": "2013"
+      "releaseInfo": "2013",
+      "poster": "https://images.metahub.space/poster/small/tt2827320/img",
+      "background": "https://images.metahub.space/background/medium/tt2827320/img",
+      "logo": "https://images.metahub.space/logo/medium/tt2827320/img",
+      "description": "It is about a teenager from a Dalit (Oppressed caste) family, who lives at the village fringe, and falls in love with an upper caste girl.",
+      "genres": [
+        "Drama",
+        "Family"
+      ],
+      "imdbRating": "8.2",
+      "country": "India",
+      "director": [
+        "Nagraj Manjule"
+      ]
     },
     {
       "id": "tt3341582",
       "type": "movie",
       "name": "Killa",
-      "releaseInfo": "2014"
+      "releaseInfo": "2014",
+      "poster": "https://images.metahub.space/poster/small/tt3341582/img",
+      "background": "https://images.metahub.space/background/medium/tt3341582/img",
+      "logo": "https://images.metahub.space/logo/medium/tt3341582/img",
+      "description": "A 11-year-old Indian boy who has just lost his father is forced to adapt to a new school in a small village. The story is about how he copes up and how life has to move on transforming a young mind into an adult day by day.",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "imdbRating": "7.8",
+      "country": "India",
+      "director": [
+        "Avinash Arun"
+      ]
     },
     {
       "id": "tt7019942",
       "type": "movie",
       "name": "Super Deluxe",
-      "releaseInfo": "2019"
+      "releaseInfo": "2019",
+      "poster": "https://images.metahub.space/poster/small/tt7019942/img",
+      "background": "https://images.metahub.space/background/medium/tt7019942/img",
+      "logo": "https://images.metahub.space/logo/medium/tt7019942/img",
+      "description": "An unfaithful newly-wed wife, an estranged father, a priest and an angry son suddenly find themselves in the most unexpected predicaments, each poised to experience their destiny, all on one fateful day.",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Drama"
+      ],
+      "imdbRating": "8.2",
+      "country": "India",
+      "director": [
+        "Thiagarajan Kumararaja"
+      ]
     },
     {
       "id": "tt8413338",
       "type": "movie",
       "name": "Kumbalangi Nights",
-      "releaseInfo": "2019"
+      "releaseInfo": "2019",
+      "poster": "https://images.metahub.space/poster/small/tt8413338/img",
+      "background": "https://images.metahub.space/background/medium/tt8413338/img",
+      "logo": "https://images.metahub.space/logo/medium/tt8413338/img",
+      "description": "The film revolves around four brothers who share a love-hate relationship with each other. Their relationship progresses to another level when Saji, Boney, and Franky decide to help Bobby stand by his love.",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "imdbRating": "8.5",
+      "country": "India",
+      "director": [
+        "Madhu C. Narayanan"
+      ]
     },
     {
       "id": "tt4881362",
       "type": "movie",
       "name": "Thithi",
-      "releaseInfo": "2015"
+      "releaseInfo": "2015",
+      "poster": "https://images.metahub.space/poster/small/tt4881362/img",
+      "background": "https://images.metahub.space/background/medium/tt4881362/img",
+      "logo": "https://images.metahub.space/logo/medium/tt4881362/img",
+      "description": "In a South Indian village, a centenarian's funeral brings together his free-spirited son, inheritance-hungry grandson and girl-crazy great-grandson.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "8.1",
+      "country": "India, United States",
+      "director": [
+        "Raam Reddy"
+      ]
     },
     {
       "id": "tt7231194",
       "type": "movie",
       "name": "R.I.P.",
-      "releaseInfo": "2018"
+      "releaseInfo": "2018",
+      "poster": "https://images.metahub.space/poster/small/tt7231194/img",
+      "background": "https://images.metahub.space/background/medium/tt7231194/img",
+      "logo": "https://images.metahub.space/logo/medium/tt7231194/img",
+      "description": "Set in Chellanam, Kochi, the story of Ee. Ma. Yau revolves around the death of Vavachan Mesthiri in a coastal village. It showcases the events that unfold between two evenings and looks at death from different perspectives.",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "imdbRating": "8.2",
+      "country": "India",
+      "director": [
+        "Lijo Jose Pellissery"
+      ]
     },
     {
       "id": "tt11423784",
       "type": "movie",
       "name": "The Disciple",
-      "releaseInfo": "2020"
+      "releaseInfo": "2020",
+      "poster": "https://images.metahub.space/poster/small/tt11423784/img",
+      "background": "https://images.metahub.space/background/medium/tt11423784/img",
+      "logo": "https://images.metahub.space/logo/medium/tt11423784/img",
+      "description": "Self-doubt, sacrifice and struggle converge into an existential crisis for a devoted classical vocalist as the mastery he strives for remains elusive.",
+      "genres": [
+        "Drama",
+        "Music"
+      ],
+      "imdbRating": "7.1",
+      "country": "India",
+      "director": [
+        "Chaitanya Tamhane"
+      ]
     },
     {
       "id": "tt3973410",
       "type": "movie",
       "name": "The Crow's Egg",
-      "releaseInfo": "2014"
+      "releaseInfo": "2014",
+      "poster": "https://images.metahub.space/poster/small/tt3973410/img",
+      "background": "https://images.metahub.space/background/medium/tt3973410/img",
+      "logo": "https://images.metahub.space/logo/medium/tt3973410/img",
+      "description": "Two slum kids yearn to taste a pizza after being enticed by the pizza shop that has opened near their locality. What happens when they manage to find the money to buy one?",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "imdbRating": "8.3",
+      "country": "India",
+      "director": [
+        "M. Manikandan"
+      ]
     },
     {
       "id": "tt7297966",
       "type": "movie",
       "name": "Village Rockstars",
-      "releaseInfo": "2017"
+      "releaseInfo": "2017",
+      "poster": "https://images.metahub.space/poster/small/tt7297966/img",
+      "background": "https://images.metahub.space/background/medium/tt7297966/img",
+      "logo": "https://images.metahub.space/logo/medium/tt7297966/img",
+      "description": "In small-town Assam, the 10-year-old daughter of a widow defies societal norms as she befriends a group of boys and dreams of having her own rock band.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "7.2",
+      "country": "India",
+      "director": [
+        "Rima Das"
+      ]
     },
     {
       "id": "tt9010522",
       "type": "movie",
       "name": "Ravening",
-      "releaseInfo": "2019"
+      "releaseInfo": "2019",
+      "poster": "https://images.metahub.space/poster/small/tt9010522/img",
+      "background": "https://images.metahub.space/background/medium/tt9010522/img",
+      "logo": "https://images.metahub.space/logo/medium/tt9010522/img",
+      "description": "Two chaste lovers bow down to social taboos and repress their feelings, but doing so pushes them towards a horrific crime.",
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "imdbRating": "7.8",
+      "country": "India",
+      "director": [
+        "Bhaskar Hazarika"
+      ]
     },
     {
       "id": "tt32086077",
       "type": "movie",
       "name": "All We Imagine as Light",
-      "releaseInfo": "2024"
+      "releaseInfo": "2024",
+      "poster": "https://images.metahub.space/poster/small/tt32086077/img",
+      "background": "https://images.metahub.space/background/medium/tt32086077/img",
+      "logo": "https://images.metahub.space/logo/medium/tt32086077/img",
+      "description": "In Mumbai, Nurse Prabha's routine is troubled when she receives an unexpected gift from her estranged husband. Her younger roommate, Anu, tries in vain to find a spot in the city to be intimate with her boyfriend.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "imdbRating": "7.0",
+      "country": "France, India, Netherlands, Luxembourg, Italy, Switzerland, United States, Belgium",
+      "director": [
+        "Payal Kapadia"
+      ]
     },
     {
       "id": "tt18277182",
       "type": "movie",
       "name": "Girls Will Be Girls",
-      "releaseInfo": "2024"
+      "releaseInfo": "2024",
+      "poster": "https://images.metahub.space/poster/small/tt18277182/img",
+      "background": "https://images.metahub.space/background/medium/tt18277182/img",
+      "logo": "https://images.metahub.space/logo/medium/tt18277182/img",
+      "description": "At a strict boarding school nestled in the Himalayan foothills, 18 year old Mira first discovers desire and romance. However, her curious, rebellious, coming-of-age is disrupted by her young mother, who never got to come of age he...",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "imdbRating": "7.1",
+      "country": "India",
+      "director": [
+        "Shuchi Talati"
+      ]
     },
     {
       "id": "tt13710226",
       "type": "movie",
       "name": "Pebbles",
-      "releaseInfo": "2021"
+      "releaseInfo": "2021",
+      "poster": "https://images.metahub.space/poster/small/tt13710226/img",
+      "background": "https://images.metahub.space/background/medium/tt13710226/img",
+      "logo": "https://images.metahub.space/logo/medium/tt13710226/img",
+      "description": "A young boy travels with his violent and alcoholic father to bring back his mother, who has run away from home due to his abuse.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "6.9",
+      "country": "India",
+      "director": [
+        "P.S. Vinothraj"
+      ]
     },
     {
       "id": "tt9890308",
       "type": "movie",
       "name": "Nasir",
-      "releaseInfo": "2020"
+      "releaseInfo": "2020",
+      "poster": "https://live.metahub.space/poster/small/tt9890308/img",
+      "background": "https://live.metahub.space/background/medium/tt9890308/img",
+      "logo": "https://live.metahub.space/logo/medium/tt9890308/img",
+      "description": "Follows Nasir, a middle-aged street salesman, who belongs to the Islamic minority and who lives with his mother Fatima, his wife Taj and his cousin Iqbal in a densely populated ghetto. As his day unfolds we find him to be a nimble romantic, marshalling a love of love, song, children, friendship, and even God to rise into something resembling a life well lived. But the increasing communal bigotry has other plans.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "7.1",
+      "country": "India, Netherlands, Singapore",
+      "director": [
+        "Arun Karthick"
+      ]
     },
     {
       "id": "tt27080561",
       "type": "movie",
       "name": "The Adamant Girl",
-      "releaseInfo": "2024"
+      "releaseInfo": "2024",
+      "poster": "https://live.metahub.space/poster/small/tt27080561/img",
+      "background": "https://live.metahub.space/background/medium/tt27080561/img",
+      "logo": "https://live.metahub.space/logo/medium/tt27080561/img",
+      "description": "A family decides to visit their clan God to cure their daughter, thought to be possessed because she is in love with a man from a different caste. The journey, accompanied by her betrothed, unveils tensions between tradition and personal freedom, exposing her silent rebellion.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "6.6",
+      "country": "India",
+      "director": [
+        "P. S. Vinothraj"
+      ]
     },
     {
       "id": "tt27302079",
       "type": "movie",
       "name": "Aattam",
-      "releaseInfo": "2023"
+      "releaseInfo": "2023",
+      "poster": "https://images.metahub.space/poster/small/tt27302079/img",
+      "background": "https://images.metahub.space/background/medium/tt27302079/img",
+      "logo": "https://images.metahub.space/logo/medium/tt27302079/img",
+      "description": "After a party amongst a theatre group, their sole actress, Anjali is subjected to a crime from one of the men in the group. A meeting is called for. In trying to reach a consensus, stories unravel, suspicions surface and clamour e...",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "imdbRating": "8.2",
+      "country": "India",
+      "director": [
+        "Anand Ekarshi"
+      ]
     },
     {
       "id": "tt23864864",
       "type": "movie",
       "name": "Joram",
-      "releaseInfo": "2023"
+      "releaseInfo": "2023",
+      "poster": "https://live.metahub.space/poster/small/tt23864864/img",
+      "background": "https://live.metahub.space/background/medium/tt23864864/img",
+      "logo": "https://live.metahub.space/logo/medium/tt23864864/img",
+      "description": "A father is on the run with his little baby girl to escape the ghosts of his past and the forces that want him dead.",
+      "genres": [
+        "Adventure",
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "imdbRating": "6.5",
+      "country": "India",
+      "director": [
+        "Devashish Makhija"
+      ]
     },
     {
       "id": "tt23804378",
       "type": "movie",
       "name": "Three of Us",
-      "releaseInfo": "2022"
+      "releaseInfo": "2022",
+      "poster": "https://live.metahub.space/poster/small/tt23804378/img",
+      "background": "https://live.metahub.space/background/medium/tt23804378/img",
+      "logo": "https://live.metahub.space/logo/medium/tt23804378/img",
+      "description": "Shailaja embarks on a confrontational journey with her husband and childhood-love as she finds herself at the cusp of her past, present and future. Stitched with a very delicate thread of emotions, this film is about love, loss, healing, awareness and liberation.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "7.5",
+      "country": "India",
+      "director": [
+        "Avinash Arun"
+      ]
     },
     {
       "id": "tt13299890",
       "type": "movie",
       "name": "The Great Indian Kitchen",
-      "releaseInfo": "2021"
+      "releaseInfo": "2021",
+      "poster": "https://images.metahub.space/poster/small/tt13299890/img",
+      "background": "https://images.metahub.space/background/medium/tt13299890/img",
+      "logo": "https://images.metahub.space/logo/medium/tt13299890/img",
+      "description": "After marriage, a woman struggles to be the submissive wife that her husband and his family expect her to be. The story follows her journey, as she changes herself and, even more so, changes the household.",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "imdbRating": "8.1",
+      "country": "India",
+      "director": [
+        "Jeo Baby"
+      ]
     }
   ]
 }

@@ -4,157 +4,451 @@
       "id": "tt11280740",
       "type": "series",
       "name": "Severance",
-      "releaseInfo": "2022-"
+      "releaseInfo": "2022-",
+      "poster": "https://images.metahub.space/poster/small/tt11280740/img",
+      "background": "https://images.metahub.space/background/medium/tt11280740/img",
+      "logo": "https://images.metahub.space/logo/medium/tt11280740/img",
+      "description": "Mark leads a team of office workers whose memories have been surgically divided between their work and personal lives. When a mysterious colleague appears outside of work, it begins a journey to discover the truth about their jobs.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi"
+      ],
+      "imdbRating": "8.6",
+      "country": "United States",
+      "director": []
     },
     {
       "id": "tt2699128",
       "type": "series",
       "name": "The Leftovers",
-      "releaseInfo": "2014-2017"
+      "releaseInfo": "2014-2017",
+      "poster": "https://images.metahub.space/poster/small/tt2699128/img",
+      "background": "https://images.metahub.space/background/medium/tt2699128/img",
+      "logo": "https://images.metahub.space/logo/medium/tt2699128/img",
+      "description": "Three years after the disappearance of 2% of the global human population, a group of people in a small New York community try to continue their lives while coping with the tragedy of the unexplained nature of the event.",
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Mystery"
+      ],
+      "imdbRating": "8.3",
+      "country": "United States",
+      "director": null
     },
     {
       "id": "tt2149175",
       "type": "series",
       "name": "The Americans",
-      "releaseInfo": "2013-2018"
+      "releaseInfo": "2013-2018",
+      "poster": "https://images.metahub.space/poster/small/tt2149175/img",
+      "background": "https://images.metahub.space/background/medium/tt2149175/img",
+      "logo": "https://images.metahub.space/logo/medium/tt2149175/img",
+      "description": "At the height of the Cold War, married KGB spies pose as Americans in Washington, D.C.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "imdbRating": "8.4",
+      "country": "United States",
+      "director": null
     },
     {
       "id": "tt2543312",
       "type": "series",
       "name": "Halt and Catch Fire",
-      "releaseInfo": "2014-2017"
+      "releaseInfo": "2014-2017",
+      "poster": "https://images.metahub.space/poster/small/tt2543312/img",
+      "background": "https://images.metahub.space/background/medium/tt2543312/img",
+      "logo": "https://images.metahub.space/logo/medium/tt2543312/img",
+      "description": "Follows some players in the 80s technological revolution that lead to information society.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "8.4",
+      "country": "United States",
+      "director": null
     },
     {
       "id": "tt3032476",
       "type": "series",
       "name": "Better Call Saul",
-      "releaseInfo": "2015-2022"
+      "releaseInfo": "2015-2022",
+      "poster": "https://images.metahub.space/poster/small/tt3032476/img",
+      "background": "https://images.metahub.space/background/medium/tt3032476/img",
+      "logo": "https://images.metahub.space/logo/medium/tt3032476/img",
+      "description": "Albuquerque lawyer Jimmy McGill scrapes for clients and respect, but every win drags him closer to shady deals, dangerous players, and the alter ego Saul Goodman.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "imdbRating": "9.0",
+      "country": "United States",
+      "director": null
     },
     {
       "id": "tt7660850",
       "type": "series",
       "name": "Succession",
-      "releaseInfo": "2018-2023"
+      "releaseInfo": "2018-2023",
+      "poster": "https://images.metahub.space/poster/small/tt7660850/img",
+      "background": "https://images.metahub.space/background/medium/tt7660850/img",
+      "logo": "https://images.metahub.space/logo/medium/tt7660850/img",
+      "description": "The Roy family is known for controlling the biggest media and entertainment company in the world. However, their world changes when their father steps down from the company.",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "imdbRating": "8.8",
+      "country": "United States",
+      "director": []
     },
     {
       "id": "tt8888462",
       "type": "series",
       "name": "Pachinko",
-      "releaseInfo": "2022–"
+      "releaseInfo": "2022–",
+      "poster": "https://images.metahub.space/poster/small/tt8888462/img",
+      "background": "https://images.metahub.space/background/medium/tt8888462/img",
+      "logo": "https://images.metahub.space/logo/medium/tt8888462/img",
+      "description": "Based on the New York Times bestseller, this sweeping saga chronicles the hopes and dreams of a Korean immigrant family across four generations as they leave their homeland in an indomitable quest to survive and thrive.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "8.4",
+      "country": "South Korea, Canada, United States",
+      "director": []
     },
     {
       "id": "tt10574236",
       "type": "series",
       "name": "Station Eleven",
-      "releaseInfo": "2021-2022"
+      "releaseInfo": "2021-2022",
+      "poster": "https://images.metahub.space/poster/small/tt10574236/img",
+      "background": "https://images.metahub.space/background/medium/tt10574236/img",
+      "logo": "https://images.metahub.space/logo/medium/tt10574236/img",
+      "description": "A post apocalyptic saga spanning multiple timelines, telling the stories of survivors of a devastating flu as they attempt to rebuild and reimagine the world anew while holding on to the best of what's been lost.",
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Fantasy"
+      ],
+      "imdbRating": "7.5",
+      "country": "United States",
+      "director": []
     },
     {
       "id": "tt4063800",
       "type": "series",
       "name": "The Bureau",
-      "releaseInfo": "2015-2020"
+      "releaseInfo": "2015-2020",
+      "poster": "https://images.metahub.space/poster/small/tt4063800/img",
+      "background": "https://images.metahub.space/background/medium/tt4063800/img",
+      "logo": "https://images.metahub.space/logo/medium/tt4063800/img",
+      "description": "A very unique and captivating series about the \"bureau des légendes\", the mythical powerhouse within the French Secret Service and its dare devil ghost agents.",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "imdbRating": "8.7",
+      "country": "France",
+      "director": null
     },
     {
       "id": "tt13623580",
       "type": "series",
       "name": "Reservation Dogs",
-      "releaseInfo": "2021-2023"
+      "releaseInfo": "2021-2023",
+      "poster": "https://images.metahub.space/poster/small/tt13623580/img",
+      "background": "https://images.metahub.space/background/medium/tt13623580/img",
+      "logo": "https://images.metahub.space/logo/medium/tt13623580/img",
+      "description": "Comedy series about four Native American teenagers growing up on a reservation in eastern Oklahoma.",
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "imdbRating": "8.3",
+      "country": "United States",
+      "director": []
     },
     {
       "id": "tt14452776",
       "type": "series",
       "name": "The Bear",
-      "releaseInfo": "2022-2026"
+      "releaseInfo": "2022-2026",
+      "poster": "https://images.metahub.space/poster/small/tt14452776/img",
+      "background": "https://images.metahub.space/background/medium/tt14452776/img",
+      "logo": "https://images.metahub.space/logo/medium/tt14452776/img",
+      "description": "A young chef from the fine dining world returns to Chicago to run his family's sandwich shop.",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "imdbRating": "8.5",
+      "country": "United States",
+      "director": []
     },
     {
       "id": "tt2937900",
       "type": "series",
       "name": "The Knick",
-      "releaseInfo": "2014-2015"
+      "releaseInfo": "2014-2015",
+      "poster": "https://images.metahub.space/poster/small/tt2937900/img",
+      "background": "https://images.metahub.space/background/medium/tt2937900/img",
+      "logo": "https://images.metahub.space/logo/medium/tt2937900/img",
+      "description": "Set in New York in 1900, The Knick centers around the groundbreaking Knickerbocker Hospital.",
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "imdbRating": "8.4",
+      "country": "United States",
+      "director": null
     },
     {
       "id": "tt2183404",
       "type": "series",
       "name": "Rectify",
-      "releaseInfo": "2013-2016"
+      "releaseInfo": "2013-2016",
+      "poster": "https://images.metahub.space/poster/small/tt2183404/img",
+      "background": "https://images.metahub.space/background/medium/tt2183404/img",
+      "logo": "https://images.metahub.space/logo/medium/tt2183404/img",
+      "description": "Daniel Holden must put his life back together after serving 19 years on Georgia's Death Row before DNA evidence calls his conviction into question.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "8.3",
+      "country": "United States",
+      "director": null
     },
     {
       "id": "tt9253284",
       "type": "series",
       "name": "Andor",
-      "releaseInfo": "2022-2025"
+      "releaseInfo": "2022-2025",
+      "poster": "https://images.metahub.space/poster/small/tt9253284/img",
+      "background": "https://images.metahub.space/background/medium/tt9253284/img",
+      "logo": "https://images.metahub.space/logo/medium/tt9253284/img",
+      "description": "In an era filled with danger, deception, and intrigue, Cassian Andor embarks on a path that is destined to turn him into a Rebel hero.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "imdbRating": "8.6",
+      "country": "United States",
+      "director": []
     },
     {
       "id": "tt9398466",
       "type": "series",
       "name": "Delhi Crime",
-      "releaseInfo": "2019-"
+      "releaseInfo": "2019-",
+      "poster": "https://images.metahub.space/poster/small/tt9398466/img",
+      "background": "https://images.metahub.space/background/medium/tt9398466/img",
+      "logo": "https://images.metahub.space/logo/medium/tt9398466/img",
+      "description": "Based on the Nirbhaya case, Delhi Crime follows the Delhi Police investigation into the finding of the men who perpetrated this crime.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "imdbRating": "8.5",
+      "country": "India, United States",
+      "director": []
     },
     {
       "id": "tt9680440",
       "type": "series",
       "name": "Paatal Lok",
-      "releaseInfo": "2020-"
+      "releaseInfo": "2020-",
+      "poster": "https://images.metahub.space/poster/small/tt9680440/img",
+      "background": "https://images.metahub.space/background/medium/tt9680440/img",
+      "logo": "https://images.metahub.space/logo/medium/tt9680440/img",
+      "description": "A down-and-out cop lands the case of a lifetime when four suspects are nabbed in the assassination attempt of a journalist. The pursuit leads him to 'Paatal Lok' and to shocking discoveries in the four suspects' pasts.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "imdbRating": "8.1",
+      "country": "India",
+      "director": []
     },
     {
       "id": "tt27853283",
       "type": "series",
       "name": "Kohrra",
-      "releaseInfo": "2023-"
+      "releaseInfo": "2023-",
+      "poster": "https://images.metahub.space/poster/small/tt27853283/img",
+      "background": "https://images.metahub.space/background/medium/tt27853283/img",
+      "logo": "https://images.metahub.space/logo/medium/tt27853283/img",
+      "description": "When a bridegroom is found dead days before his wedding, two police officers must unravel the troubling case as turbulence unfolds in their own lives and threatens to ruin the case.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "imdbRating": "7.5",
+      "country": "India",
+      "director": []
     },
     {
       "id": "tt20873118",
       "type": "series",
       "name": "Suzhal - The Vortex",
-      "releaseInfo": "2022-"
+      "releaseInfo": "2022-",
+      "poster": "https://images.metahub.space/poster/small/tt20873118/img",
+      "background": "https://images.metahub.space/background/medium/tt20873118/img",
+      "logo": "https://images.metahub.space/logo/medium/tt20873118/img",
+      "description": "In a small South Indian town, a seemingly routine minor case explodes into a twisted crime thriller that rips apart its social fabric.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "imdbRating": "8.2",
+      "country": "India",
+      "director": []
     },
     {
       "id": "tt7278862",
       "type": "series",
       "name": "My Brilliant Friend",
-      "releaseInfo": "2018-2024"
+      "releaseInfo": "2018-2024",
+      "poster": "https://images.metahub.space/poster/small/tt7278862/img",
+      "background": "https://images.metahub.space/background/medium/tt7278862/img",
+      "logo": "https://images.metahub.space/logo/medium/tt7278862/img",
+      "description": "A woman recounts the lifelong friendship and conflicts with a girl she met at primary school in Naples during the early 1950s.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "8.6",
+      "country": "Italy, United States",
+      "director": []
     },
     {
       "id": "tt4378376",
       "type": "series",
       "name": "Babylon Berlin",
-      "releaseInfo": "2017–"
+      "releaseInfo": "2017–",
+      "poster": "https://images.metahub.space/poster/small/tt4378376/img",
+      "background": "https://images.metahub.space/background/medium/tt4378376/img",
+      "logo": "https://images.metahub.space/logo/medium/tt4378376/img",
+      "description": "Colognian commissioner Gereon Rath moves to Berlin, the epicenter of political and social changes in the Golden Twenties.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "imdbRating": "8.4",
+      "country": "Germany",
+      "director": []
     },
     {
       "id": "tt1526318",
       "type": "series",
       "name": "Borgen",
-      "releaseInfo": "2010-2022"
+      "releaseInfo": "2010-2022",
+      "poster": "https://images.metahub.space/poster/small/tt1526318/img",
+      "background": "https://images.metahub.space/background/medium/tt1526318/img",
+      "logo": "https://images.metahub.space/logo/medium/tt1526318/img",
+      "description": "A political drama about a prime minister's rise to power, and how power changes a prime minister.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "8.5",
+      "country": "Denmark",
+      "director": null
     },
     {
       "id": "tt1733785",
       "type": "series",
       "name": "The Bridge",
-      "releaseInfo": "2011-2018"
+      "releaseInfo": "2011-2018",
+      "poster": "https://images.metahub.space/poster/small/tt1733785/img",
+      "background": "https://images.metahub.space/background/medium/tt1733785/img",
+      "logo": "https://images.metahub.space/logo/medium/tt1733785/img",
+      "description": "When a body is found on the bridge between Denmark and Sweden, right on the border, Danish inspector Martin Rohde and Swedish Saga Norén have to share jurisdiction and work together to find the killer.",
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "imdbRating": "8.6",
+      "country": "Sweden, Denmark, Germany, Norway",
+      "director": null
     },
     {
       "id": "tt7923710",
       "type": "series",
       "name": "My Mister",
-      "releaseInfo": "2018"
+      "releaseInfo": "2018",
+      "poster": "https://images.metahub.space/poster/small/tt7923710/img",
+      "background": "https://images.metahub.space/background/medium/tt7923710/img",
+      "logo": "https://images.metahub.space/logo/medium/tt7923710/img",
+      "description": "A man in his 40s withstands the weight of life. A woman in her 20s goes through different experiences, but also withstands the weight of her life. The man and woman get together to help each other.",
+      "genres": [
+        "Drama",
+        "Family"
+      ],
+      "imdbRating": "9.0",
+      "country": "South Korea",
+      "director": []
     },
     {
       "id": "tt8001106",
       "type": "series",
       "name": "Giri/Haji",
-      "releaseInfo": "2019"
+      "releaseInfo": "2019",
+      "poster": "https://images.metahub.space/poster/small/tt8001106/img",
+      "background": "https://images.metahub.space/background/medium/tt8001106/img",
+      "logo": "https://images.metahub.space/logo/medium/tt8001106/img",
+      "description": "A detective from Tokyo scours London for his missing brother, who's been involved with the Yakuza and accused of murder.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "imdbRating": "7.8",
+      "country": "United Kingdom",
+      "director": []
     },
     {
       "id": "tt27628576",
       "type": "series",
       "name": "The Long Season",
-      "releaseInfo": "2023"
+      "releaseInfo": "2023",
+      "poster": "https://images.metahub.space/poster/small/tt27628576/img",
+      "background": "https://images.metahub.space/background/medium/tt27628576/img",
+      "logo": "https://images.metahub.space/logo/medium/tt27628576/img",
+      "description": "Wang Xiang meets a person he fears in Hualin. A mystery involving a lost father, deceased lover, and old friend spans 20 years. Characters search for truth across time and space. When mystery is solved, fate remains.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Family"
+      ],
+      "imdbRating": "8.8",
+      "country": "China",
+      "director": []
     },
     {
       "id": "tt9112152",
       "type": "series",
       "name": "The Investigation",
-      "releaseInfo": "2020"
+      "releaseInfo": "2020",
+      "poster": "https://images.metahub.space/poster/small/tt9112152/img",
+      "background": "https://images.metahub.space/background/medium/tt9112152/img",
+      "logo": "https://images.metahub.space/logo/medium/tt9112152/img",
+      "description": "Copenhagen Police's Homicide unit, headed by Jens Møller, tries to solve the murder of Swedish journalist Kim Wall.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "imdbRating": "7.6",
+      "country": "Denmark, Sweden",
+      "director": []
     }
   ]
 }

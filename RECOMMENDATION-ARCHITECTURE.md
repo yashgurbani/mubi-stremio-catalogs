@@ -99,7 +99,7 @@ The initial private CSV contains 14 exact IMDb identifiers from the explicit mov
 
 ### Stable editorial layer
 
-Curated Discovery v2.2.0 contains 10 rows and 183 unique titles. Nine rows use the recorded taste profile. One row preserves exact Film Heritage Foundation membership.
+Curated Discovery v2.2.1 contains 11 rows and 210 unique titles. The new `Images That Teach You to See` row places visual film education near the top. The remaining rows use the recorded taste profile. One row preserves exact Film Heritage Foundation membership.
 
 The stable layer solves three adaptive-system weaknesses:
 

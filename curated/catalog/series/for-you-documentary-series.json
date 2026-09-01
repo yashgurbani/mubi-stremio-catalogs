@@ -4,145 +4,416 @@
       "id": "tt0081846",
       "type": "series",
       "name": "Cosmos",
-      "releaseInfo": "1980"
+      "releaseInfo": "1980",
+      "poster": "https://images.metahub.space/poster/small/tt0081846/img",
+      "background": "https://images.metahub.space/background/medium/tt0081846/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0081846/img",
+      "description": "Astronomer Carl Sagan leads us on an engaging guided tour of the various elements and cosmological theories of the universe.",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "9.3",
+      "country": "United States, United Kingdom",
+      "director": null
     },
     {
       "id": "tt2395695",
       "type": "series",
       "name": "Cosmos: A Spacetime Odyssey",
-      "releaseInfo": "2014"
+      "releaseInfo": "2014",
+      "poster": "https://images.metahub.space/poster/small/tt2395695/img",
+      "background": "https://images.metahub.space/background/medium/tt2395695/img",
+      "logo": "https://images.metahub.space/logo/medium/tt2395695/img",
+      "description": "An exploration of our discovery of the laws of nature and coordinates in space and time.",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "9.2",
+      "country": "United States",
+      "director": null
     },
     {
       "id": "tt0795176",
       "type": "series",
       "name": "Planet Earth",
-      "releaseInfo": "2006"
+      "releaseInfo": "2006",
+      "poster": "https://images.metahub.space/poster/small/tt0795176/img",
+      "background": "https://images.metahub.space/background/medium/tt0795176/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0795176/img",
+      "description": "A documentary series on the wildlife found on Earth. Each episode covers a different habitat: deserts, mountains, deep oceans, shallow seas, forests, caves, polar regions, fresh water, plains and jungles. Narrated by David Attenbo...",
+      "genres": [
+        "Documentary",
+        "Family"
+      ],
+      "imdbRating": "9.4",
+      "country": "United Kingdom, Canada, United States, Japan",
+      "director": null
     },
     {
       "id": "tt5491994",
       "type": "series",
       "name": "Planet Earth II",
-      "releaseInfo": "2016"
+      "releaseInfo": "2016",
+      "poster": "https://images.metahub.space/poster/small/tt5491994/img",
+      "background": "https://images.metahub.space/background/medium/tt5491994/img",
+      "logo": "https://images.metahub.space/logo/medium/tt5491994/img",
+      "description": "David Attenborough returns with a new wildlife documentary that shows life in a variety of habitats.",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "9.4",
+      "country": "United Kingdom, Germany, France, China, United States",
+      "director": null
     },
     {
       "id": "tt9253866",
       "type": "series",
       "name": "Our Planet",
-      "releaseInfo": "2019-2023"
+      "releaseInfo": "2019-2023",
+      "poster": "https://images.metahub.space/poster/small/tt9253866/img",
+      "background": "https://images.metahub.space/background/medium/tt9253866/img",
+      "logo": "https://images.metahub.space/logo/medium/tt9253866/img",
+      "description": "Explores and unravels the mystery of how and why animals migrate, showing some of the most dramatic and compelling stories in the natural world through spectacular and innovative cinematography.",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "9.2",
+      "country": "United States, United Kingdom",
+      "director": []
     },
     {
       "id": "tt9805678",
       "type": "series",
       "name": "Frozen Planet II",
-      "releaseInfo": "2022-2023"
+      "releaseInfo": "2022-2023",
+      "poster": "https://images.metahub.space/poster/small/tt9805678/img",
+      "background": "https://images.metahub.space/background/medium/tt9805678/img",
+      "logo": "https://images.metahub.space/logo/medium/tt9805678/img",
+      "description": "Following life in the frozen regions of the planet, including polar bears, Siberian tigers, snow monkeys, and penguins.",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "9.0",
+      "country": "United Kingdom",
+      "director": []
     },
     {
       "id": "tt0069733",
       "type": "series",
       "name": "The Ascent of Man",
-      "releaseInfo": "1973"
+      "releaseInfo": "1973",
+      "poster": "https://images.metahub.space/poster/small/tt0069733/img",
+      "background": "https://images.metahub.space/background/medium/tt0069733/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0069733/img",
+      "description": "An account of man's development through his scientific and technological achievements.",
+      "genres": [
+        "Documentary",
+        "History"
+      ],
+      "imdbRating": "8.8",
+      "country": "United Kingdom",
+      "director": null
     },
     {
       "id": "tt0078588",
       "type": "series",
       "name": "Connections",
-      "releaseInfo": "1978"
+      "releaseInfo": "1978",
+      "poster": "https://images.metahub.space/poster/small/tt0078588/img",
+      "background": "https://images.metahub.space/background/medium/tt0078588/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0078588/img",
+      "description": "Follow James Burke through the history of science and technology in this collection of 10 1-hour episodes, starting with \"The Trigger Effect.\"",
+      "genres": [
+        "Documentary",
+        "History"
+      ],
+      "imdbRating": "9.3",
+      "country": "United Kingdom",
+      "director": null
     },
     {
       "id": "tt10394800",
       "type": "series",
       "name": "The Planets",
-      "releaseInfo": "2019"
+      "releaseInfo": "2019",
+      "poster": "https://images.metahub.space/poster/small/tt10394800/img",
+      "background": "https://images.metahub.space/background/medium/tt10394800/img",
+      "logo": "https://images.metahub.space/logo/medium/tt10394800/img",
+      "description": "Welcome to the greatest story that's never been told. In a new, ground breaking series we'll be telling the story of the planets as never before.",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "9.0",
+      "country": "United Kingdom, United States, China",
+      "director": []
     },
     {
       "id": "tt1926910",
       "type": "series",
       "name": "The Story of Maths",
-      "releaseInfo": "2008"
+      "releaseInfo": "2008",
+      "poster": "https://images.metahub.space/poster/small/tt1926910/img",
+      "background": "https://images.metahub.space/background/medium/tt1926910/img",
+      "logo": "https://images.metahub.space/logo/medium/tt1926910/img",
+      "description": "The history of mathematics from ancient times to the present day. Narrated by Oxford mathematics professor Marcus du Sautoy, the series covers the seminal moments and people in the development of maths.",
+      "genres": [
+        "Documentary",
+        "History"
+      ],
+      "imdbRating": "7.9",
+      "country": "United Kingdom",
+      "director": null
     },
     {
       "id": "tt3923774",
       "type": "series",
       "name": "The Brain with Dr. David Eagleman",
-      "releaseInfo": "2015-"
+      "releaseInfo": "2015-",
+      "poster": "https://images.metahub.space/poster/small/tt3923774/img",
+      "background": "https://images.metahub.space/background/medium/tt3923774/img",
+      "logo": "https://images.metahub.space/logo/medium/tt3923774/img",
+      "description": "Six one-hour episodes that tell the story of the inner workings of the brain and take viewers on a visually spectacular journey into why they feel and think the things they do.",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "8.6",
+      "country": "United States",
+      "director": null
     },
     {
       "id": "tt10810430",
       "type": "series",
       "name": "The Mind, Explained",
-      "releaseInfo": "2019-2021"
+      "releaseInfo": "2019-2021",
+      "poster": "https://images.metahub.space/poster/small/tt10810430/img",
+      "background": "https://images.metahub.space/background/medium/tt10810430/img",
+      "logo": "https://images.metahub.space/logo/medium/tt10810430/img",
+      "description": "Ever wonder what's happening inside your head? From dreaming to anxiety disorders, discover how your brain works with this illuminating series.",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "7.9",
+      "country": "United States",
+      "director": []
     },
     {
       "id": "tt1877514",
       "type": "series",
       "name": "The Vietnam War",
-      "releaseInfo": "2017"
+      "releaseInfo": "2017",
+      "poster": "https://images.metahub.space/poster/small/tt1877514/img",
+      "background": "https://images.metahub.space/background/medium/tt1877514/img",
+      "logo": "https://images.metahub.space/logo/medium/tt1877514/img",
+      "description": "A documentary series chronicling the Vietnam War through archival footage and firsthand accounts from soldiers, civilians, and leaders on all sides, tracing its origins, major events, and enduring impact on the United States and V...",
+      "genres": [
+        "Documentary",
+        "History",
+        "War"
+      ],
+      "imdbRating": "9.1",
+      "country": "United States, France",
+      "director": []
     },
     {
       "id": "tt4299972",
       "type": "series",
       "name": "The Jinx: The Life and Deaths of Robert Durst",
-      "releaseInfo": "2015-2024"
+      "releaseInfo": "2015-2024",
+      "poster": "https://images.metahub.space/poster/small/tt4299972/img",
+      "background": "https://images.metahub.space/background/medium/tt4299972/img",
+      "logo": "https://images.metahub.space/logo/medium/tt4299972/img",
+      "description": "Filmmaker Andrew Jarecki examines the complicated life of reclusive real estate icon Robert Durst, the key suspect in a series of unsolved crimes.",
+      "genres": [
+        "Documentary",
+        "Biography",
+        "Crime"
+      ],
+      "imdbRating": "8.6",
+      "country": "United States",
+      "director": null
     },
     {
       "id": "tt8420184",
       "type": "series",
       "name": "The Last Dance",
-      "releaseInfo": "2020"
+      "releaseInfo": "2020",
+      "poster": "https://images.metahub.space/poster/small/tt8420184/img",
+      "background": "https://images.metahub.space/background/medium/tt8420184/img",
+      "logo": "https://images.metahub.space/logo/medium/tt8420184/img",
+      "description": "Led by Michael Jordan, the 1990s Chicago Bulls establish themselves as one of the most notable dynasties in sports history.",
+      "genres": [
+        "Documentary",
+        "Biography",
+        "History"
+      ],
+      "imdbRating": "9.0",
+      "country": "United States",
+      "director": []
     },
     {
       "id": "tt9735318",
       "type": "series",
       "name": "The Beatles: Get Back",
-      "releaseInfo": "2021"
+      "releaseInfo": "2021",
+      "poster": "https://images.metahub.space/poster/small/tt9735318/img",
+      "background": "https://images.metahub.space/background/medium/tt9735318/img",
+      "logo": "https://images.metahub.space/logo/medium/tt9735318/img",
+      "description": "In January 1969, The Beatles set out to write and record new songs for their first live show in more than two years, culminating in an impromptu concert atop their Savile Row studio.",
+      "genres": [
+        "Documentary",
+        "Biography",
+        "History"
+      ],
+      "imdbRating": "8.9",
+      "country": "United Kingdom, New Zealand, United States",
+      "director": [
+        "Peter Jackson"
+      ]
     },
     {
       "id": "tt8396314",
       "type": "series",
       "name": "Exterminate All the Brutes",
-      "releaseInfo": "2021"
+      "releaseInfo": "2021",
+      "poster": "https://images.metahub.space/poster/small/tt8396314/img",
+      "background": "https://images.metahub.space/background/medium/tt8396314/img",
+      "logo": "https://images.metahub.space/logo/medium/tt8396314/img",
+      "description": "Through time, into the darkest hours of humanity, the documentary deconstructs the making and masking of history, digging deep into the exploitative and genocidal aspects of European colonialism, from America to Africa and its imp...",
+      "genres": [
+        "Documentary",
+        "History"
+      ],
+      "imdbRating": "7.4",
+      "country": "United States",
+      "director": []
     },
     {
       "id": "tt14489308",
       "type": "series",
       "name": "The 1619 Project",
-      "releaseInfo": "2023"
+      "releaseInfo": "2023",
+      "poster": "https://live.metahub.space/poster/small/tt14489308/img",
+      "background": "https://live.metahub.space/background/medium/tt14489308/img",
+      "logo": "https://live.metahub.space/logo/medium/tt14489308/img",
+      "description": "In keeping with the original project, this series seeks to reframe the country's history by placing the consequences of slavery and the contributions of black Americans at the very center of our national narrative.",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "4.8",
+      "country": "United States",
+      "director": []
     },
     {
       "id": "tt7768848",
       "type": "series",
       "name": "Wild Wild Country",
-      "releaseInfo": "2018"
+      "releaseInfo": "2018",
+      "poster": "https://images.metahub.space/poster/small/tt7768848/img",
+      "background": "https://images.metahub.space/background/medium/tt7768848/img",
+      "logo": "https://images.metahub.space/logo/medium/tt7768848/img",
+      "description": "When Osho, the world's most controversial guru, builds an Utopian city deep in the Oregon country, conflict with the locals escalates into a national scandal.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "imdbRating": "8.1",
+      "country": "United States",
+      "director": [
+        "Chapman Way",
+        "Maclain Way"
+      ]
     },
     {
       "id": "tt14512938",
       "type": "series",
       "name": "Alma Matters: Inside the IIT Dream",
-      "releaseInfo": "2021"
+      "releaseInfo": "2021",
+      "poster": "https://live.metahub.space/poster/small/tt14512938/img",
+      "background": "https://live.metahub.space/background/medium/tt14512938/img",
+      "logo": "https://live.metahub.space/logo/medium/tt14512938/img",
+      "description": "In a \"nation of middle-class\" the IIT dream involves clearing the world's toughest public exam for guaranteed lifelong success. Life is not an exam though. It's a hustle, one that nobody trains them for. The result? Eternal tumult.",
+      "genres": [
+        "Documentary",
+        "Drama"
+      ],
+      "imdbRating": "8.2",
+      "country": "India",
+      "director": [
+        "Pratik Patra",
+        "Prashant Raj"
+      ]
     },
     {
       "id": "tt14167390",
       "type": "series",
       "name": "House of Secrets: The Burari Deaths",
-      "releaseInfo": "2021"
+      "releaseInfo": "2021",
+      "poster": "https://images.metahub.space/poster/small/tt14167390/img",
+      "background": "https://images.metahub.space/background/medium/tt14167390/img",
+      "logo": "https://images.metahub.space/logo/medium/tt14167390/img",
+      "description": "Suicide, murder or something else? This docuseries examines chilling truths and theories around the deaths of 11 members of a Delhi family.",
+      "genres": [
+        "Documentary",
+        "Crime",
+        "History"
+      ],
+      "imdbRating": "7.4",
+      "country": "India",
+      "director": []
     },
     {
       "id": "tt28306965",
       "type": "series",
       "name": "The Hunt for Veerappan",
-      "releaseInfo": "2023"
+      "releaseInfo": "2023",
+      "poster": "https://images.metahub.space/poster/small/tt28306965/img",
+      "background": "https://images.metahub.space/background/medium/tt28306965/img",
+      "logo": "https://images.metahub.space/logo/medium/tt28306965/img",
+      "description": "A poacher who conquered the jungles of South India and became the subject of the biggest manhunt of India.",
+      "genres": [
+        "Documentary",
+        "Biography",
+        "Crime"
+      ],
+      "imdbRating": "7.9",
+      "country": "India",
+      "director": []
     },
     {
       "id": "tt21908844",
       "type": "series",
       "name": "Cinema Marte Dum Tak",
-      "releaseInfo": "2023-"
+      "releaseInfo": "2023-",
+      "poster": "https://live.metahub.space/poster/small/tt21908844/img",
+      "background": "https://live.metahub.space/background/medium/tt21908844/img",
+      "logo": "https://live.metahub.space/logo/medium/tt21908844/img",
+      "description": "Jaspal Neelam, Vinod Talwar, Dilip Gulati and Kishan Shah directors of the golden age of 'B-movies' take you for a behind-the-scenes look at the making of their films.",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "7.5",
+      "country": "India",
+      "director": [
+        "Vasan Bala"
+      ]
     },
     {
       "id": "tt14866598",
       "type": "series",
       "name": "Angry Young Men",
-      "releaseInfo": "2024-"
+      "releaseInfo": "2024-",
+      "poster": "https://live.metahub.space/poster/small/tt14866598/img",
+      "background": "https://live.metahub.space/background/medium/tt14866598/img",
+      "logo": "https://live.metahub.space/logo/medium/tt14866598/img",
+      "description": "Angry Young Men is the story of Salim-Javed, legendary screenwriters of 1970s Hindi cinema. Together, they created the archetype of the Angry Young Man - a brooding anti-hero who captured the imagination of an entire nation with his rage, defiance, and quest for social justice. Like the character they created, Salim Khan and Javed Akhtar, two outsiders to the Hindi film industry, defied all odds, questioning the position of writers and demanding recognition as much as the reigning stars of that time. Their break-up made headlines for many years and Indian cinema never saw a cultural collaboration as powerful again. This is a personal and candid account of their lives, their writing and their legacy.",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "7.7",
+      "country": "India",
+      "director": [
+        "Namrata Rao"
+      ]
     }
   ]
 }

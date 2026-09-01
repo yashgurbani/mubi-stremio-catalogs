@@ -36,7 +36,7 @@ The protected AIOMetadata addon remains because it supplies live Netflix, canon,
 |---|---|---|
 | Simkl | Active | Shared history, ratings, and Plan to Watch |
 | Watchly | Active | Top Picks, Because You Watched, taste themes, creators, loved and liked titles |
-| Curated Discovery v2.2.0 | Active | Indian cinema, documentaries, global arthouse, television, comedy, and animation |
+| Curated Discovery v2.2.1 | Active | Visual film education, Indian cinema, documentaries, global arthouse, television, comedy, and animation |
 | MUBI exact snapshot | Active | Two verified official thematic collections |
 | Film Heritage Foundation | Active | Exact 14-film source list |
 | MovieLens | Not active | Optional collaborative filter after public-host support is proven |
@@ -70,7 +70,7 @@ OpenSubtitles v3 is installed before the stream addons. Nuvio can still select a
 - AIOMetadata 2.16.2 is healthy. Version 2.16.3 remains undeployed on the public host.
 - Watchly 1.13.1 is healthy.
 - MUBI snapshot 1.1.1 is healthy.
-- Curated Discovery 2.2.0 is healthy.
+- Curated Discovery 2.2.1 is healthy.
 - Both exact MUBI rows return every expected title.
 - The expired Wim Wenders MUBI row is absent.
 - The Indian Regional Catalog remains a late-home breadth source because its raw rows contain no rating metadata.

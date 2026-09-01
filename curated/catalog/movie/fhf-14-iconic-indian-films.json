@@ -4,85 +4,263 @@
       "id": "tt0078381",
       "type": "movie",
       "name": "Thamp (The Circus Tent)",
-      "releaseInfo": "1978"
+      "releaseInfo": "1978",
+      "poster": "https://live.metahub.space/poster/small/tt0078381/img",
+      "background": "https://live.metahub.space/background/medium/tt0078381/img",
+      "logo": "https://live.metahub.space/logo/medium/tt0078381/img",
+      "description": "The arrival of a travelling circus sends ripples through the inhabitants of a remote Keralan village.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "7.0",
+      "country": "India",
+      "director": [
+        "Govindan Aravindan"
+      ]
     },
     {
       "id": "tt0079422",
       "type": "movie",
       "name": "Kummatty",
-      "releaseInfo": "1979"
+      "releaseInfo": "1979",
+      "poster": "https://live.metahub.space/poster/small/tt0079422/img",
+      "background": "https://live.metahub.space/background/medium/tt0079422/img",
+      "logo": "https://live.metahub.space/logo/medium/tt0079422/img",
+      "description": "A stranger who may be the trickster magician Kummatty comes to a village in Malabar, India.",
+      "genres": [
+        "Family",
+        "Fantasy",
+        "Drama"
+      ],
+      "imdbRating": "7.2",
+      "country": "India",
+      "director": [
+        "Govindan Aravindan"
+      ]
     },
     {
       "id": "tt0077131",
       "type": "movie",
       "name": "Agraharathil Kazhuthai",
-      "releaseInfo": "1977"
+      "releaseInfo": "1977",
+      "poster": "https://images.metahub.space/poster/small/tt0077131/img",
+      "background": "https://images.metahub.space/background/medium/tt0077131/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0077131/img",
+      "description": "A donkey strays into a village dominated by the upper caste Brahmins.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "7.0",
+      "country": "India",
+      "director": [
+        "John Abraham"
+      ]
     },
     {
       "id": "tt0090634",
       "type": "movie",
       "name": "Amma Ariyan",
-      "releaseInfo": "1986"
+      "releaseInfo": "1986",
+      "poster": "https://images.metahub.space/poster/small/tt0090634/img",
+      "background": "https://images.metahub.space/background/medium/tt0090634/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0090634/img",
+      "description": "The story revolves around the incidents following the death of a young Naxalite, upon whose death his friends travel to the village where his mother lives to inform her of the death of her only son.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "7.4",
+      "country": "India",
+      "director": [
+        "John Abraham"
+      ]
     },
     {
       "id": "tt0155256",
       "type": "movie",
       "name": "Thanneer Thanneer",
-      "releaseInfo": "1981"
+      "releaseInfo": "1981",
+      "poster": "https://live.metahub.space/poster/small/tt0155256/img",
+      "background": "https://live.metahub.space/background/medium/tt0155256/img",
+      "logo": "https://live.metahub.space/logo/medium/tt0155256/img",
+      "description": "A small village in Tamil Nadu faces water scarcity. The film highlights the plight of the villagers and the sufferings they endure at the hands of bureaucrats when they try to resolve their problem.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "8.0",
+      "country": "India",
+      "director": [
+        "K. Balachander"
+      ]
     },
     {
       "id": "tt0070809",
       "type": "movie",
       "name": "Titash Ekti Nadir Naam",
-      "releaseInfo": "1973"
+      "releaseInfo": "1973",
+      "poster": "https://images.metahub.space/poster/small/tt0070809/img",
+      "background": "https://images.metahub.space/background/medium/tt0070809/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0070809/img",
+      "description": "After their wedding night, a fisherman's young wife is kidnapped on the Titas River in Brahmanbaria, Bangladesh.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "7.2",
+      "country": "Bangladesh",
+      "director": [
+        "Ritwik Ghatak"
+      ]
     },
     {
       "id": "tt0066787",
       "type": "movie",
       "name": "Ashad Ka Ek Din",
-      "releaseInfo": "1971"
+      "releaseInfo": "1971",
+      "poster": "https://live.metahub.space/poster/small/tt0066787/img",
+      "background": "https://live.metahub.space/background/medium/tt0066787/img",
+      "logo": "https://live.metahub.space/logo/medium/tt0066787/img",
+      "description": "A literary film based on a play in three acts, One Day Before the Rainy Season (Ashad Ka Ek Din) portrays the love of Mallika and Kalidasa, the renowned Sanskrit poet and dramatist. Vilom, a friend to both and interested in Mallika, is a passive onlooker for the first two acts. Kalidasa leaves his verdant mountain valley home for the splendour of far off Ujjain, where he wins fame. The action of the film is rooted in the village to which Kalidasa returns years later and finds Mallika married to Vilom and the mother of his child. Mallika sacrificed her love so that the poet could pursue his muse.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "7.2",
+      "country": "India",
+      "director": [
+        "Mani Kaul"
+      ]
     },
     {
       "id": "tt0085785",
       "type": "movie",
       "name": "Khandhar",
-      "releaseInfo": "1983"
+      "releaseInfo": "1983",
+      "poster": "https://images.metahub.space/poster/small/tt0085785/img",
+      "background": "https://images.metahub.space/background/medium/tt0085785/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0085785/img",
+      "description": "Subhash is a photographer from the city, who has come to take pictures of some old temples and ruins in a village. Ruins fascinate him. While in the village, he gets acquainted with a young woman, Jamini, who has had her heart bro...",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "7.3",
+      "country": "India",
+      "director": [
+        "Mrinal Sen"
+      ]
     },
     {
       "id": "tt0246825",
       "type": "movie",
       "name": "Om-Dar-B-Dar",
-      "releaseInfo": "1988"
+      "releaseInfo": "1988",
+      "poster": "https://images.metahub.space/poster/small/tt0246825/img",
+      "background": "https://images.metahub.space/background/medium/tt0246825/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0246825/img",
+      "description": "A carefully constructed nonsense about a teenage boy named Om in a small Indian village.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "7.1",
+      "country": "India",
+      "director": [
+        "Kamal Swaroop"
+      ]
     },
     {
       "id": "tt0306971",
       "type": "movie",
       "name": "Hun Hunshi Hunshilal",
-      "releaseInfo": "1992"
+      "releaseInfo": "1992",
+      "poster": "https://live.metahub.space/poster/small/tt0306971/img",
+      "background": "https://live.metahub.space/background/medium/tt0306971/img",
+      "logo": "https://live.metahub.space/logo/medium/tt0306971/img",
+      "description": "Having moved to the city of Khojpuri to pursue his scientific investigations into the uses of onions, Hunsilal soon discovers a novel way to tackle mosquitoes, and is celebrated by Raja Bhadrabhoop. However, he soon learns that things may not be as they seem, that the mosquitoes may not be the pests (or even the insects) he once assumed them to be, as he gets drawn into an undercurrent of revolution and discovery, precipitated by his burgeoning love for his colleague Parveen.  Inspired by the traditional Gujarati Bhavai, 'Hun Hunsi Hunsilal' is interwoven with an absurdist, innovative soundtrack and presents a satirical, modern day tragic fable about fascism, revolution and the power of stories, all shot beautifully, in what is one of India's most powerful and relevant films to date.",
+      "genres": [
+        "Music",
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "imdbRating": "6.9",
+      "country": "India",
+      "director": [
+        "Sanjiv Shah"
+      ]
     },
     {
       "id": "tt0081968",
       "type": "movie",
       "name": "36 Chowringhee Lane",
-      "releaseInfo": "1981"
+      "releaseInfo": "1981",
+      "poster": "https://live.metahub.space/poster/small/tt0081968/img",
+      "background": "https://live.metahub.space/background/medium/tt0081968/img",
+      "logo": "https://live.metahub.space/logo/medium/tt0081968/img",
+      "description": "After the marriage of her niece, an Anglo-Indian school-teacher, Violet Stoneham, lives a lonely life in her single room flat located at 36 Chowringhee Lane in Calcutta. When a former student starts visiting her with her boyfriend, Violet welcomes them eagerly.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "imdbRating": "7.5",
+      "country": "India",
+      "director": [
+        "Aparna Sen"
+      ]
     },
     {
       "id": "tt0088335",
       "type": "movie",
       "name": "Utsav",
-      "releaseInfo": "1984"
+      "releaseInfo": "1984",
+      "poster": "https://images.metahub.space/poster/small/tt0088335/img",
+      "background": "https://images.metahub.space/background/medium/tt0088335/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0088335/img",
+      "description": "Based on the circa 2nd century BCE to 2nd Century CE, Sanskrit play \"Daridra-Charudatta\" by the famous Indian playwright Bhasa, \"Utsav\" faithfully follows Bhasa's story-line. Vasantasena, a courtesan who dances at the King Palaka'...",
+      "genres": [
+        "Drama",
+        "Music",
+        "Romance"
+      ],
+      "imdbRating": "6.9",
+      "country": "India",
+      "director": [
+        "Girish Karnad"
+      ]
     },
     {
       "id": "tt0077179",
       "type": "movie",
       "name": "Arvind Desai Ki Ajeeb Dastaan",
-      "releaseInfo": "1978"
+      "releaseInfo": "1978",
+      "poster": "https://live.metahub.space/poster/small/tt0077179/img",
+      "background": "https://live.metahub.space/background/medium/tt0077179/img",
+      "logo": "https://live.metahub.space/logo/medium/tt0077179/img",
+      "description": "Arvind, a rich businessman's son, dates the office secretary but is engaged to marry someone else. With a complicated family background, he struggles to find meaning in his life.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "7.1",
+      "country": "India",
+      "director": [
+        "Saeed Akhtar Mirza"
+      ]
     },
     {
       "id": "tt0099437",
       "type": "movie",
       "name": "Disha",
-      "releaseInfo": "1990"
+      "releaseInfo": "1990",
+      "poster": "https://images.metahub.space/poster/small/tt0099437/img",
+      "background": "https://images.metahub.space/background/medium/tt0099437/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0099437/img",
+      "description": "The Sarpat family, who live in Bhukari, consist of Parsaram, who has been involved in digging a well for the past over 12 years and is now called 'Pagal Parsa'; his brother, Soma, who gets some casual work in the fields; his wife,...",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Musical"
+      ],
+      "imdbRating": "7.1",
+      "country": "India",
+      "director": [
+        "Sai Paranjape"
+      ]
     }
   ]
 }

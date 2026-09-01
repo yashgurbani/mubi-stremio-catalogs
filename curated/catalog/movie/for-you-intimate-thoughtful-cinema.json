@@ -4,73 +4,225 @@
       "id": "tt5990474",
       "type": "movie",
       "name": "Columbus",
-      "releaseInfo": "2017"
+      "releaseInfo": "2017",
+      "poster": "https://images.metahub.space/poster/small/tt5990474/img",
+      "background": "https://images.metahub.space/background/medium/tt5990474/img",
+      "logo": "https://images.metahub.space/logo/medium/tt5990474/img",
+      "description": "A Korean-born man finds himself stuck in Columbus, Indiana, where his architect father is in a coma. The man meets a young woman who wants to stay in Columbus with her mother, a recovering addict, instead of pursuing her own dreams.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "7.2",
+      "country": "United States",
+      "director": [
+        "Kogonada"
+      ]
     },
     {
       "id": "tt10370710",
       "type": "movie",
       "name": "The Worst Person in the World",
-      "releaseInfo": "2021"
+      "releaseInfo": "2021",
+      "poster": "https://images.metahub.space/poster/small/tt10370710/img",
+      "background": "https://images.metahub.space/background/medium/tt10370710/img",
+      "logo": "https://images.metahub.space/logo/medium/tt10370710/img",
+      "description": "The chronicles of four years in the life of Julie, a young woman who navigates the troubled waters of her love life and struggles to find her career path, leading her to take a realistic look at who she really is.",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "imdbRating": "7.7",
+      "country": "Norway, France, Sweden, Denmark",
+      "director": [
+        "Joachim Trier"
+      ]
     },
     {
       "id": "tt19770238",
       "type": "movie",
       "name": "Aftersun",
-      "releaseInfo": "2022"
+      "releaseInfo": "2022",
+      "poster": "https://images.metahub.space/poster/small/tt19770238/img",
+      "background": "https://images.metahub.space/background/medium/tt19770238/img",
+      "logo": "https://images.metahub.space/logo/medium/tt19770238/img",
+      "description": "Sophie reflects on the shared joy and private melancholy of a holiday she took with her father twenty years earlier. Memories real and imagined fill the gaps between as she tries to reconcile the father she knew with the man she d...",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "7.6",
+      "country": "United Kingdom, United States, Turkey, Philippines, Netherlands",
+      "director": [
+        "Charlotte Wells"
+      ]
     },
     {
       "id": "tt13204490",
       "type": "movie",
       "name": "Petite Maman",
-      "releaseInfo": "2021"
+      "releaseInfo": "2021",
+      "poster": "https://images.metahub.space/poster/small/tt13204490/img",
+      "background": "https://images.metahub.space/background/medium/tt13204490/img",
+      "logo": "https://images.metahub.space/logo/medium/tt13204490/img",
+      "description": "Nelly has just lost her grandmother and is helping her parents clean out her mother's childhood home. She explores the house and the surrounding woods. One day she meets a girl her age building a tree-house.",
+      "genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "imdbRating": "7.4",
+      "country": "France",
+      "director": [
+        "Céline Sciamma"
+      ]
     },
     {
       "id": "tt21192142",
       "type": "movie",
       "name": "All of Us Strangers",
-      "releaseInfo": "2023"
+      "releaseInfo": "2023",
+      "poster": "https://images.metahub.space/poster/small/tt21192142/img",
+      "background": "https://images.metahub.space/background/medium/tt21192142/img",
+      "logo": "https://images.metahub.space/logo/medium/tt21192142/img",
+      "description": "A screenwriter drawn back to his childhood home enters into a fledgling relationship with his downstairs neighbor while discovering a mysterious new way to heal from losing his parents 30 years ago.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "imdbRating": "7.6",
+      "country": "United Kingdom, United States",
+      "director": [
+        "Andrew Haigh"
+      ]
     },
     {
       "id": "tt1832382",
       "type": "movie",
       "name": "A Separation",
-      "releaseInfo": "2011"
+      "releaseInfo": "2011",
+      "poster": "https://images.metahub.space/poster/small/tt1832382/img",
+      "background": "https://images.metahub.space/background/medium/tt1832382/img",
+      "logo": "https://images.metahub.space/logo/medium/tt1832382/img",
+      "description": "A married couple are faced with a difficult decision - to improve the life of their child by moving to another country or to stay in Iran and look after a deteriorating parent who has Alzheimer's disease.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "8.3",
+      "country": "Iran, France, Australia",
+      "director": [
+        "Asghar Farhadi"
+      ]
     },
     {
       "id": "tt14034966",
       "type": "movie",
       "name": "Wheel of Fortune and Fantasy",
-      "releaseInfo": "2021"
+      "releaseInfo": "2021",
+      "poster": "https://images.metahub.space/poster/small/tt14034966/img",
+      "background": "https://images.metahub.space/background/medium/tt14034966/img",
+      "logo": "https://images.metahub.space/logo/medium/tt14034966/img",
+      "description": "An unexpected love triangle, a failed seduction trap and an encounter that results from a misunderstanding, told in three movements to depict three female characters and trace the trajectories between their choices and regrets.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "imdbRating": "7.5",
+      "country": "Japan",
+      "director": [
+        "Ryûsuke Hamaguchi"
+      ]
     },
     {
       "id": "tt8613070",
       "type": "movie",
       "name": "Portrait of a Lady on Fire",
-      "releaseInfo": "2019"
+      "releaseInfo": "2019",
+      "poster": "https://images.metahub.space/poster/small/tt8613070/img",
+      "background": "https://images.metahub.space/background/medium/tt8613070/img",
+      "logo": "https://images.metahub.space/logo/medium/tt8613070/img",
+      "description": "On an isolated island in Brittany at the end of the eighteenth century, a female painter is obliged to paint a wedding portrait of a young woman.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "imdbRating": "8.0",
+      "country": "France",
+      "director": [
+        "Céline Sciamma"
+      ]
     },
     {
       "id": "tt0091830",
       "type": "movie",
       "name": "The Green Ray",
-      "releaseInfo": "1986"
+      "releaseInfo": "1986",
+      "poster": "https://images.metahub.space/poster/small/tt0091830/img",
+      "background": "https://images.metahub.space/background/medium/tt0091830/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0091830/img",
+      "description": "It's July, and Delphine has nowhere to go for the summer. She feels very bored and \"empty\", but this won't last; one day she accidently meets someone who seems to be totally made for her...",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "imdbRating": "7.6",
+      "country": "France",
+      "director": [
+        "Éric Rohmer"
+      ]
     },
     {
       "id": "tt1736633",
       "type": "movie",
       "name": "Oslo, August 31st",
-      "releaseInfo": "2011"
+      "releaseInfo": "2011",
+      "poster": "https://images.metahub.space/poster/small/tt1736633/img",
+      "background": "https://images.metahub.space/background/medium/tt1736633/img",
+      "logo": "https://images.metahub.space/logo/medium/tt1736633/img",
+      "description": "One day in the life of Anders, a young recovering drug addict, who takes a brief leave from his treatment center to interview for a job and catch up with old friends in Oslo.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "7.6",
+      "country": "Norway, Denmark, Sweden",
+      "director": [
+        "Joachim Trier"
+      ]
     },
     {
       "id": "tt0244316",
       "type": "movie",
       "name": "Yi Yi",
-      "releaseInfo": "2000"
+      "releaseInfo": "2000",
+      "poster": "https://images.metahub.space/poster/small/tt0244316/img",
+      "background": "https://images.metahub.space/background/medium/tt0244316/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0244316/img",
+      "description": "Portrait of a middle-class family in Taipei. A man in his forties, his teenage daughter and his eight-year-old son experience life, navigating between remorse, hope and disappointment.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "8.1",
+      "country": "Taiwan, Japan",
+      "director": [
+        "Edward Yang"
+      ]
     },
     {
       "id": "tt1020773",
       "type": "movie",
       "name": "Certified Copy",
-      "releaseInfo": "2010"
+      "releaseInfo": "2010",
+      "poster": "https://images.metahub.space/poster/small/tt1020773/img",
+      "background": "https://images.metahub.space/background/medium/tt1020773/img",
+      "logo": "https://images.metahub.space/logo/medium/tt1020773/img",
+      "description": "In Tuscany to promote his latest book, a middle-aged British writer meets a French woman who leads him to the village of Lucignano. While there, a chance question reveals something deeper.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "imdbRating": "7.2",
+      "country": "France, Italy, Belgium, Iran",
+      "director": [
+        "Abbas Kiarostami"
+      ]
     }
   ]
 }

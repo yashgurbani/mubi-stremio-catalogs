@@ -1,0 +1,519 @@
+{
+  "metas": [
+    {
+      "id": "tt0019760",
+      "type": "movie",
+      "name": "Man with a Movie Camera",
+      "releaseInfo": "1929",
+      "poster": "https://images.metahub.space/poster/small/tt0019760/img",
+      "background": "https://images.metahub.space/background/medium/tt0019760/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0019760/img",
+      "description": "A man travels around a city with a camera slung over his shoulder, documenting urban life with dazzling invention.",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "8.3",
+      "country": "Soviet Union",
+      "director": [
+        "Dziga Vertov"
+      ]
+    },
+    {
+      "id": "tt0033467",
+      "type": "movie",
+      "name": "Citizen Kane",
+      "releaseInfo": "1941",
+      "poster": "https://images.metahub.space/poster/small/tt0033467/img",
+      "background": "https://images.metahub.space/background/medium/tt0033467/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0033467/img",
+      "description": "Following the death of publishing tycoon Charles Foster Kane, reporters scramble to uncover the meaning of his final utterance: 'Rosebud.'",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "imdbRating": "8.2",
+      "country": "United States",
+      "director": [
+        "Orson Welles"
+      ]
+    },
+    {
+      "id": "tt0046438",
+      "type": "movie",
+      "name": "Tokyo Story",
+      "releaseInfo": "1953",
+      "poster": "https://images.metahub.space/poster/small/tt0046438/img",
+      "background": "https://images.metahub.space/background/medium/tt0046438/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0046438/img",
+      "description": "An old couple visit their children and grandchildren in the city, but receive little attention.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "8.1",
+      "country": "Japan",
+      "director": [
+        "Yasujirô Ozu"
+      ]
+    },
+    {
+      "id": "tt0047396",
+      "type": "movie",
+      "name": "Rear Window",
+      "releaseInfo": "1954",
+      "poster": "https://images.metahub.space/poster/small/tt0047396/img",
+      "background": "https://images.metahub.space/background/medium/tt0047396/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0047396/img",
+      "description": "A bored photographer recovering from a broken leg passes the time by watching his neighbors and begins to suspect one of them of murder.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "imdbRating": "8.5",
+      "country": "United States",
+      "director": [
+        "Alfred Hitchcock"
+      ]
+    },
+    {
+      "id": "tt0060827",
+      "type": "movie",
+      "name": "Persona",
+      "releaseInfo": "1966",
+      "poster": "https://images.metahub.space/poster/small/tt0060827/img",
+      "background": "https://images.metahub.space/background/medium/tt0060827/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0060827/img",
+      "description": "A nurse is put in charge of a mute actress and finds that their personae are melding together.",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "imdbRating": "8.0",
+      "country": "Sweden",
+      "director": [
+        "Ingmar Bergman"
+      ]
+    },
+    {
+      "id": "tt0062136",
+      "type": "movie",
+      "name": "Playtime",
+      "releaseInfo": "1967",
+      "poster": "https://images.metahub.space/poster/small/tt0062136/img",
+      "background": "https://images.metahub.space/background/medium/tt0062136/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0062136/img",
+      "description": "Monsieur Hulot curiously wanders around a high-tech Paris, paralleling a trip with a group of American tourists. Meanwhile, a nightclub/restaurant prepares its opening night, but it's still under construction.",
+      "genres": [
+        "Comedy"
+      ],
+      "imdbRating": "7.8",
+      "country": "France, Italy",
+      "director": [
+        "Jacques Tati"
+      ]
+    },
+    {
+      "id": "tt0062622",
+      "type": "movie",
+      "name": "2001: A Space Odyssey",
+      "releaseInfo": "1968",
+      "poster": "https://images.metahub.space/poster/small/tt0062622/img",
+      "background": "https://images.metahub.space/background/medium/tt0062622/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0062622/img",
+      "description": "When a mysterious artifact is uncovered on the Moon, a spacecraft manned by two humans and one supercomputer is sent to Jupiter to find its origins.",
+      "genres": [
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "imdbRating": "8.3",
+      "country": "United Kingdom, United States",
+      "director": [
+        "Stanley Kubrick"
+      ]
+    },
+    {
+      "id": "tt0072684",
+      "type": "movie",
+      "name": "Barry Lyndon",
+      "releaseInfo": "1975",
+      "poster": "https://images.metahub.space/poster/small/tt0072684/img",
+      "background": "https://images.metahub.space/background/medium/tt0072684/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0072684/img",
+      "description": "An Irish rogue wins the heart of a rich widow and assumes her dead husband's aristocratic position in 18th-century England.",
+      "genres": [
+        "Adventure",
+        "Drama",
+        "War"
+      ],
+      "imdbRating": "8.1",
+      "country": "United Kingdom, United States",
+      "director": [
+        "Stanley Kubrick"
+      ]
+    },
+    {
+      "id": "tt0072443",
+      "type": "movie",
+      "name": "Mirror",
+      "releaseInfo": "1975",
+      "poster": "https://images.metahub.space/poster/small/tt0072443/img",
+      "background": "https://images.metahub.space/background/medium/tt0072443/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0072443/img",
+      "description": "A dying man in his forties remembers his past. His childhood, his mother, the war, personal moments and things that tell of the recent history of all the Russian nation.",
+      "genres": [
+        "Biography",
+        "Drama"
+      ],
+      "imdbRating": "7.9",
+      "country": "Soviet Union",
+      "director": [
+        "Andrei Tarkovsky"
+      ]
+    },
+    {
+      "id": "tt0079944",
+      "type": "movie",
+      "name": "Stalker",
+      "releaseInfo": "1979",
+      "poster": "https://images.metahub.space/poster/small/tt0079944/img",
+      "background": "https://images.metahub.space/background/medium/tt0079944/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0079944/img",
+      "description": "A guide leads two men through an area known as the Zone to find a room that grants wishes.",
+      "genres": [
+        "Drama",
+        "Sci-Fi"
+      ],
+      "imdbRating": "8.0",
+      "country": "Soviet Union",
+      "director": [
+        "Andrei Tarkovsky"
+      ]
+    },
+    {
+      "id": "tt0077405",
+      "type": "movie",
+      "name": "Days of Heaven",
+      "releaseInfo": "1978",
+      "poster": "https://images.metahub.space/poster/small/tt0077405/img",
+      "background": "https://images.metahub.space/background/medium/tt0077405/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0077405/img",
+      "description": "A hot-tempered farm laborer convinces the woman he loves to marry their rich but dying boss so that they can have a claim to his fortune.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "imdbRating": "7.7",
+      "country": "United States",
+      "director": [
+        "Terrence Malick"
+      ]
+    },
+    {
+      "id": "tt0060138",
+      "type": "movie",
+      "name": "Au hasard Balthazar",
+      "releaseInfo": "1966",
+      "poster": "https://images.metahub.space/poster/small/tt0060138/img",
+      "background": "https://images.metahub.space/background/medium/tt0060138/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0060138/img",
+      "description": "The story of a mistreated donkey and the people around him. A study on saintliness and a sister piece to Bresson's Mouchette.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "7.7",
+      "country": "France, Sweden",
+      "director": [
+        "Robert Bresson"
+      ]
+    },
+    {
+      "id": "tt0085809",
+      "type": "movie",
+      "name": "Koyaanisqatsi",
+      "releaseInfo": "1982",
+      "poster": "https://images.metahub.space/poster/small/tt0085809/img",
+      "background": "https://images.metahub.space/background/medium/tt0085809/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0085809/img",
+      "description": "A collection of expertly photographed phenomena with no conventional plot. The footage focuses on the relationship between nature, humanity, and technology.",
+      "genres": [
+        "Documentary",
+        "Music"
+      ],
+      "imdbRating": "8.2",
+      "country": "United States",
+      "director": [
+        "Godfrey Reggio"
+      ]
+    },
+    {
+      "id": "tt0103767",
+      "type": "movie",
+      "name": "Baraka",
+      "releaseInfo": "1992",
+      "poster": "https://images.metahub.space/poster/small/tt0103767/img",
+      "background": "https://images.metahub.space/background/medium/tt0103767/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0103767/img",
+      "description": "A collection of expertly photographed scenes of human life and religion.",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "8.5",
+      "country": "United States",
+      "director": [
+        "Ron Fricke"
+      ]
+    },
+    {
+      "id": "tt0087884",
+      "type": "movie",
+      "name": "Paris, Texas",
+      "releaseInfo": "1984",
+      "poster": "https://images.metahub.space/poster/small/tt0087884/img",
+      "background": "https://images.metahub.space/background/medium/tt0087884/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0087884/img",
+      "description": "Travis Henderson, an aimless drifter who has been missing for four years, wanders out of the desert and must reconnect with society, himself, his life, and his family.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "8.1",
+      "country": "West Germany, France, United Kingdom, United States",
+      "director": [
+        "Wim Wenders"
+      ]
+    },
+    {
+      "id": "tt0097216",
+      "type": "movie",
+      "name": "Do the Right Thing",
+      "releaseInfo": "1989",
+      "poster": "https://images.metahub.space/poster/small/tt0097216/img",
+      "background": "https://images.metahub.space/background/medium/tt0097216/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0097216/img",
+      "description": "On the hottest day of the year on a street in the Bedford-Stuyvesant section of Brooklyn, everyone's hate and bigotry smolders and builds until it explodes into violence.",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "imdbRating": "7.9",
+      "country": "United States",
+      "director": [
+        "Spike Lee"
+      ]
+    },
+    {
+      "id": "tt0109424",
+      "type": "movie",
+      "name": "Chungking Express",
+      "releaseInfo": "1994",
+      "poster": "https://images.metahub.space/poster/small/tt0109424/img",
+      "background": "https://images.metahub.space/background/medium/tt0109424/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0109424/img",
+      "description": "Two melancholic Hong Kong policemen fall in love: one with a mysterious female underworld figure, the other with a beautiful and ethereal waitress at a late-night restaurant he frequents.",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Drama"
+      ],
+      "imdbRating": "7.9",
+      "country": "Hong Kong",
+      "director": [
+        "Wong Kar-Wai"
+      ]
+    },
+    {
+      "id": "tt0118694",
+      "type": "movie",
+      "name": "In the Mood for Love",
+      "releaseInfo": "2000",
+      "poster": "https://images.metahub.space/poster/small/tt0118694/img",
+      "background": "https://images.metahub.space/background/medium/tt0118694/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0118694/img",
+      "description": "Two neighbors form a strong bond after both suspect extramarital activities of their spouses. However, they agree to keep their bond platonic so as not to commit similar wrongs.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "imdbRating": "8.0",
+      "country": "Hong Kong, France",
+      "director": [
+        "Wong Kar-Wai"
+      ]
+    },
+    {
+      "id": "tt0166924",
+      "type": "movie",
+      "name": "Mulholland Drive",
+      "releaseInfo": "2001",
+      "poster": "https://images.metahub.space/poster/small/tt0166924/img",
+      "background": "https://images.metahub.space/background/medium/tt0166924/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0166924/img",
+      "description": "After a car wreck on Mulholland Drive renders a woman amnesiac, she and a Hollywood-hopeful search for clues and answers across Los Angeles in a twisting venture beyond dreams and reality.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "imdbRating": "7.9",
+      "country": "France, United States",
+      "director": [
+        "David Lynch"
+      ]
+    },
+    {
+      "id": "tt0245429",
+      "type": "movie",
+      "name": "Spirited Away",
+      "releaseInfo": "2001",
+      "poster": "https://images.metahub.space/poster/small/tt0245429/img",
+      "background": "https://images.metahub.space/background/medium/tt0245429/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0245429/img",
+      "description": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches and spirits, and where humans are changed into beasts.",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Family"
+      ],
+      "imdbRating": "8.6",
+      "country": "Japan, United States",
+      "director": [
+        "Hayao Miyazaki"
+      ]
+    },
+    {
+      "id": "tt0478304",
+      "type": "movie",
+      "name": "The Tree of Life",
+      "releaseInfo": "2011",
+      "poster": "https://images.metahub.space/poster/small/tt0478304/img",
+      "background": "https://images.metahub.space/background/medium/tt0478304/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0478304/img",
+      "description": "The story of a family in Waco, Texas in 1956. The eldest son witnesses the loss of innocence and struggles with his parents' conflicting teachings.",
+      "genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "imdbRating": "6.8",
+      "country": "United States",
+      "director": [
+        "Terrence Malick"
+      ]
+    },
+    {
+      "id": "tt1856101",
+      "type": "movie",
+      "name": "Blade Runner 2049",
+      "releaseInfo": "2017",
+      "poster": "https://images.metahub.space/poster/small/tt1856101/img",
+      "background": "https://images.metahub.space/background/medium/tt1856101/img",
+      "logo": "https://images.metahub.space/logo/medium/tt1856101/img",
+      "description": "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Mystery"
+      ],
+      "imdbRating": "8.0",
+      "country": "Spain, Canada, United States",
+      "director": [
+        "Denis Villeneuve"
+      ]
+    },
+    {
+      "id": "tt3666024",
+      "type": "movie",
+      "name": "The Red Turtle",
+      "releaseInfo": "2016",
+      "poster": "https://images.metahub.space/poster/small/tt3666024/img",
+      "background": "https://images.metahub.space/background/medium/tt3666024/img",
+      "logo": "https://images.metahub.space/logo/medium/tt3666024/img",
+      "description": "A man is shipwrecked on a deserted island and encounters a big red turtle, which changes his life.",
+      "genres": [
+        "Animation",
+        "Drama",
+        "Family"
+      ],
+      "imdbRating": "7.5",
+      "country": "France, Belgium, Japan, United States",
+      "director": [
+        "Michael Dudok de Wit"
+      ]
+    },
+    {
+      "id": "tt3508840",
+      "type": "movie",
+      "name": "The Assassin",
+      "releaseInfo": "2015",
+      "poster": "https://images.metahub.space/poster/small/tt3508840/img",
+      "background": "https://images.metahub.space/background/medium/tt3508840/img",
+      "logo": "https://images.metahub.space/logo/medium/tt3508840/img",
+      "description": "A female assassin receives a dangerous mission to kill a political leader in eighth-century China.",
+      "genres": [
+        "Action",
+        "Drama",
+        "History"
+      ],
+      "imdbRating": "6.3",
+      "country": "Taiwan, Hong Kong, China",
+      "director": [
+        "Hsiao-Hsien Hou"
+      ]
+    },
+    {
+      "id": "tt0048473",
+      "type": "movie",
+      "name": "Pather Panchali",
+      "releaseInfo": "1955",
+      "poster": "https://images.metahub.space/poster/small/tt0048473/img",
+      "background": "https://images.metahub.space/background/medium/tt0048473/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0048473/img",
+      "description": "Impoverished priest Harihar Ray, dreaming of a better life for himself and his family, leaves his rural Bengal village in search of work.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "8.2",
+      "country": "India",
+      "director": [
+        "Satyajit Ray"
+      ]
+    },
+    {
+      "id": "tt0054098",
+      "type": "movie",
+      "name": "Mughal-E-Azam",
+      "releaseInfo": "1960",
+      "poster": "https://images.metahub.space/poster/small/tt0054098/img",
+      "background": "https://images.metahub.space/background/medium/tt0054098/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0054098/img",
+      "description": "A 16th century prince falls in love with a court dancer and battles with his emperor father.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "War"
+      ],
+      "imdbRating": "8.1",
+      "country": "India",
+      "director": [
+        "K. Asif"
+      ]
+    },
+    {
+      "id": "tt1187043",
+      "type": "movie",
+      "name": "3 Idiots",
+      "releaseInfo": "2009",
+      "poster": "https://images.metahub.space/poster/small/tt1187043/img",
+      "background": "https://images.metahub.space/background/medium/tt1187043/img",
+      "logo": "https://images.metahub.space/logo/medium/tt1187043/img",
+      "description": "Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them \"idiots\".",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "imdbRating": "8.4",
+      "country": "India",
+      "director": [
+        "Rajkumar Hirani"
+      ]
+    }
+  ]
+}

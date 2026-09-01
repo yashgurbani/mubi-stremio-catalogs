@@ -4,85 +4,255 @@
       "id": "tt8101850",
       "type": "series",
       "name": "Undone",
-      "releaseInfo": "2019-2022"
+      "releaseInfo": "2019-2022",
+      "poster": "https://images.metahub.space/poster/small/tt8101850/img",
+      "background": "https://images.metahub.space/background/medium/tt8101850/img",
+      "logo": "https://images.metahub.space/logo/medium/tt8101850/img",
+      "description": "After she very narrowly survives a serious car accident, a woman discovers that she has a new relationship with time.",
+      "genres": [
+        "Animation",
+        "Drama",
+        "Fantasy"
+      ],
+      "imdbRating": "8.2",
+      "country": "United States",
+      "director": []
     },
     {
       "id": "tt21056886",
       "type": "series",
       "name": "Scavengers Reign",
-      "releaseInfo": "2023"
+      "releaseInfo": "2023",
+      "poster": "https://images.metahub.space/poster/small/tt21056886/img",
+      "background": "https://images.metahub.space/background/medium/tt21056886/img",
+      "logo": "https://images.metahub.space/logo/medium/tt21056886/img",
+      "description": "The crew of a damaged deep space freighter are stranded on a beautiful but dangerous planet.",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Drama"
+      ],
+      "imdbRating": "8.6",
+      "country": "United States",
+      "director": []
     },
     {
       "id": "tt11680642",
       "type": "series",
       "name": "Pantheon",
-      "releaseInfo": "2022-2023"
+      "releaseInfo": "2022-2023",
+      "poster": "https://images.metahub.space/poster/small/tt11680642/img",
+      "background": "https://images.metahub.space/background/medium/tt11680642/img",
+      "logo": "https://images.metahub.space/logo/medium/tt11680642/img",
+      "description": "A young woman starts to get messages from an unknown number that claims to be her deceased father. Trying to uncover the truth, she stumbles upon a larger conspiracy involving the singularity.",
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "imdbRating": "8.5",
+      "country": "United States",
+      "director": []
     },
     {
       "id": "tt11639414",
       "type": "series",
       "name": "The Midnight Gospel",
-      "releaseInfo": "2020"
+      "releaseInfo": "2020",
+      "poster": "https://images.metahub.space/poster/small/tt11639414/img",
+      "background": "https://images.metahub.space/background/medium/tt11639414/img",
+      "logo": "https://images.metahub.space/logo/medium/tt11639414/img",
+      "description": "Traversing trippy worlds inside his universe simulator, a space caster explores existential questions about life, death, and everything in between.",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "imdbRating": "8.2",
+      "country": "United States",
+      "director": []
     },
     {
       "id": "tt0476922",
       "type": "series",
       "name": "Moral Orel",
-      "releaseInfo": "2005-2009"
+      "releaseInfo": "2005-2009",
+      "poster": "https://images.metahub.space/poster/small/tt0476922/img",
+      "background": "https://images.metahub.space/background/medium/tt0476922/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0476922/img",
+      "description": "A parody of past religious-geared animated shows starring Orel, an optimistic God-fearing young boy in a world of cynicism.",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Drama"
+      ],
+      "imdbRating": "8.1",
+      "country": "United States",
+      "director": null
     },
     {
       "id": "tt10231312",
       "type": "series",
       "name": "Inside Job",
-      "releaseInfo": "2021-2022"
+      "releaseInfo": "2021-2022",
+      "poster": "https://live.metahub.space/poster/small/tt10231312/img",
+      "background": "https://live.metahub.space/background/medium/tt10231312/img",
+      "logo": "https://live.metahub.space/logo/medium/tt10231312/img",
+      "description": "For employees of the Deep State, conspiracies aren't just theories — they're fact. And keeping them a secret is a full-time job.",
+      "genres": [
+        "Comedy",
+        "Animation"
+      ],
+      "imdbRating": "7.7",
+      "country": "United States",
+      "director": []
     },
     {
       "id": "tt12074628",
       "type": "series",
       "name": "Smiling Friends",
-      "releaseInfo": "2020–"
+      "releaseInfo": "2020–",
+      "poster": "https://images.metahub.space/poster/small/tt12074628/img",
+      "background": "https://images.metahub.space/background/medium/tt12074628/img",
+      "logo": "https://images.metahub.space/logo/medium/tt12074628/img",
+      "description": "In a colorful yet bizarre world, the employees at a small firm dedicated to making its customers smile discover that their jobs are rarely as simple as they seem.",
+      "genres": [
+        "Animation",
+        "Short",
+        "Comedy"
+      ],
+      "imdbRating": "8.5",
+      "country": "United Kingdom, Australia, United States",
+      "director": [
+        "Michael Cusack",
+        "Zach Hadel"
+      ]
     },
     {
       "id": "tt0373732",
       "type": "series",
       "name": "The Boondocks",
-      "releaseInfo": "2005-2014"
+      "releaseInfo": "2005-2014",
+      "poster": "https://images.metahub.space/poster/small/tt0373732/img",
+      "background": "https://images.metahub.space/background/medium/tt0373732/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0373732/img",
+      "description": "Brothers Huey and Riley Freeman experience a culture clash when they leave Chicago to move in with their grandfather in the suburbs.",
+      "genres": [
+        "Animation",
+        "Action",
+        "Comedy"
+      ],
+      "imdbRating": "8.5",
+      "country": "United States, South Korea",
+      "director": null
     },
     {
       "id": "tt1486217",
       "type": "series",
       "name": "Archer",
-      "releaseInfo": "2009-2023"
+      "releaseInfo": "2009-2023",
+      "poster": "https://images.metahub.space/poster/small/tt1486217/img",
+      "background": "https://images.metahub.space/background/medium/tt1486217/img",
+      "logo": "https://images.metahub.space/logo/medium/tt1486217/img",
+      "description": "Covert black ops and espionage take a back seat to zany personalities and relationships between secret agents and drones.",
+      "genres": [
+        "Animation",
+        "Action",
+        "Comedy"
+      ],
+      "imdbRating": "8.6",
+      "country": "United States",
+      "director": null
     },
     {
       "id": "tt6741278",
       "type": "series",
       "name": "Invincible",
-      "releaseInfo": "2021-"
+      "releaseInfo": "2021-",
+      "poster": "https://images.metahub.space/poster/small/tt6741278/img",
+      "background": "https://images.metahub.space/background/medium/tt6741278/img",
+      "logo": "https://images.metahub.space/logo/medium/tt6741278/img",
+      "description": "When 17-year-old Mark Grayson inherits superpowers, he becomes the superhero Invincible.",
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "imdbRating": "8.7",
+      "country": "United States",
+      "director": []
     },
     {
       "id": "tt10332508",
       "type": "series",
       "name": "Primal",
-      "releaseInfo": "2019-"
+      "releaseInfo": "2019-",
+      "poster": "https://images.metahub.space/poster/small/tt10332508/img",
+      "background": "https://images.metahub.space/background/medium/tt10332508/img",
+      "logo": "https://images.metahub.space/logo/medium/tt10332508/img",
+      "description": "A caveman and a dinosaur bond over unfortunate tragedies and become each other's only hope of survival in a treacherous world.",
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "imdbRating": "8.6",
+      "country": "United States, France",
+      "director": []
     },
     {
       "id": "tt12590266",
       "type": "series",
       "name": "Cyberpunk: Edgerunners",
-      "releaseInfo": "2022-"
+      "releaseInfo": "2022-",
+      "poster": "https://images.metahub.space/poster/small/tt12590266/img",
+      "background": "https://images.metahub.space/background/medium/tt12590266/img",
+      "logo": "https://images.metahub.space/logo/medium/tt12590266/img",
+      "description": "A Street Kid trying to survive in a technology and body modification-obsessed city of the future. Having everything to lose, he chooses to stay alive by becoming an Edgerunner, a Mercenary outlaw also known as a Cyberpunk.",
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "imdbRating": "8.3",
+      "country": "Japan, United States, Poland",
+      "director": null
     },
     {
       "id": "tt6660498",
       "type": "series",
       "name": "Devilman Crybaby",
-      "releaseInfo": "2018"
+      "releaseInfo": "2018",
+      "poster": "https://images.metahub.space/poster/small/tt6660498/img",
+      "background": "https://images.metahub.space/background/medium/tt6660498/img",
+      "logo": "https://images.metahub.space/logo/medium/tt6660498/img",
+      "description": "With demons reawakened and humanity in turmoil, a sensitive demon-boy is led into a brutal, degenerate war against evil by his mysterious friend.",
+      "genres": [
+        "Animation",
+        "Action",
+        "Drama"
+      ],
+      "imdbRating": "7.6",
+      "country": "Japan",
+      "director": []
     },
     {
       "id": "tt14134550",
       "type": "series",
       "name": "Odd Taxi",
-      "releaseInfo": "2021"
+      "releaseInfo": "2021",
+      "poster": "https://images.metahub.space/poster/small/tt14134550/img",
+      "background": "https://images.metahub.space/background/medium/tt14134550/img",
+      "logo": "https://images.metahub.space/logo/medium/tt14134550/img",
+      "description": "In a city which should be familiar, there is the feeling of something a little different.",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Crime"
+      ],
+      "imdbRating": "8.4",
+      "country": "Japan",
+      "director": []
     }
   ]
 }

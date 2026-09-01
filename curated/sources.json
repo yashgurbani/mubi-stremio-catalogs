@@ -1,6 +1,21 @@
 {
   "catalogs": [
     {
+      "id": "images-that-teach-you-to-see",
+      "sourceName": "Visual film education synthesis",
+      "sourceTitle": "Composition, light, color, movement, blocking, landscape, and cinematic form",
+      "membershipRule": "Historically important or formally exemplary films where image-making is a central teaching signal. Includes a small Indian cinema strand for visual balance.",
+      "capturedAt": "2026-09-01",
+      "evidenceUrls": [
+        "https://www.bfi.org.uk/sight-and-sound/greatest-films-all-time",
+        "https://www.bfi.org.uk/sight-and-sound/features"
+      ],
+      "identifierSources": [
+        "Cinemeta IMDb metadata",
+        "BFI Sight and Sound evidence"
+      ]
+    },
+    {
       "id": "for-you-intimate-thoughtful-cinema",
       "sourceName": "Personal taste synthesis",
       "sourceTitle": "Quiet intimacy, modern relationships, and character-driven cinema",

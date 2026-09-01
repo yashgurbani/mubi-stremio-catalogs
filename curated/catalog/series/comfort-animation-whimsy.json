@@ -4,97 +4,287 @@
       "id": "tt0069576",
       "type": "series",
       "name": "Doraemon",
-      "releaseInfo": "1979-2005"
+      "releaseInfo": "1979-2005",
+      "poster": "https://images.metahub.space/poster/small/tt0069576/img",
+      "background": "https://images.metahub.space/background/medium/tt0069576/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0069576/img",
+      "description": "Doraemon is a robotic cat that comes from the 22nd century. He comes to 20th century and stays with Nobi Family. The Nobis love Doraemon very much. So Doraemon always help the Nobis with the devices from 22nd century.",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "imdbRating": "8.1",
+      "country": "Japan",
+      "director": null
     },
     {
       "id": "tt0305051",
       "type": "series",
       "name": "Kiteretsu Daihyakka",
-      "releaseInfo": "1988-1996"
+      "releaseInfo": "1988-1996",
+      "poster": "https://images.metahub.space/poster/small/tt0305051/img",
+      "background": "https://images.metahub.space/background/medium/tt0305051/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0305051/img",
+      "description": "Kiteretsu Daihyakka is the story of Eichii Kiteretsu, descendant of a great inventor named D. Kiteretsu which the authors say is the cousin of Nobita, Doraemon anime just that much smarter.",
+      "genres": [
+        "Animation",
+        "Family",
+        "Sci-Fi"
+      ],
+      "imdbRating": "5.0",
+      "country": "Japan",
+      "director": []
     },
     {
-      "id": "tt30051683",
+      "id": "tt12853970",
       "type": "series",
       "name": "Kureyon Shin-chan",
-      "releaseInfo": "1992–"
+      "releaseInfo": "1992–",
+      "poster": "https://images.metahub.space/poster/small/tt12853970/img",
+      "description": "Shinchan is the naughtiest 5 year old boy around. He is smitten with older women, an urge he never manages to saturate. This page covers the original Japanese version as aired in Japan.",
+      "imdbRating": "8.4",
+      "country": "Japan",
+      "background": "https://images.metahub.space/background/medium/tt12853970/img",
+      "logo": "https://images.metahub.space/logo/medium/tt12853970/img",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "director": []
     },
     {
-      "id": "tt12158994",
+      "id": "tt3559124",
       "type": "series",
       "name": "Tom and Jerry",
-      "releaseInfo": "1940–"
+      "releaseInfo": "1940–",
+      "poster": "https://images.metahub.space/poster/small/tt3559124/img",
+      "background": "https://images.metahub.space/background/medium/tt3559124/img",
+      "logo": "https://images.metahub.space/logo/medium/tt3559124/img",
+      "description": "A cat-and-mouse brawl chasing each other.",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "imdbRating": "7.2",
+      "country": "United States, Canada",
+      "director": null
     },
     {
       "id": "tt0126173",
       "type": "series",
       "name": "Swat Kats: The Radical Squadron",
-      "releaseInfo": "1993-1995"
+      "releaseInfo": "1993-1995",
+      "poster": "https://images.metahub.space/poster/small/tt0126173/img",
+      "background": "https://images.metahub.space/background/medium/tt0126173/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0126173/img",
+      "description": "In a world of anthropomorphic felines, two demoted fighter pilots battle evil as high flying masked vigilantes.",
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "imdbRating": "8.4",
+      "country": "United States, South Korea, Japan",
+      "director": null
     },
     {
       "id": "tt0852863",
       "type": "series",
       "name": "Phineas and Ferb",
-      "releaseInfo": "2007-"
+      "releaseInfo": "2007-",
+      "poster": "https://images.metahub.space/poster/small/tt0852863/img",
+      "background": "https://images.metahub.space/background/medium/tt0852863/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0852863/img",
+      "description": "Phineas and Ferb invent, scheme, and stay one step ahead of their bratty sister. Meanwhile, their pet platypus plots against evil Dr. Doofenshmirtz.",
+      "genres": [
+        "Animation",
+        "Short",
+        "Action"
+      ],
+      "imdbRating": "8.1",
+      "country": "United States, China, Taiwan, South Korea",
+      "director": null
     },
     {
       "id": "tt0096697",
       "type": "series",
       "name": "The Simpsons",
-      "releaseInfo": "1989-"
+      "releaseInfo": "1989-",
+      "poster": "https://images.metahub.space/poster/small/tt0096697/img",
+      "background": "https://images.metahub.space/background/medium/tt0096697/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0096697/img",
+      "description": "The satiric half-hour adventures of a working-class family in the misfit city of Springfield.",
+      "genres": [
+        "Animation",
+        "Comedy"
+      ],
+      "imdbRating": "8.6",
+      "country": "United States",
+      "director": null
     },
     {
       "id": "tt7678620",
       "type": "series",
       "name": "Bluey",
-      "releaseInfo": "2018-"
+      "releaseInfo": "2018-",
+      "poster": "https://images.metahub.space/poster/small/tt7678620/img",
+      "background": "https://images.metahub.space/background/medium/tt7678620/img",
+      "logo": "https://images.metahub.space/logo/medium/tt7678620/img",
+      "description": "The slice-of-life adventures of an Australian Blue Heeler Cattle Dog puppy as she has fun with her family and friends in everyday situations.",
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "imdbRating": "9.3",
+      "country": "Australia, United Kingdom, United States",
+      "director": []
     },
     {
       "id": "tt6385540",
       "type": "series",
       "name": "Hilda",
-      "releaseInfo": "2018-2023"
+      "releaseInfo": "2018-2023",
+      "poster": "https://images.metahub.space/poster/small/tt6385540/img",
+      "background": "https://images.metahub.space/background/medium/tt6385540/img",
+      "logo": "https://images.metahub.space/logo/medium/tt6385540/img",
+      "description": "A fearless blue-haired girl named Hilda leaves the forest to go to town and find new friends, great adventures, magic and mysterious creatures who might be dangerous.",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Drama"
+      ],
+      "imdbRating": "8.6",
+      "country": "United Kingdom, Canada, United States",
+      "director": []
     },
     {
       "id": "tt4163486",
       "type": "series",
       "name": "Bee and PuppyCat",
-      "releaseInfo": "2013-2018"
+      "releaseInfo": "2013-2018",
+      "poster": "https://images.metahub.space/poster/small/tt4163486/img",
+      "background": "https://images.metahub.space/background/medium/tt4163486/img",
+      "logo": "https://images.metahub.space/logo/medium/tt4163486/img",
+      "description": "Bee, an unemployed woman, is living a normal life until a grumpy companion named PuppyCat arrives. Follow Bee and and PuppyCat as they travel between reality and \"Fishbowl Space.\"",
+      "genres": [
+        "Animation",
+        "Short",
+        "Action"
+      ],
+      "imdbRating": "8.1",
+      "country": "United States",
+      "director": []
     },
     {
       "id": "tt4839610",
       "type": "series",
       "name": "We Bare Bears",
-      "releaseInfo": "2014-2019"
+      "releaseInfo": "2014-2019",
+      "poster": "https://images.metahub.space/poster/small/tt4839610/img",
+      "background": "https://images.metahub.space/background/medium/tt4839610/img",
+      "logo": "https://images.metahub.space/logo/medium/tt4839610/img",
+      "description": "Three bear brothers do whatever they can to be a part of human society by doing what everyone around them does.",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "imdbRating": "7.8",
+      "country": "United States, South Korea",
+      "director": null
     },
     {
       "id": "tt1305826",
       "type": "series",
       "name": "Adventure Time",
-      "releaseInfo": "2010-2018"
+      "releaseInfo": "2010-2018",
+      "poster": "https://images.metahub.space/poster/small/tt1305826/img",
+      "background": "https://images.metahub.space/background/medium/tt1305826/img",
+      "logo": "https://images.metahub.space/logo/medium/tt1305826/img",
+      "description": "A 12-year-old boy and his best friend, a wise 28-year-old dog with magical powers, go on a series of surreal adventures in a remote future.",
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "imdbRating": "8.6",
+      "country": "United States, Hong Kong, Japan, South Korea, Germany",
+      "director": null
     },
     {
       "id": "tt0983983",
       "type": "series",
       "name": "Shaun the Sheep",
-      "releaseInfo": "2007-2025"
+      "releaseInfo": "2007-2025",
+      "poster": "https://images.metahub.space/poster/small/tt0983983/img",
+      "background": "https://images.metahub.space/background/medium/tt0983983/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0983983/img",
+      "description": "Shaun The Sheep is a cheeky and mischievous sheep at Mossy Bottom farm who's the leader of the flock and always plays slapstick jokes, pranks and causes trouble especially on Farmer X and his grumpy guide dog, Bitzer.",
+      "genres": [
+        "Animation",
+        "Short",
+        "Comedy"
+      ],
+      "imdbRating": "8.2",
+      "country": "United Kingdom, Finland, Germany",
+      "director": null
     },
     {
       "id": "tt3718778",
       "type": "series",
       "name": "Over the Garden Wall",
-      "releaseInfo": "2014"
+      "releaseInfo": "2014",
+      "poster": "https://images.metahub.space/poster/small/tt3718778/img",
+      "background": "https://images.metahub.space/background/medium/tt3718778/img",
+      "logo": "https://images.metahub.space/logo/medium/tt3718778/img",
+      "description": "Two brothers find themselves lost in a mysterious land and try to find their way home.",
+      "genres": [
+        "Animation",
+        "Short",
+        "Adventure"
+      ],
+      "imdbRating": "8.7",
+      "country": "United States",
+      "director": null
     },
     {
       "id": "tt6354518",
       "type": "series",
       "name": "The Disastrous Life of Saiki K.",
-      "releaseInfo": "2016-2018"
+      "releaseInfo": "2016-2018",
+      "poster": "https://images.metahub.space/poster/small/tt6354518/img",
+      "background": "https://images.metahub.space/background/medium/tt6354518/img",
+      "logo": "https://images.metahub.space/logo/medium/tt6354518/img",
+      "description": "Saiki Kusuo is a powerful psychic who hates attracting attention, yet he is surrounded by colorful characters who always find a way to remove him from his everyday life.",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Fantasy"
+      ],
+      "imdbRating": "8.3",
+      "country": "Japan",
+      "director": []
     },
     {
       "id": "tt2098308",
       "type": "series",
       "name": "Nichijou: My Ordinary Life",
-      "releaseInfo": "2011"
+      "releaseInfo": "2011",
+      "poster": "https://images.metahub.space/poster/small/tt2098308/img",
+      "background": "https://images.metahub.space/background/medium/tt2098308/img",
+      "logo": "https://images.metahub.space/logo/medium/tt2098308/img",
+      "description": "Follow the adventures of three ordinary girls as they learn their most important lessons the hard way. Meanwhile, a pocket-sized professor makes life difficult for a robot who just wants to be normal.",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Sci-Fi"
+      ],
+      "imdbRating": "8.3",
+      "country": "Japan",
+      "director": null
     }
   ]
 }

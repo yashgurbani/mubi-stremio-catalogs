@@ -4,73 +4,227 @@
       "id": "tt0100234",
       "type": "movie",
       "name": "Close-Up",
-      "releaseInfo": "1990"
+      "releaseInfo": "1990",
+      "poster": "https://images.metahub.space/poster/small/tt0100234/img",
+      "background": "https://images.metahub.space/background/medium/tt0100234/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0100234/img",
+      "description": "The true story of Hossain Sabzian, a cinephile who impersonated the director Mohsen Makhmalbaf to convince a family they would star in his so-called new film.",
+      "genres": [
+        "Biography",
+        "Crime",
+        "Drama"
+      ],
+      "imdbRating": "8.2",
+      "country": "Iran",
+      "director": [
+        "Abbas Kiarostami"
+      ]
     },
     {
       "id": "tt0209933",
       "type": "movie",
       "name": "Beau Travail",
-      "releaseInfo": "1999"
+      "releaseInfo": "1999",
+      "poster": "https://images.metahub.space/poster/small/tt0209933/img",
+      "background": "https://images.metahub.space/background/medium/tt0209933/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0209933/img",
+      "description": "An ex-Foreign Legion officer recalls his once-glorious life of leading troops in Djibouti.",
+      "genres": [
+        "Drama",
+        "War"
+      ],
+      "imdbRating": "7.3",
+      "country": "France, Belarus, Belgium, Cyprus, Italy",
+      "director": [
+        "Claire Denis"
+      ]
     },
     {
       "id": "tt0381668",
       "type": "movie",
       "name": "Tropical Malady",
-      "releaseInfo": "2004"
+      "releaseInfo": "2004",
+      "poster": "https://images.metahub.space/poster/small/tt0381668/img",
+      "background": "https://images.metahub.space/background/medium/tt0381668/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0381668/img",
+      "description": "A romance between a soldier and a country boy, wrapped around a Thai folk-tale involving a shaman with shape-shifting abilities.",
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Romance"
+      ],
+      "imdbRating": "7.1",
+      "country": "Thailand, France, Germany, Italy",
+      "director": [
+        "Apichatpong Weerasethakul"
+      ]
     },
     {
       "id": "tt1588895",
       "type": "movie",
       "name": "Uncle Boonmee Who Can Recall His Past Lives",
-      "releaseInfo": "2010"
+      "releaseInfo": "2010",
+      "poster": "https://images.metahub.space/poster/small/tt1588895/img",
+      "background": "https://images.metahub.space/background/medium/tt1588895/img",
+      "logo": "https://images.metahub.space/logo/medium/tt1588895/img",
+      "description": "Dying of kidney disease, a man spends his last, somber days with family, including the ghost of his wife and a forest spirit who used to be his son, on a rural northern Thailand farm.",
+      "genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "imdbRating": "6.7",
+      "country": "Thailand, United Kingdom, France, Germany, Spain, Netherlands",
+      "director": [
+        "Apichatpong Weerasethakul"
+      ]
     },
     {
       "id": "tt0070040",
       "type": "movie",
       "name": "The Spirit of the Beehive",
-      "releaseInfo": "1973"
+      "releaseInfo": "1973",
+      "poster": "https://images.metahub.space/poster/small/tt0070040/img",
+      "background": "https://images.metahub.space/background/medium/tt0070040/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0070040/img",
+      "description": "In 1940, after watching and being traumatized by the movie Frankenstein (1931), a sensitive seven-year-old girl living in a small Spanish village drifts into her own fantasy world.",
+      "genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "imdbRating": "7.7",
+      "country": "Spain",
+      "director": [
+        "Víctor Erice"
+      ]
     },
     {
       "id": "tt0076452",
       "type": "movie",
       "name": "News from Home",
-      "releaseInfo": "1976"
+      "releaseInfo": "1976",
+      "poster": "https://images.metahub.space/poster/small/tt0076452/img",
+      "background": "https://images.metahub.space/background/medium/tt0076452/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0076452/img",
+      "description": "Impersonal and beautiful images of Akerman's life in New York are combined with letters from her loving but manipulative mother, read by Akerman herself.",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "7.3",
+      "country": "Belgium, France, West Germany",
+      "director": [
+        "Chantal Akerman"
+      ]
     },
     {
       "id": "tt0070820",
       "type": "movie",
       "name": "Touki Bouki",
-      "releaseInfo": "1973"
+      "releaseInfo": "1973",
+      "poster": "https://images.metahub.space/poster/small/tt0070820/img",
+      "background": "https://images.metahub.space/background/medium/tt0070820/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0070820/img",
+      "description": "Mory, a cowherd, and Anta, a university student, try to make money in order to go to Paris and leave their boring past behind.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "7.0",
+      "country": "Senegal",
+      "director": [
+        "Djibril Diop Mambéty"
+      ]
     },
     {
       "id": "tt0336693",
       "type": "movie",
       "name": "The House Is Black",
-      "releaseInfo": "1963"
+      "releaseInfo": "1963",
+      "poster": "https://live.metahub.space/poster/small/tt0336693/img",
+      "background": "https://live.metahub.space/background/medium/tt0336693/img",
+      "logo": "https://live.metahub.space/logo/medium/tt0336693/img",
+      "description": "Set in a leper colony in the north of Iran, The House is Black juxtaposes \"ugliness,\" of which there is much in the world as stated in the opening scenes, with religion and gratitude.",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "7.8",
+      "country": "Iran",
+      "director": [
+        "Forugh Farrokhzad"
+      ]
     },
     {
       "id": "tt0859765",
       "type": "movie",
       "name": "Still Life",
-      "releaseInfo": "2006"
+      "releaseInfo": "2006",
+      "poster": "https://images.metahub.space/poster/small/tt0859765/img",
+      "background": "https://images.metahub.space/background/medium/tt0859765/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0859765/img",
+      "description": "A town in Fengjie county is gradually being demolished and flooded to make way for the Three Gorges Dam. A man and woman visit the town to locate their estranged spouses, and become witness to the societal changes.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "7.3",
+      "country": "Hong Kong, China",
+      "director": [
+        "Jia Zhang-ke"
+      ]
     },
     {
       "id": "tt0477731",
       "type": "movie",
       "name": "Syndromes and a Century",
-      "releaseInfo": "2006"
+      "releaseInfo": "2006",
+      "poster": "https://images.metahub.space/poster/small/tt0477731/img",
+      "background": "https://images.metahub.space/background/medium/tt0477731/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0477731/img",
+      "description": "Story about director Apichatpong Weerasethakul's parents, who were both doctors, and the director's memories about growing up in the hospital environment.",
+      "genres": [
+        "Drama"
+      ],
+      "imdbRating": "7.3",
+      "country": "Thailand, France, Austria",
+      "director": [
+        "Apichatpong Weerasethakul"
+      ]
     },
     {
       "id": "tt0101985",
       "type": "movie",
       "name": "A Brighter Summer Day",
-      "releaseInfo": "1991"
+      "releaseInfo": "1991",
+      "poster": "https://images.metahub.space/poster/small/tt0101985/img",
+      "background": "https://images.metahub.space/background/medium/tt0101985/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0101985/img",
+      "description": "Based on a true story, primarily on a conflict between two youth gangs, a 14-year-old boy's girlfriend conflicts with the head of one gang for an unclear reason, until finally the conflict comes to a violent climax.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Romance"
+      ],
+      "imdbRating": "8.2",
+      "country": "Taiwan",
+      "director": [
+        "Edward Yang"
+      ]
     },
     {
       "id": "tt0095037",
       "type": "movie",
       "name": "Distant Voices, Still Lives",
-      "releaseInfo": "1988"
+      "releaseInfo": "1988",
+      "poster": "https://images.metahub.space/poster/small/tt0095037/img",
+      "background": "https://images.metahub.space/background/medium/tt0095037/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0095037/img",
+      "description": "The lives of an English working-class family are told out of order in a free-associative manner. The first part, \"Distant Voices\", focuses on the father's role in the family. The second part, \"Still Lives\", focuses on his children.",
+      "genres": [
+        "Drama",
+        "Music"
+      ],
+      "imdbRating": "7.4",
+      "country": "United Kingdom, West Germany",
+      "director": [
+        "Terence Davies"
+      ]
     }
   ]
 }

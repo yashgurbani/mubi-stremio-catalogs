@@ -94,14 +94,21 @@ The repository also publishes a separate curated addon at:
 https://yashgurbani.github.io/mubi-stremio-catalogs/curated/manifest.json
 ```
 
-The addon contains ten rows and 183 unique titles. It combines two different forms of curation:
+The addon contains eleven rows and 210 unique titles. It combines three different forms of curation:
 
+- one visual-film-education row, `Images That Teach You to See`;
 - nine taste-informed discovery rows for films, television, documentary films and series, Indian cinema, global arthouse, comedy, and animation;
 - one exact source-faithful row, `14 Iconic Indian Films — FHF`, whose membership follows the numbered Film Heritage Foundation program.
 
 The taste-informed rows exclude every exact title in the known watched-series journal and explicit watchlist. They complement Watchly instead of replacing it. Watchly remains the dynamic engine that learns from new Simkl activity.
 
-Import this manifest through AIOMetadata Custom Manifest Integration. AIOMetadata enriches the IMDb identifiers with posters and full metadata before the row reaches Nuvio.
+Import this manifest through AIOMetadata Custom Manifest Integration. The static payloads include poster, background, rating, genre, country, and director metadata, so Nuvio can render the rows without a separate per-card enrichment request.
+
+Refresh the static artwork fields after adding or changing titles:
+
+```powershell
+node .\scripts\enrich-curated-posters.mjs
+```
 
 Every curated catalog must have a provenance entry in `curated/sources.json`. The validator rejects missing source records, malformed IMDb IDs, empty rows, type mismatches, and duplicate items.
 

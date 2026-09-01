@@ -4,127 +4,402 @@
       "id": "tt1385956",
       "type": "movie",
       "name": "Particle Fever",
-      "releaseInfo": "2013"
+      "releaseInfo": "2013",
+      "poster": "https://images.metahub.space/poster/small/tt1385956/img",
+      "background": "https://images.metahub.space/background/medium/tt1385956/img",
+      "logo": "https://images.metahub.space/logo/medium/tt1385956/img",
+      "description": "As the Large Hadron Collider is about to be launched for the first time, physicists are on the cusp of the greatest scientific discovery of all time -- or perhaps their greatest failure.",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "7.4",
+      "country": "United States",
+      "director": [
+        "Mark Levinson"
+      ]
     },
     {
       "id": "tt6223974",
       "type": "movie",
       "name": "The Farthest",
-      "releaseInfo": "2017"
+      "releaseInfo": "2017",
+      "poster": "https://images.metahub.space/poster/small/tt6223974/img",
+      "background": "https://images.metahub.space/background/medium/tt6223974/img",
+      "logo": "https://images.metahub.space/logo/medium/tt6223974/img",
+      "description": "It is one of humankind's greatest achievements. More than 12 billion miles away a tiny spaceship is leaving our Solar System and entering the void of deep space - the first human-made object ever to do so.",
+      "genres": [
+        "Documentary",
+        "History"
+      ],
+      "imdbRating": "8.1",
+      "country": "Ireland",
+      "director": [
+        "Emer Reynolds"
+      ]
     },
     {
       "id": "tt8760684",
       "type": "movie",
       "name": "Apollo 11",
-      "releaseInfo": "2019"
+      "releaseInfo": "2019",
+      "poster": "https://images.metahub.space/poster/small/tt8760684/img",
+      "background": "https://images.metahub.space/background/medium/tt8760684/img",
+      "logo": "https://images.metahub.space/logo/medium/tt8760684/img",
+      "description": "A look at the Apollo 11 mission to land on the moon led by commander Neil Armstrong and pilots Buzz Aldrin and Mike Collins.",
+      "genres": [
+        "Documentary",
+        "History"
+      ],
+      "imdbRating": "8.1",
+      "country": "United States",
+      "director": [
+        "Todd Douglas Miller"
+      ]
     },
     {
       "id": "tt16227014",
       "type": "movie",
       "name": "Fire of Love",
-      "releaseInfo": "2022"
+      "releaseInfo": "2022",
+      "poster": "https://images.metahub.space/poster/small/tt16227014/img",
+      "background": "https://images.metahub.space/background/medium/tt16227014/img",
+      "logo": "https://images.metahub.space/logo/medium/tt16227014/img",
+      "description": "Intrepid scientists and lovers Katia and Maurice Krafft died in a volcanic explosion doing the very thing that brought them together: unraveling the mysteries of volcanoes by capturing the most explosive imagery ever recorded.",
+      "genres": [
+        "Documentary",
+        "Biography"
+      ],
+      "imdbRating": "7.6",
+      "country": "Canada, United States",
+      "director": [
+        "Sara Dosa"
+      ]
     },
     {
       "id": "tt2375605",
       "type": "movie",
       "name": "The Act of Killing",
-      "releaseInfo": "2012"
+      "releaseInfo": "2012",
+      "poster": "https://images.metahub.space/poster/small/tt2375605/img",
+      "background": "https://images.metahub.space/background/medium/tt2375605/img",
+      "logo": "https://images.metahub.space/logo/medium/tt2375605/img",
+      "description": "A documentary which challenges former Indonesian death-squad leaders to reenact their mass-killings in whichever cinematic genres they wish, including classic Hollywood crime scenarios and lavish musical numbers.",
+      "genres": [
+        "Documentary",
+        "Biography",
+        "Crime"
+      ],
+      "imdbRating": "8.2",
+      "country": "United Kingdom, Denmark, Indonesia, Norway",
+      "director": [
+        "Joshua Oppenheimer",
+        "Anonymous",
+        "Christine Cynn"
+      ]
     },
     {
       "id": "tt10706602",
       "type": "movie",
       "name": "Collective",
-      "releaseInfo": "2019"
+      "releaseInfo": "2019",
+      "poster": "https://images.metahub.space/poster/small/tt10706602/img",
+      "background": "https://images.metahub.space/background/medium/tt10706602/img",
+      "logo": "https://images.metahub.space/logo/medium/tt10706602/img",
+      "description": "Director Alexander Nanau follows a crack team of investigators at the Romanian newspaper Gazeta Sporturilor as they try to uncover a vast health-care fraud that enriched moguls and politicians and led to the deaths of innocent cit...",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "imdbRating": "8.1",
+      "country": "Romania, Luxembourg, Germany",
+      "director": [
+        "Alexander Nanau"
+      ]
     },
     {
       "id": "tt3521134",
       "type": "movie",
       "name": "The Look of Silence",
-      "releaseInfo": "2014"
+      "releaseInfo": "2014",
+      "poster": "https://images.metahub.space/poster/small/tt3521134/img",
+      "background": "https://images.metahub.space/background/medium/tt3521134/img",
+      "logo": "https://images.metahub.space/logo/medium/tt3521134/img",
+      "description": "A family that survived the genocide in Indonesia confronts the men who killed one of their brothers.",
+      "genres": [
+        "Documentary",
+        "Biography",
+        "History"
+      ],
+      "imdbRating": "8.2",
+      "country": "Denmark, Indonesia, Finland, Norway, United Kingdom, Israel, France, United States, Germany, Netherlands",
+      "director": [
+        "Joshua Oppenheimer"
+      ]
     },
     {
       "id": "tt9617456",
       "type": "movie",
       "name": "For Sama",
-      "releaseInfo": "2019"
+      "releaseInfo": "2019",
+      "poster": "https://images.metahub.space/poster/small/tt9617456/img",
+      "background": "https://images.metahub.space/background/medium/tt9617456/img",
+      "logo": "https://images.metahub.space/logo/medium/tt9617456/img",
+      "description": "An intimate and epic journey into a young woman's experience of war during the revolution in Aleppo, Syria.",
+      "genres": [
+        "Documentary",
+        "Biography",
+        "War"
+      ],
+      "imdbRating": "8.5",
+      "country": "United Kingdom, Syria, United States",
+      "director": [
+        "Waad Al-Kateab",
+        "Edward Watts"
+      ]
     },
     {
       "id": "tt5375040",
       "type": "movie",
       "name": "Cameraperson",
-      "releaseInfo": "2016"
+      "releaseInfo": "2016",
+      "poster": "https://images.metahub.space/poster/small/tt5375040/img",
+      "background": "https://images.metahub.space/background/medium/tt5375040/img",
+      "logo": "https://images.metahub.space/logo/medium/tt5375040/img",
+      "description": "Exposing her role behind the camera, Kirsten Johnson reaches into the vast trove of footage she has shot over decades around the world. What emerges is a visually bold memoir and a revelatory interrogation of the power of the camera.",
+      "genres": [
+        "Documentary",
+        "Biography",
+        "History"
+      ],
+      "imdbRating": "7.5",
+      "country": "United States",
+      "director": [
+        "Kirsten Johnson"
+      ]
     },
     {
       "id": "tt0084628",
       "type": "movie",
       "name": "Sans Soleil",
-      "releaseInfo": "1983"
+      "releaseInfo": "1983",
+      "poster": "https://images.metahub.space/poster/small/tt0084628/img",
+      "background": "https://images.metahub.space/background/medium/tt0084628/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0084628/img",
+      "description": "A woman narrates the contemplative writings of a seasoned world traveler, focusing on contemporary Japan.",
+      "genres": [
+        "Documentary",
+        "Drama"
+      ],
+      "imdbRating": "7.7",
+      "country": "France",
+      "director": [
+        "Chris Marker"
+      ]
     },
     {
       "id": "tt2366450",
       "type": "movie",
       "name": "Stories We Tell",
-      "releaseInfo": "2012"
+      "releaseInfo": "2012",
+      "poster": "https://images.metahub.space/poster/small/tt2366450/img",
+      "background": "https://images.metahub.space/background/medium/tt2366450/img",
+      "logo": "https://images.metahub.space/logo/medium/tt2366450/img",
+      "description": "A film that excavates layers of myth and memory to find the elusive truth at the core of a family of storytellers.",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "7.5",
+      "country": "Canada",
+      "director": [
+        "Sarah Polley"
+      ]
     },
     {
       "id": "tt8991268",
       "type": "movie",
       "name": "Honeyland",
-      "releaseInfo": "2019"
+      "releaseInfo": "2019",
+      "poster": "https://images.metahub.space/poster/small/tt8991268/img",
+      "background": "https://images.metahub.space/background/medium/tt8991268/img",
+      "logo": "https://images.metahub.space/logo/medium/tt8991268/img",
+      "description": "The last female bee-hunter in Europe must save the bees and return the natural balance in Honeyland, when a family of nomadic beekeepers invade her land and threaten her livelihood.",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "8.0",
+      "country": "North Macedonia, United States, Switzerland",
+      "director": [
+        "Tamara Kotevska",
+        "Ljubomir Stefanov"
+      ]
     },
     {
       "id": "tt1556190",
       "type": "movie",
       "name": "Nostalgia for the Light",
-      "releaseInfo": "2010"
+      "releaseInfo": "2010",
+      "poster": "https://images.metahub.space/poster/small/tt1556190/img",
+      "background": "https://images.metahub.space/background/medium/tt1556190/img",
+      "logo": "https://images.metahub.space/logo/medium/tt1556190/img",
+      "description": "A documentary about two different searches conducted in the Chilean Atacama Desert: one by astronomers looking for answers about the history of the cosmos, and one by women looking for the remains of loved ones killed by Pinochet'...",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "7.6",
+      "country": "France, Germany, Chile, Spain",
+      "director": [
+        "Patricio Guzmán"
+      ]
     },
     {
       "id": "tt16377862",
       "type": "movie",
       "name": "All That Breathes",
-      "releaseInfo": "2022"
+      "releaseInfo": "2022",
+      "poster": "https://images.metahub.space/poster/small/tt16377862/img",
+      "background": "https://images.metahub.space/background/medium/tt16377862/img",
+      "logo": "https://images.metahub.space/logo/medium/tt16377862/img",
+      "description": "Amidst the darkening backdrop of Delhi's apocalyptic air and escalating violence, two brothers devote their lives to protect one casualty of the turbulent times: the bird known as the Black Kite.",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "7.0",
+      "country": "United Kingdom, India, United States",
+      "director": [
+        "Shaunak Sen"
+      ]
     },
     {
       "id": "tt9098872",
       "type": "movie",
       "name": "The Rescue",
-      "releaseInfo": "2021"
+      "releaseInfo": "2021",
+      "poster": "https://images.metahub.space/poster/small/tt9098872/img",
+      "background": "https://images.metahub.space/background/medium/tt9098872/img",
+      "logo": "https://images.metahub.space/logo/medium/tt9098872/img",
+      "description": "A chronicle of the enthralling, against-all-odds story that transfixed the world in 2018: the daring rescue of twelve boys and their coach from deep inside a flooded cave in Northern Thailand.",
+      "genres": [
+        "Documentary",
+        "Action",
+        "Mystery"
+      ],
+      "imdbRating": "8.3",
+      "country": "United Kingdom, United States",
+      "director": [
+        "Jimmy Chin",
+        "Elizabeth Chai Vasarhelyi"
+      ]
     },
     {
       "id": "tt13630174",
       "type": "movie",
       "name": "Writing with Fire",
-      "releaseInfo": "2021"
+      "releaseInfo": "2021",
+      "poster": "https://images.metahub.space/poster/small/tt13630174/img",
+      "background": "https://images.metahub.space/background/medium/tt13630174/img",
+      "logo": "https://images.metahub.space/logo/medium/tt13630174/img",
+      "description": "In a cluttered news landscape dominated by men, emerges India's only newspaper run by Dalit women. Chief Reporter Meera and her journalists break traditions, redefining what it means to be powerful.",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "7.3",
+      "country": "India",
+      "director": [
+        "Sushmit Ghosh",
+        "Rintu Thomas"
+      ]
     },
     {
       "id": "tt5690244",
       "type": "movie",
       "name": "Machines",
-      "releaseInfo": "2016"
+      "releaseInfo": "2016",
+      "poster": "https://images.metahub.space/poster/small/tt5690244/img",
+      "background": "https://images.metahub.space/background/medium/tt5690244/img",
+      "logo": "https://images.metahub.space/logo/medium/tt5690244/img",
+      "description": "A portrait of daily life of the workers in an Indian textile factory, revealing its beauty as well as its shameful working conditions.",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "7.3",
+      "country": "India, Germany, Finland",
+      "director": [
+        "Rahul Jain"
+      ]
     },
     {
       "id": "tt14812784",
       "type": "movie",
       "name": "A Night of Knowing Nothing",
-      "releaseInfo": "2021"
+      "releaseInfo": "2021",
+      "poster": "https://live.metahub.space/poster/small/tt14812784/img",
+      "background": "https://live.metahub.space/background/medium/tt14812784/img",
+      "logo": "https://live.metahub.space/logo/medium/tt14812784/img",
+      "description": "L, a student in India witness to the government's violent response to university protests, writes letters to her estranged lover while he is away.",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "7.3",
+      "country": "France, India",
+      "director": [
+        "Payal Kapadia"
+      ]
     },
     {
       "id": "tt6700846",
       "type": "movie",
       "name": "AlphaGo",
-      "releaseInfo": "2017"
+      "releaseInfo": "2017",
+      "poster": "https://images.metahub.space/poster/small/tt6700846/img",
+      "background": "https://images.metahub.space/background/medium/tt6700846/img",
+      "logo": "https://images.metahub.space/logo/medium/tt6700846/img",
+      "description": "Google's DeepMind has developed a program for playing the 3000 year old game Go using AI. They test AlphaGo on the European champion, then March 9-15, 2016, on the top player, Lee Sedol, in a best of 5 tournament in Seoul.",
+      "genres": [
+        "Documentary",
+        "Sport"
+      ],
+      "imdbRating": "7.8",
+      "country": "United States",
+      "director": [
+        "Greg Kohs"
+      ]
     },
     {
       "id": "tt9612680",
       "type": "movie",
       "name": "Human Nature",
-      "releaseInfo": "2019"
+      "releaseInfo": "2019",
+      "poster": "https://images.metahub.space/poster/small/tt9612680/img",
+      "background": "https://images.metahub.space/background/medium/tt9612680/img",
+      "logo": "https://images.metahub.space/logo/medium/tt9612680/img",
+      "description": "A breakthrough called CRISPR opens the door to curing diseases, reshaping the biosphere, and designing our own children. A provocative exploration of its far-reaching implications, through the eyes of the scientists who discovered...",
+      "genres": [
+        "Documentary"
+      ],
+      "imdbRating": "7.7",
+      "country": "United States",
+      "director": [
+        "Adam Bolt"
+      ]
     },
     {
       "id": "tt5015534",
       "type": "movie",
       "name": "The Bit Player",
-      "releaseInfo": "2018"
+      "releaseInfo": "2018",
+      "poster": "https://images.metahub.space/poster/small/tt5015534/img",
+      "background": "https://images.metahub.space/background/medium/tt5015534/img",
+      "logo": "https://images.metahub.space/logo/medium/tt5015534/img",
+      "description": "The Bit Player tells the story of an overlooked genius, Claude Shannon (the \"Father of Information Theory\"), who revolutionized the world, but never lost his childlike curiosity.",
+      "genres": [
+        "Documentary",
+        "Biography"
+      ],
+      "imdbRating": "7.3",
+      "country": "United States",
+      "director": [
+        "Mark Levinson"
+      ]
     }
   ]
 }
