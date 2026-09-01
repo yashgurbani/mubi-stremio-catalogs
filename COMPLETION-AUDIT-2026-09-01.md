@@ -43,7 +43,7 @@ The protected AIOMetadata addon remains because it supplies live Netflix, canon,
 
 The live Watchly manifest has 16 rows. Watchly reads Simkl, uses Balanced discovery, and retains Top Picks and Because You Watched.
 
-The curated addon has 10 rows and 183 unique titles. Every title resolves. The known watched-series journal and explicit watchlist have zero exact overlap with these rows.
+The curated addon has 11 rows and 210 unique titles. Every title resolves. The known watched-series journal and explicit watchlist have zero exact overlap with these rows.
 
 ## Playback and subtitle policy
 
@@ -83,7 +83,7 @@ OpenSubtitles v3 is installed before the stream addons. Nuvio can still select a
 | Simkl history and central watchlist | Complete | Three focused Plan to Watch catalogs and Nuvio single-writer rule |
 | Personalized recommendations | Complete | Watchly 16-row live manifest |
 | Because You Watched | Complete | Watchly dynamic rows |
-| Taste-aware curated discovery | Complete | 10 rows, 183 unique titles, zero known personal overlap |
+| Taste-aware curated discovery | Complete | 11 rows, 210 unique titles, zero known personal overlap |
 | Hindi and regional breadth | Complete | Curated Indian row plus late raw regional addon |
 | Documentary, arthouse, canon, and film-study discovery | Complete | Curated and protected catalog rows |
 | Netflix discovery | Complete | Protected AIOMetadata rows remain live |

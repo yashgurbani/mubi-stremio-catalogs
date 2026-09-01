@@ -53,7 +53,7 @@ The live AIOMetadata manifest still lacks Simkl Plan to Watch rows. Its current 
 | YouTube cinema playlist | 26 visible items, 2 unavailable | Normalized | Weighted craft, theme, and topic evidence |
 | Instagram cinema collection | 12 visible saved posts | Normalized | High-weight film and craft taste evidence |
 | Watchly | 16 live catalog rows | Active | Adaptive recommendations from Simkl |
-| Curated Discovery 2.2.0 | 10 rows, 183 unique titles | Active | Stable editorial breadth |
+| Curated Discovery 2.2.1 | 11 rows, 210 unique titles | Active | Stable editorial breadth plus visual film education |
 | Letterboxd | Signed-out page | Pending | Film ratings, history, and watchlist |
 | IFFMH 2025 highlights | Archive page available, highlights missing | Pending exact titles | Watched-and-loved festival evidence |
 
