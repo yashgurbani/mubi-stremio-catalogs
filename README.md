@@ -4,9 +4,10 @@ This is a static, source-faithful Nuvio catalog addon for three MUBI Germany edi
 
 It contains:
 
-- `AUSGEWÄHLT VON WIM WENDERS` — 4 films currently available in Germany
 - `NEUE HORIZONTE: NEO-WESTERN` — 3 films
 - `BEFORE BARBIE: GRETA GERWIG AND NOAH BAUMBACH` — 2 films
+
+The official `AUSGEWÄHLT VON WIM WENDERS` page expired on 1 September 2026. The manifest no longer exposes that row.
 
 Every title is resolved to a specific TMDB ID. The addon does not generate, infer, or expand MUBI membership. Old snapshot files remain as an unlisted archive.
 

@@ -7,8 +7,8 @@ if (manifest.resources?.includes("catalog") !== true) {
   throw new Error("manifest.json must expose the catalog resource");
 }
 
-if (!Array.isArray(manifest.catalogs) || manifest.catalogs.length !== 3) {
-  throw new Error(`Expected 3 catalogs, found ${manifest.catalogs?.length ?? 0}`);
+if (!Array.isArray(manifest.catalogs) || manifest.catalogs.length === 0) {
+  throw new Error("manifest.json has no current MUBI editorial catalogs");
 }
 
 const allIds = new Set();

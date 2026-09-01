@@ -1,8 +1,8 @@
 {
   "id": "org.yashgurbani.mubi.editorial.snapshots",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "name": "MUBI Editorial Collections — DE Snapshot",
-  "description": "Source-faithful snapshots of current MUBI Germany editorial collections, captured 31 August 2026. Collection names and membership are preserved exactly; availability may change.",
+  "description": "Source-faithful snapshots of current MUBI Germany editorial collections, verified 1 September 2026. Collection names and membership are preserved exactly; availability may change.",
   "resources": [
     "catalog"
   ],
@@ -13,11 +13,6 @@
     "tmdb:"
   ],
   "catalogs": [
-    {
-      "type": "movie",
-      "id": "mubi-hand-picked-by-wim-wenders-2026-08-31",
-      "name": "AUSGEWÄHLT VON WIM WENDERS"
-    },
     {
       "type": "movie",
       "id": "mubi-new-frontiers-neo-western-2026-08-31",
