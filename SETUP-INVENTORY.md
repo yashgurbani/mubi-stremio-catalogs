@@ -19,15 +19,19 @@ The codec exclusions match the Philips 43PUS7363/12. The television supports HDR
 
 1. Watchly
 2. AIOMetadata
-3. Festival Favourites
-4. OpenSubtitles v3
-5. AIOStreams
-6. Cinemeta
-7. Indian Regional Catalog
-8. Stremify HTTP — Direct Fallback
-9. Sootio HTTP
+3. Curated Discovery — Film, TV & Docs
+4. MUBI Editorial Collections — DE Snapshot
+5. Festival Favourites
+6. OpenSubtitles v3
+7. AIOStreams
+8. Cinemeta
+9. Indian Regional Catalog
+10. Stremify HTTP — Direct Fallback
+11. Sootio HTTP
 
-The live Nuvio Sync account matches this nine-addon order. Watchly and AIOMetadata lead the list. Sootio remains last.
+The live Nuvio Sync account matches this eleven-addon order. Watchly and AIOMetadata lead the list. Sootio remains last.
+
+The public AIOStreams host does not collect Torrentio, AnimeKitsu, torrent-catalog, P2P, or HTTP streams. A direct Real-Debrid provider remains the planned gap-filler after AIOStreams.
 
 ## Recommendation architecture
 
@@ -103,7 +107,7 @@ In Watchly, connect the same Simkl account and select Simkl as the history sourc
 
 Nuvio 0.8.11 automatically selects a matching embedded track before a matching addon track. It uses an addon subtitle when no matching embedded track exists. The app has no setting that always places OpenSubtitles before embedded tracks. Select an addon subtitle manually when its timing or text is better.
 
-The live Nuvio TV settings currently have **Use Forced Subtitles** on. This conflicts with the policy above and can leave normal dialogue without subtitles. Turn it off during the next approved settings save. Keep **Show Only Preferred Languages** off.
+The live Nuvio TV settings have **Use Forced Subtitles** off. **Show Only Preferred Languages** also remains off.
 
 ## Nuvio playback compatibility
 
@@ -135,13 +139,15 @@ The separate curated manifest now contains ten rows and 183 unique titles. Nine 
 
 The curated rows contain no exact match from the known watched-series journal or explicit watchlist. Import the manifest through AIOMetadata so that its IMDb identifiers receive full posters and metadata. Keep the exact FHF row before raw regional latest-release catalogs.
 
-The live Nuvio TV settings currently use **Modern View**. That layout uses one active row and conflicts with the requested endless homepage. Change it to **Classic View** during the next approved settings save.
+The live Nuvio TV settings use **Classic View** and follow the installed addon order.
 
-The live Watchly manifest contains 16 movie and series rows. It includes Top Picks, two current Because You Watched rows, six taste themes, creator rows, loved-title rows, and liked-title rows.
+The live Watchly manifest contains 16 movie and series rows. It includes Top Picks, two current Because You Watched rows, six taste themes, creator rows, loved-title rows, and liked-title rows. Watchly now uses **Balanced** discovery with Simkl and Gemini.
 
 The Nuvio Sync library contains two saved movies. It is not the requested central personal watchlist. Letterboxd remains a secondary movie-history and ratings source after the public AIOMetadata v2.16.3 deployment.
 
-Simkl **Plan to Watch** is now the preferred central watchlist. The public AIOMetadata instance exposes a built-in Simkl OAuth client. Simkl documents AIOMetadata as a free route for Watchlist catalogs and check-in. The prepared private CSV contains 14 exact movie identifiers from the explicit watchlist. The probable companion-anime match remains excluded until confirmed.
+Simkl **Plan to Watch** is the preferred central watchlist. The public AIOMetadata instance exposes a built-in Simkl OAuth client. Simkl documents AIOMetadata as a free route for watchlist catalogs and check-in.
+
+The live AIOMetadata manifest currently contains a 41-item MDBList `Your Watchlist` row. It contains no Simkl watchlist rows. Add `Simkl Plan to Watch Movies`, `Simkl Plan to Watch Shows`, and `Simkl Plan to Watch Anime` after the protected configuration is loaded. Keep Simkl Checkin off.
 
 ## Update gates
 

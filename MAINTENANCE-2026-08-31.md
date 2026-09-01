@@ -134,11 +134,12 @@ Official sources:
 
 ## MUBI editorial refresh
 
-The homepage addon now references three complete, current MUBI Germany collections:
+The homepage addon now references two complete, current MUBI Germany collections:
 
-- [AUSGEWÄHLT VON WIM WENDERS](https://mubi.com/de/de/collections/hand-picked-by-wim-wenders) — 4 currently available films
 - [NEUE HORIZONTE: NEO-WESTERN](https://mubi.com/de/de/collections/new-frontiers) — 3 films
 - [BEFORE BARBIE: GRETA GERWIG AND NOAH BAUMBACH](https://mubi.com/de/de/collections/greta-mumblecore) — 2 films
+
+On 1 September 2026, the official `AUSGEWÄHLT VON WIM WENDERS` page returned 404. Version 1.1.1 removes that expired row.
 
 The old July files remain as an unlisted archive. The manifest no longer exposes those stale rows.
 
@@ -158,9 +159,9 @@ The strongest evidence is the reproduced episode result, the saved live configur
 
 ## Live account follow-up
 
-The signed-in Nuvio Sync account contains the intended nine-addon order. Its loaded Watchly manifest exposes 16 personalized movie and series rows.
+The signed-in Nuvio Sync account contains the intended eleven-addon order. Its loaded Watchly manifest exposes 16 personalized movie and series rows.
 
-The synced Nuvio TV settings reveal two direct faults. Modern View conflicts with the requested scrolling homepage. Forced subtitles can leave normal dialogue without subtitles.
+The synced Nuvio TV settings now use Classic View. Forced-only subtitles are off. The stream timeout is 15 seconds, and catalog rows follow addon order.
 
 See `LIVE-ACCOUNT-AUDIT-2026-08-31.md` for the requirement-by-requirement evidence and four staged Nuvio corrections.
 
@@ -170,10 +171,20 @@ The Indian Regional Catalog remains useful for broad language and release covera
 
 The first audit found zero populated rating fields in every first-page sample. It also found one promotional item and four repeated titles across sampled rows. Keep selected regional rows late on Home. Place personal, critic, festival, award, archival, and source-faithful rows earlier.
 
-The private taste profile now contains ten curated discovery lanes for films, series, documentaries, Indian cinema, global arthouse, and animation. Watchly remains the active dynamic engine. Its target discovery style is **Balanced**, pending an approved settings save.
+The private taste profile contains ten curated discovery lanes for films, series, documentaries, Indian cinema, global arthouse, and animation. Watchly remains the active dynamic engine. Its live discovery style is **Balanced**.
 
 The public curated addon now implements nine taste-informed shelves plus the exact Film Heritage Foundation shelf. It contains 183 unique titles. A local comparison found no exact overlap with the known watched-series journal or explicit watchlist.
 
-Simkl **Plan to Watch** is the selected dynamic watchlist. A private 14-film CSV is ready for the official Simkl importer. AIOMetadata can expose the resulting movie, series, and anime watchlists on Home without another Trakt connection.
+Simkl **Plan to Watch** is the selected dynamic watchlist. The import is complete, but the live AIOMetadata manifest still has only a 41-item MDBList watchlist. Add the separate Simkl movie, show, and anime Plan to Watch catalogs after the protected configuration is loaded.
 
 See `CATALOG-QUALITY-AUDIT-2026-08-31.md` for the evidence ledger and target homepage order.
+
+## 1 September live verification
+
+The private AIOStreams manifest remains healthy on version 2.33.2. A request for *Dune: Part Two* returned cached Real-Debrid 2160p HDR streams first.
+
+*Stranger Things* S01E07 returned eight cached Real-Debrid streams. Four were 2160p, but the current provider set exposed no HDR copy for that episode.
+
+The ElfHosted public AIOStreams instance disables Torrentio, AnimeKitsu, torrent catalogs, P2P, and HTTP at the host level. The active AIOStreams results therefore depend on Real-Debrid Library, Meteor, MediaFusion, and other host-enabled sources.
+
+This host policy explains some missing-provider cases. A direct Real-Debrid provider can fill the gap without changing the HDR10 or codec policy.

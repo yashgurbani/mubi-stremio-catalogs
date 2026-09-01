@@ -89,7 +89,9 @@ Therefore, the exact policy “always auto-select OpenSubtitles, never embedded�
 
 ## MUBI finding
 
-The published addon exposes three current Germany editorial collections. Each row uses an official collection name and exact TMDB identifiers.
+The published addon exposes two current Germany editorial collections. Each row uses an official collection name and exact TMDB identifiers.
+
+The official Wim Wenders collection expired on 1 September 2026. Version 1.1.1 removed it after the source page returned 404.
 
 The official editorial text can mention films that are not currently available in Germany. The addon correctly excludes those essay references unless the live collection payload shows availability.
 
@@ -138,6 +140,7 @@ Stremio is a legacy client and is outside the active setup audit.
 - [AIOMetadata v2.16.3 release](https://github.com/cedya77/aiometadata/releases/tag/v2.16.3)
 - [AIOMetadata MovieLens configuration](https://github.com/cedya77/aiometadata/blob/v2.16.3/docs/ENVIRONMENT_VARIABLES.md#movielens-integration)
 - [MUBI Germany Now Showing](https://mubi.com/de/de/showing)
-- [MUBI: AUSGEWÄHLT VON WIM WENDERS](https://mubi.com/de/de/collections/hand-picked-by-wim-wenders)
 - [MUBI: NEUE HORIZONTE: NEO-WESTERN](https://mubi.com/de/de/collections/new-frontiers)
 - [MUBI: BEFORE BARBIE: GRETA GERWIG AND NOAH BAUMBACH](https://mubi.com/de/de/collections/greta-mumblecore)
+
+The official `AUSGEWÄHLT VON WIM WENDERS` page returned 404 on 1 September 2026. It is no longer treated as a current source.

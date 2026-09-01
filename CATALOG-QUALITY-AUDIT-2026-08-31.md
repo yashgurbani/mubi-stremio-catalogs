@@ -8,7 +8,7 @@ The Indian Regional Catalog explains the most visible quality problem. It expose
 
 The correct fix is layered discovery. Watchly remains the personal engine. Official MUBI, BFI, Criterion, festival, award, and canon rows provide editorial quality. The Indian Regional Catalog remains installed for broad and recent coverage, but its raw rows move later on Home. New Indian discovery rows must combine personal similarity with critic, festival, award, and language-aware audience signals. A single global vote threshold would hide important regional and archival work.
 
-The private taste profile now defines ten discovery lanes for films, television, documentaries, Indian cinema, global arthouse, and animation. It also records `Balanced` as the target Watchly discovery style. The current live style remains `Everything` until an approved settings save.
+The private taste profile defines ten discovery lanes for films, television, documentaries, Indian cinema, global arthouse, and animation. Watchly now uses `Balanced` discovery with Simkl and Gemini.
 
 **Overall confidence:** High for the diagnosis of the regional row logic. Medium for item-level quality because the addon does not publish its ranking method.
 
@@ -27,6 +27,8 @@ The private taste profile now defines ten discovery lanes for films, television,
 - `site:pib.gov.in IFFI 2025 Indian Panorama feature films selection`
 - `site:filmheritagefoundation.co.in restorations Indian classic films list`
 - `site:github.com/TimilsinaBimal/Watchly documentaries recommendations genres keywords Watchly`
+- `site:github.com/cedya77/aiometadata Simkl watchlist catalog`
+- `repo:cedya77/aiometadata simkl watchlist`
 
 ### Live checks
 
@@ -35,6 +37,8 @@ The private taste profile now defines ten discovery lanes for films, television,
 - Measured rating-field coverage, promotional entries, synthetic identifiers, recency concentration, and repeated titles.
 - Compared the installed catalog roles with the current Watchly, MUBI, AIOMetadata, Cinemeta, and Nuvio account evidence.
 - Compared the proposed filters with official TMDB Discover parameters and MDBList list types.
+- Read the live 39-row AIOMetadata manifest and first-page catalog responses.
+- Read the AIOMetadata Simkl integration source that creates movie, show, and anime Plan to Watch catalogs.
 
 ### Filters applied
 
@@ -130,7 +134,7 @@ Use language-aware thresholds for dynamic rows. Bypass vote thresholds for exact
 
 Watchly builds a numerical profile from genres, keywords, directors, cast, eras, countries, and runtime. It can generate Top Picks, recent-item rows, themes, creator rows, loved-title rows, and liked-title rows. See the [Watchly repository](https://github.com/TimilsinaBimal/Watchly).
 
-Watchly offers four discovery styles: mainstream, balanced, gems, and everything. The current private profile records `Everything`. That setting protects breadth, but it weakens the quality boundary when many other broad rows already exist.
+Watchly offers four discovery styles: mainstream, balanced, gems, and everything. The live configuration uses `Balanced`. Separate editorial, festival, regional, and hidden-gem rows preserve breadth.
 
 The live Watchly manifest exposes 16 rows. It includes Top Picks, two recent-item rows, taste themes, creator rows, loved-title rows, and liked-title rows.
 
@@ -281,15 +285,18 @@ Sight and Sound ballots from Indian critics, scholars, and filmmakers provide an
 - Added quality guardrails that preserve low-vote festival and regional films.
 - Added a separate source-faithful Indian cinema manifest with the exact Film Heritage Foundation 14-film program.
 - Resolved all 14 entries to working IMDb identifiers and checked them against Cinemeta.
-- Recorded `Balanced` as the target Watchly discovery style.
+- Changed Watchly from `Everything` to `Balanced` and rebuilt its personalized manifest.
+- Saved Nuvio Classic View, a 15-second stream timeout, normal subtitle selection, and addon-order following.
 - Retained the raw regional catalogs as late-homepage breadth rows.
-- Confirmed that the three official MUBI Germany rows still match their live memberships.
+- Confirmed that two official MUBI Germany rows still match their live memberships.
+- Removed the expired Wim Wenders row after its official source page returned 404.
 
 ### Pending account actions
 
-- Change Watchly from `Everything` to `Balanced` after approval.
-- Change Nuvio to Classic View and save the subtitle and timeout corrections.
-- Audit the exact Nuvio Home rows through **Settings → Addons → Manage from phone**.
+- Load the protected AIOMetadata configuration.
+- Add Simkl Plan to Watch catalogs for movies, shows, and anime.
+- Hide the legacy MDBList watchlist and low-signal duplicate discovery rows from Home after the Simkl rows work.
+- Refresh the television so it pulls the saved Nuvio settings and addon order.
 - Import Letterboxd watchlist and history after AIOMetadata reaches 2.16.3.
 - Test MovieLens only after the public instance exposes a real connection path.
 - Add source-backed Indian festival, canon, and contemporary quality rows through AIOMetadata or a separate static manifest.
