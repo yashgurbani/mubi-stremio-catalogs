@@ -25,16 +25,19 @@ The codec exclusions match the Philips 43PUS7363/12. The television supports HDR
 6. AIOMetadata (protected legacy catalogs)
 7. OpenSubtitles v3
 8. AIOStreams
-9. Cinemeta
-10. Indian Regional Catalog
-11. Stremify HTTP — Direct Fallback
-12. Sootio HTTP
+9. TorrentIO
+10. Cinemeta
+11. Indian Regional Catalog
+12. Stremify HTTP — Direct Fallback
+13. Sootio HTTP
 
-The live Nuvio Sync account matches this twelve-addon order. The three Simkl watchlist rows lead the list. Watchly follows with personalized rows. Sootio remains last.
+The live Nuvio Sync account matches this thirteen-addon order. The three Simkl watchlist rows lead the list. Watchly follows with personalized rows. Sootio remains last.
 
 The protected AIOMetadata manifest still supplies live Netflix, canon, MUBI/BFI/Criterion, hidden-gem, and legacy watchlist rows. It also contains redundant search and discovery rows. Keep it below the focused addons until these distinct rows have replacements. Do not remove it only to reduce the addon count.
 
-The public AIOStreams host does not collect Torrentio, AnimeKitsu, torrent-catalog, P2P, or HTTP streams. A direct Real-Debrid provider remains the planned gap-filler after AIOStreams.
+The public AIOStreams host does not collect TorrentIO, AnimeKitsu, torrent-catalog, P2P, or HTTP streams. TorrentIO now supplies the direct Real-Debrid fallback after AIOStreams.
+
+A live Stranger Things S01E07 test returned 7 cached Real-Debrid streams from AIOStreams and 26 from TorrentIO. TorrentIO returned seven 4K choices. Neither provider returned Dolby Vision results.
 
 ## Recommendation architecture
 
@@ -154,7 +157,7 @@ The focused AIOMetadata manifest exposes `Simkl Plan to Watch Movies`, `Simkl Pl
 
 The protected AIOMetadata manifest retains a 41-item MDBList `Your Watchlist` row. Treat it as a secondary imported list. Simkl Plan to Watch is the central dynamic watchlist.
 
-Normal movie, series, anime, collection, and people search endpoints return live results. Gemini authentication succeeds, but the public AIOMetadata AI Search endpoint currently returns an empty result. Watchly still uses Gemini for its adaptive catalog names and Simkl-based recommendations. Do not describe AIOMetadata AI Search as operational until a live query returns titles.
+Normal movie, series, anime, collection, and people search endpoints return live results. A live movie query returned Past Lives, and a series query returned Dark. Gemini authentication succeeds, but the public AIOMetadata AI Search endpoint currently returns an empty result. The off-save-on-save repair did not change this result. Watchly still uses Gemini for its adaptive catalog names and Simkl-based recommendations. Do not describe AIOMetadata AI Search as operational until a live query returns titles.
 
 ## Update gates
 

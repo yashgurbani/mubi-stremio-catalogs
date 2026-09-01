@@ -4,10 +4,9 @@
 
 Nuvio is the only active client. The live account now uses a layered homepage, Simkl memory, Watchly recommendations, focused watchlist rows, curated discovery, exact MUBI collections, regional breadth, and Real-Debrid-first playback.
 
-Two live gaps remain:
+One live gap remains:
 
 1. The public AIOMetadata AI Search endpoint returns no titles although the Gemini key passes validation.
-2. The public AIOStreams host disables Torrentio. A direct Torrentio fallback needs the user's Real-Debrid token.
 
 ## Live homepage order
 
@@ -19,12 +18,15 @@ Two live gaps remain:
 6. AIOMetadata protected legacy catalogs
 7. OpenSubtitles v3
 8. AIOStreams
-9. Cinemeta
-10. Indian Regional Catalog
-11. Stremify HTTP — Direct Fallback
-12. Sootio HTTP
+9. TorrentIO
+10. Cinemeta
+11. Indian Regional Catalog
+12. Stremify HTTP — Direct Fallback
+13. Sootio HTTP
 
 The focused AIOMetadata addon contains three Simkl Plan to Watch rows. It also contains movie, series, anime, collection, people, and AI search catalogs. Simkl Checkin is off.
+
+The live Simkl rows contain 25 movies, no shows, and 2 anime titles. The empty show row is valid because Simkl Plan to Watch has no planned show yet. Imported viewing history does not populate Plan to Watch.
 
 The protected AIOMetadata addon remains because it supplies live Netflix, canon, MUBI/BFI/Criterion, hidden-gem, and legacy watchlist rows. All 28 non-search homepage endpoints returned HTTP 200 during this audit. Removing this addon now would reduce coverage.
 
@@ -62,6 +64,9 @@ OpenSubtitles v3 is installed before the stream addons. Nuvio can still select a
 ## Source and quality audit
 
 - AIOStreams 2.33.2 is healthy.
+- TorrentIO is installed directly after AIOStreams and uses Real-Debrid.
+- Stranger Things S01E07 returned 26 cached TorrentIO results, including seven 4K choices and no Dolby Vision results.
+- Dune: Part Two returned 56 cached TorrentIO results, including 26 4K and 17 HDR choices. No Dolby Vision result appeared.
 - AIOMetadata 2.16.2 is healthy. Version 2.16.3 remains undeployed on the public host.
 - Watchly 1.13.1 is healthy.
 - MUBI snapshot 1.1.1 is healthy.
@@ -85,8 +90,8 @@ OpenSubtitles v3 is installed before the stream addons. Nuvio can still select a
 | Exact current MUBI thematic collections | Complete | Two verified live rows and one expired row removed |
 | MUBI/BFI/Criterion coverage | Complete with legacy dependency | Protected dynamic rows plus focused exact MUBI rows |
 | Compatible 4K HDR ranking | Complete | AIOStreams policy and live movie/episode samples |
-| Direct Real-Debrid provider redundancy | Waiting for token | Torrentio is staged but not installed |
-| Gemini AI search | Upstream problem | Key validates, but the public search endpoint returns an empty list |
+| Direct Real-Debrid provider redundancy | Complete | TorrentIO is installed after AIOStreams and returned cached 4K streams |
+| Gemini AI search | Upstream problem | The off-save-on-save repair completed, but the public endpoint still returned HTTP 200 with an empty list |
 | MovieLens collaborative filtering | Deferred | Public-host capability is not proven and no MovieLens account is connected |
 
 ## Monthly maintenance
