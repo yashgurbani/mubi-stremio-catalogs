@@ -24,6 +24,8 @@ One live gap remains:
 12. Stremify HTTP — Direct Fallback
 13. Sootio HTTP
 
+The addon order above is not the same as catalog-row order. The target Nuvio TV Home Layout is documented in `SETUP-INVENTORY.md`. It puts Continue Watching, Simkl Plan to Watch, Watchly, and Images That Teach You to See first. It moves raw regional language rows and duplicate legacy rows to the end or hides them. The account web page cannot apply those per-catalog Home toggles.
+
 The focused AIOMetadata addon contains three Simkl Plan to Watch rows. It also contains movie, series, anime, collection, people, and AI search catalogs. Simkl Checkin is off.
 
 The live Simkl rows contain 25 movies, no shows, and 2 anime titles. The empty show row is valid because Simkl Plan to Watch has no planned show yet. Imported viewing history does not populate Plan to Watch.

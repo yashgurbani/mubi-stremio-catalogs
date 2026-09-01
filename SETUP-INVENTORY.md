@@ -137,6 +137,43 @@ This policy preserves native HDR10 quality on the Philips 43PUS7363/12. It does 
 - Keep official MUBI thematic collections near the end of the homepage.
 - Remove exact duplicate rows, but do not remove distinct discovery purposes.
 
+### Nuvio Home row order
+
+Use this order in Nuvio TV Home Layout. Keep the first seven rows visible before broad discovery:
+
+1. Continue Watching
+2. Simkl Plan to Watch Movies
+3. Simkl Plan to Watch Shows
+4. Simkl Plan to Watch Anime
+5. Watchly Top Picks
+6. Watchly Because You Watched
+7. Images That Teach You to See
+8. Watchly taste themes and creator rows
+9. MUBI Now Showing
+10. Festival Favourites
+11. For You — Intimate, Thoughtful Films
+12. Documentary Discovery — Science, Society & Art
+13. Documentary Series — Science, History & India
+14. For You — Global Arthouse Discovery
+15. Prestige TV — English, Indian & Global
+16. Cinema Canon
+17. Television Canon
+18. Smart Ensemble Comedy — English & Hindi
+19. Animation — Dark, Strange & Funny
+20. Comfort Animation & Whimsy
+21. BFI Spotlight
+22. Criterion Spotlight
+23. For You — Indian Indie & Regional
+24. 14 Iconic Indian Films — FHF
+25. Netflix New & Notable
+26. Hidden Gems
+27. Cinemeta Popular and New
+28. Indian Regional — Explore
+
+Hide the old `For You — Series`, old `For You — Films`, duplicate imported watchlists, duplicate MUBI or Netflix rows, and raw language or OTT rows from Home. Keep these catalogs installed for search or Discover access when Nuvio supports hidden Home catalogs.
+
+The Nuvio account web page can pin a collection but does not expose per-catalog Home visibility or row order. Apply this final row order in the TV app under **Layout → Home Layout**. The `Images That Teach You to See` collection is already pinned in the account.
+
 The Indian Regional Catalog is a breadth and freshness source. A live first-page audit found no populated rating field across its 20 catalogs, one promotional item, and repeated titles across language and OTT rows. Keep selected raw regional rows late on Home. Use Watchly, festival, award, critic, archival, and language-aware quality rows earlier.
 
 The private taste profile defines ten stable discovery lanes. These lanes cover relationship stories, diaspora and identity, systems and power, science, ensemble comedy, animation, Indian cinema, global arthouse, and documentaries. Watchly remains the dynamic personal engine. Its target discovery style is **Balanced**. Separate hidden-gem and editorial rows preserve serendipity.
